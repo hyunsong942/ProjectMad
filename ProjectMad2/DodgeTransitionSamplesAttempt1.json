@@ -1,0 +1,3782 @@
+[
+  {
+    "time": 0.0,
+    "speed": 0.0,
+    "travel": 0.0,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 1.0,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.0666754246,
+    "speed": 3.55974054,
+    "travel": 0.237347126,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.07061982,
+    "speed": 3.14445925,
+    "travel": 0.249750137,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.00525920233,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0726621151,
+    "speed": 3.1599288,
+    "travel": 0.256203651,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.007982265,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0747637749,
+    "speed": 3.17437267,
+    "travel": 0.2628746,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0107842684,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.07759166,
+    "speed": 3.195891,
+    "travel": 0.271912575,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0145549318,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0801203251,
+    "speed": 3.22373343,
+    "travel": 0.2800641,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0179263987,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.08218694,
+    "speed": 3.25181985,
+    "travel": 0.286784649,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0206820015,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.08431053,
+    "speed": 3.280266,
+    "travel": 0.2937503,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.023513332,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0863800049,
+    "speed": 3.31216717,
+    "travel": 0.30060482,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0262726676,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.08839941,
+    "speed": 3.34593248,
+    "travel": 0.3073616,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0289652031,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0904114246,
+    "speed": 3.38249087,
+    "travel": 0.3141675,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.031648,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.09333515,
+    "speed": 3.43078923,
+    "travel": 0.324197769,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.03554614,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.09588361,
+    "speed": 3.489512,
+    "travel": 0.333090782,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0389441364,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.0980882645,
+    "speed": 3.54459381,
+    "travel": 0.3409052,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0418836027,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.100135565,
+    "speed": 3.59712434,
+    "travel": 0.348269939,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.04461347,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.102095842,
+    "speed": 3.649672,
+    "travel": 0.3554244,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0472272076,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.104039431,
+    "speed": 3.703318,
+    "travel": 0.362621784,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0498185344,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.106018782,
+    "speed": 3.76039338,
+    "travel": 0.370064735,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0524576,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.108433723,
+    "speed": 3.82717466,
+    "travel": 0.379307747,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0556777343,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.111278772,
+    "speed": 3.91174459,
+    "travel": 0.390436649,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0594710633,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.113508224,
+    "speed": 3.9975493,
+    "travel": 0.3993492,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.06244374,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.11554575,
+    "speed": 4.07357073,
+    "travel": 0.407649517,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.06516054,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.117732286,
+    "speed": 4.15161657,
+    "travel": 0.4167266,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.06807573,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.119743586,
+    "speed": 4.232359,
+    "travel": 0.425239563,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0707576,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.121813774,
+    "speed": 4.313917,
+    "travel": 0.434170246,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.07351787,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.123922348,
+    "speed": 4.400414,
+    "travel": 0.443448067,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.07632906,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.126866341,
+    "speed": 4.509223,
+    "travel": 0.4567237,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.08025453,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.1291976,
+    "speed": 4.62703,
+    "travel": 0.467510223,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0833628,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.131261349,
+    "speed": 4.72933149,
+    "travel": 0.4772706,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.08611453,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.133290052,
+    "speed": 4.82760429,
+    "travel": 0.487064838,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0888196,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.135232687,
+    "speed": 4.925463,
+    "travel": 0.496633053,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.0914097354,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.137187243,
+    "speed": 5.024296,
+    "travel": 0.506453037,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.09401573,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.13935256,
+    "speed": 5.131938,
+    "travel": 0.5175657,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.09690293,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.142142534,
+    "speed": 5.26506424,
+    "travel": 0.5322542,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.100622669,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.144849539,
+    "speed": 5.41783333,
+    "travel": 0.5469203,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.104232006,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.14711833,
+    "speed": 5.5604763,
+    "travel": 0.559536457,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.1072572,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.149578571,
+    "speed": 5.70026731,
+    "travel": 0.573560238,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.110537462,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.15198946,
+    "speed": 5.844062,
+    "travel": 0.5876503,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.113752134,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.154325485,
+    "speed": 5.975421,
+    "travel": 0.6016083,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.116866663,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.1567452,
+    "speed": 6.1025,
+    "travel": 0.6163745,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.120092928,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.160060644,
+    "speed": 6.25030375,
+    "travel": 0.637097359,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.124513589,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.162681818,
+    "speed": 6.396754,
+    "travel": 0.6538639,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.1280084,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.16525054,
+    "speed": 6.519016,
+    "travel": 0.670609951,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.131433457,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.167695522,
+    "speed": 6.632822,
+    "travel": 0.6868272,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.134693459,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.1699915,
+    "speed": 6.735606,
+    "travel": 0.7022915,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.137754664,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.17226553,
+    "speed": 6.830801,
+    "travel": 0.7178254,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.1407868,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.174555779,
+    "speed": 6.92218876,
+    "travel": 0.7336793,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.143840522,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.177550316,
+    "speed": 7.022378,
+    "travel": 0.7547078,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.147833183,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.180192709,
+    "speed": 7.123961,
+    "travel": 0.773531437,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.15135625,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.245791674,
+    "speed": 7.73961067,
+    "travel": 1.28124142,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.238821447,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.248608112,
+    "speed": 7.743174,
+    "travel": 1.30305,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.242576778,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.250617981,
+    "speed": 7.70033264,
+    "travel": 1.3185277,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.245256782,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.252595425,
+    "speed": 7.661844,
+    "travel": 1.33367825,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.247893319,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.254521847,
+    "speed": 7.62086773,
+    "travel": 1.34835911,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.250461847,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2565999,
+    "speed": 7.57639647,
+    "travel": 1.36410284,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.2532325,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.259363651,
+    "speed": 7.517792,
+    "travel": 1.38488054,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.256917566,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.261910915,
+    "speed": 7.448914,
+    "travel": 1.40385437,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.260313839,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.264104128,
+    "speed": 7.38288736,
+    "travel": 1.42004728,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.263238251,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.266186476,
+    "speed": 7.319723,
+    "travel": 1.43528986,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.266014785,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.268293858,
+    "speed": 7.254159,
+    "travel": 1.45057726,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.268824637,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.270248652,
+    "speed": 7.18766737,
+    "travel": 1.46462774,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.271431029,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.272166729,
+    "speed": 7.121485,
+    "travel": 1.47828674,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.273988366,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.274231672,
+    "speed": 7.05001163,
+    "travel": 1.49284363,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.276741445,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2772019,
+    "speed": 6.955834,
+    "travel": 1.51350451,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.280701846,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.279727936,
+    "speed": 6.847316,
+    "travel": 1.53080082,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.284069836,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.281795979,
+    "speed": 6.75239038,
+    "travel": 1.54476547,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.2868273,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2838328,
+    "speed": 6.664207,
+    "travel": 1.55833912,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.289543033,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.285810947,
+    "speed": 6.57476044,
+    "travel": 1.57134533,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.292180628,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2877767,
+    "speed": 6.483903,
+    "travel": 1.58409071,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.294801563,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.289800882,
+    "speed": 6.38924074,
+    "travel": 1.59702444,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.29750064,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2923584,
+    "speed": 6.27621174,
+    "travel": 1.61307526,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3009105,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.294968128,
+    "speed": 6.14461231,
+    "travel": 1.62911081,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3043901,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.297189,
+    "speed": 6.016652,
+    "travel": 1.64247322,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.307351321,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.2994051,
+    "speed": 5.89538145,
+    "travel": 1.65553856,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.310306251,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.301442862,
+    "speed": 5.79543543,
+    "travel": 1.66734791,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.31302318,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.303441763,
+    "speed": 5.753863,
+    "travel": 1.67884874,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.315688252,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.305488825,
+    "speed": 5.71636,
+    "travel": 1.69055128,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.318417847,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.307541847,
+    "speed": 5.678197,
+    "travel": 1.702208,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.321155041,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3105471,
+    "speed": 5.63180065,
+    "travel": 1.71913385,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.325162232,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3128271,
+    "speed": 5.583798,
+    "travel": 1.73186493,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.328202248,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3148873,
+    "speed": 5.54490042,
+    "travel": 1.74328852,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3309492,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3169334,
+    "speed": 5.50832224,
+    "travel": 1.75455856,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3336772,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.319181681,
+    "speed": 5.47020149,
+    "travel": 1.76685667,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3366748,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.321174145,
+    "speed": 5.43317175,
+    "travel": 1.77768278,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3393316,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.323388815,
+    "speed": 5.39665031,
+    "travel": 1.78963423,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3422844,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.326372862,
+    "speed": 5.35207844,
+    "travel": 1.80560589,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.346263349,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.328956127,
+    "speed": 5.30479765,
+    "travel": 1.81930923,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3497076,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.331098557,
+    "speed": 5.265121,
+    "travel": 1.83058977,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.352564275,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.333141565,
+    "speed": 5.230315,
+    "travel": 1.84127426,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.355288,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.335332632,
+    "speed": 5.1955514,
+    "travel": 1.85265875,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3582096,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.337377071,
+    "speed": 5.161179,
+    "travel": 1.86320972,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.36093533,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3395574,
+    "speed": 5.12679243,
+    "travel": 1.87438822,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.363842547,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.342062473,
+    "speed": 5.089698,
+    "travel": 1.88713789,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.367182553,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3446808,
+    "speed": 5.04900742,
+    "travel": 1.90035772,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.370673627,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.346866131,
+    "speed": 5.011657,
+    "travel": 1.91131067,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3735876,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3488829,
+    "speed": 4.979266,
+    "travel": 1.92135286,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.376276672,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3508606,
+    "speed": 4.948486,
+    "travel": 1.931139,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.378913462,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.352795362,
+    "speed": 4.91895962,
+    "travel": 1.94065571,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.381493062,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.354732752,
+    "speed": 4.890196,
+    "travel": 1.95013046,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3840764,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3567729,
+    "speed": 4.860458,
+    "travel": 1.96004677,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.386796653,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.359818935,
+    "speed": 4.823169,
+    "travel": 1.97473764,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.390857846,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.362264633,
+    "speed": 4.783374,
+    "travel": 1.98643684,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.3941189,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.364339828,
+    "speed": 4.751142,
+    "travel": 1.99629641,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.396885842,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.366394281,
+    "speed": 4.72195339,
+    "travel": 2.00599766,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.399625182,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.368370771,
+    "speed": 4.69382429,
+    "travel": 2.015274,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.402260244,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.370377779,
+    "speed": 4.666207,
+    "travel": 2.02463913,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.404936254,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.372496367,
+    "speed": 4.637835,
+    "travel": 2.03446531,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.4077612,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3746245,
+    "speed": 4.609276,
+    "travel": 2.04427433,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.410598665,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.377327681,
+    "speed": 4.57717228,
+    "travel": 2.05664778,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.414203048,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.379713058,
+    "speed": 4.543659,
+    "travel": 2.06748533,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.4173833,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.381786823,
+    "speed": 4.514533,
+    "travel": 2.076848,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.420148522,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.38377738,
+    "speed": 4.48835135,
+    "travel": 2.08578253,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.422802657,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.385745764,
+    "speed": 4.46337748,
+    "travel": 2.09456825,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.4254272,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.387760878,
+    "speed": 4.438503,
+    "travel": 2.10351181,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.428113848,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.389749527,
+    "speed": 4.41371727,
+    "travel": 2.112289,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.430765331,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.392412663,
+    "speed": 4.385225,
+    "travel": 2.12396812,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.4343164,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.395043135,
+    "speed": 4.35341835,
+    "travel": 2.135419,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.437823445,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.3973558,
+    "speed": 4.32424545,
+    "travel": 2.1454196,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.440907061,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.399615526,
+    "speed": 4.29737759,
+    "travel": 2.15513039,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.44392,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.401607752,
+    "speed": 4.273183,
+    "travel": 2.16364384,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.4465764,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.403758526,
+    "speed": 4.24956131,
+    "travel": 2.17278337,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.449444,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.405737162,
+    "speed": 4.22636938,
+    "travel": 2.18114567,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.452082127,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.473214865,
+    "speed": 3.90113139,
+    "travel": 2.444385,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5420524,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.4766202,
+    "speed": 3.62066674,
+    "travel": 2.45671487,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.546592951,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.479002953,
+    "speed": 3.596338,
+    "travel": 2.46528459,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5497702,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.481101751,
+    "speed": 3.57713747,
+    "travel": 2.472792,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.552568436,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.483170033,
+    "speed": 3.558864,
+    "travel": 2.48015237,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.555326045,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.485111475,
+    "speed": 3.54092145,
+    "travel": 2.48702741,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.557914853,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.487052679,
+    "speed": 3.52303386,
+    "travel": 2.493866,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.560503,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.489009142,
+    "speed": 3.50498915,
+    "travel": 2.50072312,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.563111544,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.4910457,
+    "speed": 3.486254,
+    "travel": 2.50782323,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.565827,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.493958473,
+    "speed": 3.46220732,
+    "travel": 2.51790762,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5697106,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.496264458,
+    "speed": 3.43639874,
+    "travel": 2.525832,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.572785258,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.498483181,
+    "speed": 3.41370153,
+    "travel": 2.53340626,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5757437,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.500442266,
+    "speed": 3.3921504,
+    "travel": 2.54005218,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.578355968,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.502434969,
+    "speed": 3.37173057,
+    "travel": 2.54677033,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5810126,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.504372835,
+    "speed": 3.350649,
+    "travel": 2.553264,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5835966,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.506305,
+    "speed": 3.32998848,
+    "travel": 2.559698,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5861729,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5087106,
+    "speed": 3.306108,
+    "travel": 2.56765127,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.5893803,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5114186,
+    "speed": 3.27772665,
+    "travel": 2.57652736,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.592991,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5136502,
+    "speed": 3.24950433,
+    "travel": 2.58377862,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.595966339,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.515770435,
+    "speed": 3.22441554,
+    "travel": 2.590615,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.598793268,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.517907143,
+    "speed": 3.1995213,
+    "travel": 2.59745145,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6016422,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5199177,
+    "speed": 3.174644,
+    "travel": 2.60383439,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.60432297,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5219202,
+    "speed": 3.1503377,
+    "travel": 2.610143,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.60699296,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.523874044,
+    "speed": 3.126242,
+    "travel": 2.616251,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.609598041,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5269201,
+    "speed": 3.09497643,
+    "travel": 2.6256783,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6136594,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5294192,
+    "speed": 3.059769,
+    "travel": 2.63332558,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.616991758,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5317364,
+    "speed": 3.0287497,
+    "travel": 2.64034319,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.620081067,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5340805,
+    "speed": 2.99818778,
+    "travel": 2.64737153,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6232067,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.536128759,
+    "speed": 2.968999,
+    "travel": 2.65345263,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6259376,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.538382053,
+    "speed": 2.93999577,
+    "travel": 2.66007733,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.628942,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.540377855,
+    "speed": 2.91094756,
+    "travel": 2.66588759,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.63160336,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5432594,
+    "speed": 2.87707663,
+    "travel": 2.674178,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.635445356,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.54558897,
+    "speed": 2.84053516,
+    "travel": 2.68079519,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6385515,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.547673464,
+    "speed": 2.80879736,
+    "travel": 2.68664956,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.64133054,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5496533,
+    "speed": 2.77961969,
+    "travel": 2.69215322,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.643970549,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5516188,
+    "speed": 2.75065947,
+    "travel": 2.69755936,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.646591067,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.553542852,
+    "speed": 2.72184515,
+    "travel": 2.70279646,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6491565,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.555561066,
+    "speed": 2.692274,
+    "travel": 2.70823,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6518474,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5577173,
+    "speed": 2.660718,
+    "travel": 2.71396732,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6547225,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.560965538,
+    "speed": 2.61921334,
+    "travel": 2.722475,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.659053445,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5634706,
+    "speed": 2.574449,
+    "travel": 2.728924,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.662393451,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5655675,
+    "speed": 2.53801227,
+    "travel": 2.73424625,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.665189445,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.56760335,
+    "speed": 2.504925,
+    "travel": 2.739346,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.66790396,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.569575548,
+    "speed": 2.4726758,
+    "travel": 2.74422264,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.670533538,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5716114,
+    "speed": 2.43981552,
+    "travel": 2.74918962,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.673247933,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5736706,
+    "speed": 2.40607142,
+    "travel": 2.754144,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6759934,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5765655,
+    "speed": 2.364663,
+    "travel": 2.76098943,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.679853261,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.579106569,
+    "speed": 2.31869936,
+    "travel": 2.7668817,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.683241546,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.581234,
+    "speed": 2.27862072,
+    "travel": 2.77172923,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6860781,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5832608,
+    "speed": 2.24265766,
+    "travel": 2.7762742,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.6887802,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5852399,
+    "speed": 2.20759583,
+    "travel": 2.7806437,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.691419244,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.587275267,
+    "speed": 2.1721518,
+    "travel": 2.78506446,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.694132864,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.589370966,
+    "speed": 2.13514686,
+    "travel": 2.789539,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.69692713,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5917134,
+    "speed": 2.09525037,
+    "travel": 2.79444742,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7000506,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.594560146,
+    "speed": 2.04791546,
+    "travel": 2.80027723,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7038462,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.5967815,
+    "speed": 2.00122738,
+    "travel": 2.80472255,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.706808,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.598988533,
+    "speed": 1.95976126,
+    "travel": 2.809048,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7097508,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.60097146,
+    "speed": 1.924734,
+    "travel": 2.8128643,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.712394536,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.602941751,
+    "speed": 1.91799593,
+    "travel": 2.81664371,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.715021849,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6050184,
+    "speed": 1.91559017,
+    "travel": 2.82062125,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.717790365,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6071358,
+    "speed": 1.91210449,
+    "travel": 2.82467031,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.720613837,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.609737635,
+    "speed": 1.907587,
+    "travel": 2.82963347,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7240829,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6120746,
+    "speed": 1.90173423,
+    "travel": 2.83407784,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7271989,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.614111662,
+    "speed": 1.89573944,
+    "travel": 2.83793926,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7299148,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.616103649,
+    "speed": 1.889635,
+    "travel": 2.84170341,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.732570767,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6183529,
+    "speed": 1.88241529,
+    "travel": 2.84593773,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.735569954,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.620500565,
+    "speed": 1.87431443,
+    "travel": 2.84996319,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.73843354,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6226046,
+    "speed": 1.86539912,
+    "travel": 2.8538878,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7412387,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.624755144,
+    "speed": 1.85623634,
+    "travel": 2.85787964,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.744106054,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.627847433,
+    "speed": 1.843575,
+    "travel": 2.8635807,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.748229265,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6300721,
+    "speed": 1.8296665,
+    "travel": 2.867651,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.751195431,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.632061958,
+    "speed": 1.81797028,
+    "travel": 2.87126875,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7538488,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.634138346,
+    "speed": 1.80576837,
+    "travel": 2.875018,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.756617069,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.636446953,
+    "speed": 1.79216588,
+    "travel": 2.87915564,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7596955,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.63875103,
+    "speed": 1.77673221,
+    "travel": 2.883249,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7627673,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6407573,
+    "speed": 1.76172864,
+    "travel": 2.8867836,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7654424,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.644081354,
+    "speed": 1.74209058,
+    "travel": 2.89257431,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7698744,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.646819353,
+    "speed": 1.718301,
+    "travel": 2.897279,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.773525059,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6492264,
+    "speed": 1.6970892,
+    "travel": 2.901364,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.776734531,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.651363134,
+    "speed": 1.67731059,
+    "travel": 2.904948,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.779583454,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6535332,
+    "speed": 1.65797925,
+    "travel": 2.908546,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7824769,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6555245,
+    "speed": 1.6384207,
+    "travel": 2.91180873,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7851321,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.657614946,
+    "speed": 1.61869371,
+    "travel": 2.9151926,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.787919462,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.660536051,
+    "speed": 1.5935092,
+    "travel": 2.91984725,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.791814148,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6628046,
+    "speed": 1.56634045,
+    "travel": 2.92340064,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.794838965,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.66483593,
+    "speed": 1.54309,
+    "travel": 2.92653513,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.7975474,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6668277,
+    "speed": 1.520586,
+    "travel": 2.92956352,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.800202847,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.669290543,
+    "speed": 1.49497843,
+    "travel": 2.93324566,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8034868,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6713083,
+    "speed": 1.46841741,
+    "travel": 2.93620849,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8061771,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6732235,
+    "speed": 1.44430482,
+    "travel": 2.93897462,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.808730662,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.675683737,
+    "speed": 1.41696608,
+    "travel": 2.94246078,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.812011063,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6783452,
+    "speed": 1.38383961,
+    "travel": 2.94614387,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.815559745,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6804402,
+    "speed": 1.35221648,
+    "travel": 2.94897676,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.818353057,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6824622,
+    "speed": 1.3241,
+    "travel": 2.951654,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8210489,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6844342,
+    "speed": 1.29606688,
+    "travel": 2.9542098,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.823678255,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6863928,
+    "speed": 1.26805472,
+    "travel": 2.95669341,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8262897,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.688349962,
+    "speed": 1.239295,
+    "travel": 2.959119,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.828899443,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.690395832,
+    "speed": 1.209571,
+    "travel": 2.96159363,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8316272,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.693130255,
+    "speed": 1.17286766,
+    "travel": 2.9648006,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8352729,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6955216,
+    "speed": 1.13267386,
+    "travel": 2.96750927,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.838461459,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.6977911,
+    "speed": 1.09534287,
+    "travel": 2.96999526,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8414876,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.699815035,
+    "speed": 1.05991173,
+    "travel": 2.97214031,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.844186,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.701785564,
+    "speed": 1.02646089,
+    "travel": 2.974163,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8468135,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.703791857,
+    "speed": 0.9924607,
+    "travel": 2.97615433,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.8494887,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.705750942,
+    "speed": 0.9581045,
+    "travel": 2.97803116,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.852100551,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.772821665,
+    "speed": 0.327543974,
+    "travel": 2.99999976,
+    "walkSpeed": 2.499995,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.941528141,
+    "rolling": true,
+    "state": "Dodge"
+  },
+  {
+    "time": 0.776381,
+    "speed": 0.461029321,
+    "travel": 2.99999976,
+    "walkSpeed": 2.39359021,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.946274161,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.7789192,
+    "speed": 0.556265831,
+    "travel": 2.99999976,
+    "walkSpeed": 2.32079482,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.949658453,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.780979156,
+    "speed": 0.6334605,
+    "travel": 2.99999976,
+    "walkSpeed": 2.263678,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.952405,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.783035755,
+    "speed": 0.7105611,
+    "travel": 2.99999976,
+    "walkSpeed": 2.20854521,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.955146968,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.7850113,
+    "speed": 0.7846709,
+    "travel": 2.99999976,
+    "walkSpeed": 2.15726948,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9577811,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.786949158,
+    "speed": 0.8572261,
+    "travel": 2.99999976,
+    "walkSpeed": 2.10854363,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.960365057,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.7888832,
+    "speed": 0.9299298,
+    "travel": 2.99999976,
+    "walkSpeed": 2.061439,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9629436,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.790837765,
+    "speed": 1.00307822,
+    "travel": 2.99999976,
+    "walkSpeed": 2.01533461,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9655496,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.793549061,
+    "speed": 1.10490417,
+    "travel": 2.99999976,
+    "walkSpeed": 1.95474124,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.96916467,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.79588294,
+    "speed": 1.19229746,
+    "travel": 2.99999976,
+    "walkSpeed": 1.90635109,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9722767,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.798144341,
+    "speed": 1.27717364,
+    "travel": 2.99999976,
+    "walkSpeed": 1.86288166,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9752919,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8002007,
+    "speed": 1.35429335,
+    "travel": 2.99999976,
+    "walkSpeed": 1.82608247,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9780338,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8023379,
+    "speed": 1.43439209,
+    "travel": 2.99999976,
+    "walkSpeed": 1.79068327,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.98088336,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.804412365,
+    "speed": 1.51214254,
+    "travel": 2.99999976,
+    "walkSpeed": 1.75891757,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9836491,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8063493,
+    "speed": 1.58482265,
+    "travel": 2.99999976,
+    "walkSpeed": 1.73144627,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9862316,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8093324,
+    "speed": 1.69668758,
+    "travel": 2.99999976,
+    "walkSpeed": 1.69408393,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9902091,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.811949,
+    "speed": 1.79485762,
+    "travel": 2.99999976,
+    "walkSpeed": 1.66495931,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.993698061,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8145466,
+    "speed": 1.89222419,
+    "travel": 2.99999976,
+    "walkSpeed": 1.6394918,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 0.9971615,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8173907,
+    "speed": 1.99890387,
+    "travel": 2.99999976,
+    "walkSpeed": 1.61555159,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.00095367,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8199966,
+    "speed": 2.09663033,
+    "travel": 2.99999976,
+    "walkSpeed": 1.59678936,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.00442815,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.82215476,
+    "speed": 2.1774888,
+    "travel": 2.99999976,
+    "walkSpeed": 1.5833497,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.00730574,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.825008869,
+    "speed": 2.284619,
+    "travel": 2.99999976,
+    "walkSpeed": 1.56908572,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.01111138,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8283036,
+    "speed": 2.40806627,
+    "travel": 2.99999976,
+    "walkSpeed": 1.55704725,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.01550436,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8308151,
+    "speed": 2.5023737,
+    "travel": 2.99999976,
+    "walkSpeed": 1.55034423,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.01885307,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.83296895,
+    "speed": 2.58300734,
+    "travel": 2.99999976,
+    "walkSpeed": 1.54634762,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.0217247,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8351712,
+    "speed": 2.66565537,
+    "travel": 2.99999976,
+    "walkSpeed": 1.54403114,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.02466106,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.837417364,
+    "speed": 2.74995279,
+    "travel": 2.99999976,
+    "walkSpeed": 1.54344368,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.027656,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8397291,
+    "speed": 2.83653927,
+    "travel": 2.99999976,
+    "walkSpeed": 1.54464614,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.03073823,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8423228,
+    "speed": 2.93388,
+    "travel": 2.99999976,
+    "walkSpeed": 1.54818022,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.0341965,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.845114,
+    "speed": 3.03848839,
+    "travel": 2.99999976,
+    "walkSpeed": 1.5543977,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.03791809,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8474252,
+    "speed": 3.12517428,
+    "travel": 2.99999976,
+    "walkSpeed": 1.56114125,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.04099965,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.849511862,
+    "speed": 3.20339346,
+    "travel": 2.99999976,
+    "walkSpeed": 1.56848574,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.04378188,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.851493359,
+    "speed": 3.27777886,
+    "travel": 2.99999976,
+    "walkSpeed": 1.57655847,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.046424,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.853442669,
+    "speed": 3.35080314,
+    "travel": 2.99999976,
+    "walkSpeed": 1.58552623,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.04902315,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.855521441,
+    "speed": 3.42883873,
+    "travel": 2.99999976,
+    "walkSpeed": 1.59622073,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.05179477,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.857876539,
+    "speed": 3.51704955,
+    "travel": 2.99999976,
+    "walkSpeed": 1.60973,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.05493474,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8608432,
+    "speed": 3.62835169,
+    "travel": 2.99999976,
+    "walkSpeed": 1.62886047,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.05889046,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8633332,
+    "speed": 3.721817,
+    "travel": 2.99999976,
+    "walkSpeed": 1.64634573,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.06221044,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.865472555,
+    "speed": 3.80186915,
+    "travel": 2.99999976,
+    "walkSpeed": 1.66238141,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.06506264,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8675318,
+    "speed": 3.87920022,
+    "travel": 2.99999976,
+    "walkSpeed": 1.67873156,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.06780839,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.86972,
+    "speed": 3.96129,
+    "travel": 2.99999976,
+    "walkSpeed": 1.69709778,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.07072592,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8718455,
+    "speed": 4.040912,
+    "travel": 2.99999976,
+    "walkSpeed": 1.7158432,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.07356012,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.873846054,
+    "speed": 4.11594248,
+    "travel": 2.99999976,
+    "walkSpeed": 1.73425949,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.07622731,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8766885,
+    "speed": 4.222531,
+    "travel": 2.99999976,
+    "walkSpeed": 1.76192391,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.08001745,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8793042,
+    "speed": 4.320697,
+    "travel": 2.99999976,
+    "walkSpeed": 1.788593,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.0835048,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8814194,
+    "speed": 4.39992,
+    "travel": 2.99999976,
+    "walkSpeed": 1.8109262,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.08632517,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.883414268,
+    "speed": 4.474746,
+    "travel": 2.99999976,
+    "walkSpeed": 1.83264911,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.0889852,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8854964,
+    "speed": 4.500077,
+    "travel": 2.99999976,
+    "walkSpeed": 1.85503209,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.09176135,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8875487,
+    "speed": 4.49999428,
+    "travel": 2.99999976,
+    "walkSpeed": 1.87636256,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.09449768,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8895395,
+    "speed": 4.5,
+    "travel": 2.99999976,
+    "walkSpeed": 1.89639032,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.09715211,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.891946554,
+    "speed": 4.49995,
+    "travel": 2.99999976,
+    "walkSpeed": 1.919672,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.1003617,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8948891,
+    "speed": 4.5000205,
+    "travel": 2.99999976,
+    "walkSpeed": 1.94680226,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.104285,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.8971989,
+    "speed": 4.499985,
+    "travel": 2.99999976,
+    "walkSpeed": 1.96730793,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.10736465,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.899426,
+    "speed": 4.499994,
+    "travel": 2.99999976,
+    "walkSpeed": 1.98637271,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.11033416,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9016316,
+    "speed": 4.50006437,
+    "travel": 2.99999976,
+    "walkSpeed": 2.0045855,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.11327493,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.903877258,
+    "speed": 4.49998474,
+    "travel": 2.99999976,
+    "walkSpeed": 2.02245879,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.11626923,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9058802,
+    "speed": 4.499948,
+    "travel": 2.99999976,
+    "walkSpeed": 2.037884,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.11893976,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9079819,
+    "speed": 4.49998331,
+    "travel": 2.99999976,
+    "walkSpeed": 2.05352378,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.12174213,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.910906553,
+    "speed": 4.499997,
+    "travel": 2.99999976,
+    "walkSpeed": 2.074275,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": 1.12564158,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9131417,
+    "speed": 4.50010061,
+    "travel": 2.99999976,
+    "walkSpeed": 2.08956647,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9152229,
+    "speed": 4.49996042,
+    "travel": 2.99999976,
+    "walkSpeed": 2.10332513,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9173629,
+    "speed": 4.49998045,
+    "travel": 2.99999976,
+    "walkSpeed": 2.11698556,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9195533,
+    "speed": 4.49997234,
+    "travel": 2.99999976,
+    "walkSpeed": 2.13047576,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9215367,
+    "speed": 4.50006056,
+    "travel": 2.99999976,
+    "walkSpeed": 2.14230061,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.923535347,
+    "speed": 4.499969,
+    "travel": 2.99999976,
+    "walkSpeed": 2.15383148,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.92624855,
+    "speed": 4.499992,
+    "travel": 2.99999976,
+    "walkSpeed": 2.16880727,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9289615,
+    "speed": 4.500004,
+    "travel": 2.99999976,
+    "walkSpeed": 2.18313551,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.931267,
+    "speed": 4.500017,
+    "travel": 2.99999976,
+    "walkSpeed": 2.194861,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9334991,
+    "speed": 4.50004148,
+    "travel": 2.99999976,
+    "walkSpeed": 2.20580578,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.935585,
+    "speed": 4.499998,
+    "travel": 2.99999976,
+    "walkSpeed": 2.21569,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.937882662,
+    "speed": 4.49991274,
+    "travel": 2.99999976,
+    "walkSpeed": 2.22617388,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9399097,
+    "speed": 4.49999332,
+    "travel": 2.99999976,
+    "walkSpeed": 2.23512316,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9423938,
+    "speed": 4.50009155,
+    "travel": 2.99999976,
+    "walkSpeed": 2.24565482,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.945058346,
+    "speed": 4.49993467,
+    "travel": 2.99999976,
+    "walkSpeed": 2.25646853,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.947430849,
+    "speed": 4.500059,
+    "travel": 2.99999976,
+    "walkSpeed": 2.26573324,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9496002,
+    "speed": 4.50000429,
+    "travel": 2.99999976,
+    "walkSpeed": 2.27390838,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9516144,
+    "speed": 4.49991,
+    "travel": 2.99999976,
+    "walkSpeed": 2.28124976,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9536114,
+    "speed": 4.49999571,
+    "travel": 2.99999976,
+    "walkSpeed": 2.28829622,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.955724239,
+    "speed": 4.50003147,
+    "travel": 2.99999976,
+    "walkSpeed": 2.29549813,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.957969666,
+    "speed": 4.50003672,
+    "travel": 2.99999976,
+    "walkSpeed": 2.30287552,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9611678,
+    "speed": 4.49999952,
+    "travel": 2.99999976,
+    "walkSpeed": 2.31285119,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9638448,
+    "speed": 4.4999423,
+    "travel": 2.99999976,
+    "walkSpeed": 2.32084322,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.966148138,
+    "speed": 4.50007772,
+    "travel": 2.99999976,
+    "walkSpeed": 2.3274684,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.968281031,
+    "speed": 4.49998236,
+    "travel": 2.99999976,
+    "walkSpeed": 2.33339071,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9703665,
+    "speed": 4.49993944,
+    "travel": 2.99999976,
+    "walkSpeed": 2.33898616,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9724252,
+    "speed": 4.50003529,
+    "travel": 2.99999976,
+    "walkSpeed": 2.34432817,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9744444,
+    "speed": 4.499978,
+    "travel": 2.99999976,
+    "walkSpeed": 2.34939575,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.97776556,
+    "speed": 4.5000205,
+    "travel": 2.99999976,
+    "walkSpeed": 2.35729527,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9804301,
+    "speed": 4.50003624,
+    "travel": 2.99999976,
+    "walkSpeed": 2.36336422,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.982585669,
+    "speed": 4.499925,
+    "travel": 2.99999976,
+    "walkSpeed": 2.36810112,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9845302,
+    "speed": 4.500003,
+    "travel": 2.99999976,
+    "walkSpeed": 2.372242,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.986464262,
+    "speed": 4.50001335,
+    "travel": 2.99999976,
+    "walkSpeed": 2.376232,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9884424,
+    "speed": 4.50005,
+    "travel": 2.99999976,
+    "walkSpeed": 2.38018274,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.990380049,
+    "speed": 4.5000205,
+    "travel": 2.99999976,
+    "walkSpeed": 2.38393164,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.993401766,
+    "speed": 4.49995947,
+    "travel": 2.99999976,
+    "walkSpeed": 2.38949585,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.995828867,
+    "speed": 4.499982,
+    "travel": 2.99999976,
+    "walkSpeed": 2.39379144,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 0.9980409,
+    "speed": 4.50000858,
+    "travel": 2.99999976,
+    "walkSpeed": 2.39756823,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.00006032,
+    "speed": 4.499993,
+    "travel": 2.99999976,
+    "walkSpeed": 2.40090322,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.00204039,
+    "speed": 4.499995,
+    "travel": 2.99999976,
+    "walkSpeed": 2.404069,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.00402927,
+    "speed": 4.500085,
+    "travel": 2.99999976,
+    "walkSpeed": 2.40714836,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.00600338,
+    "speed": 4.49999762,
+    "travel": 2.99999976,
+    "walkSpeed": 2.410106,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.00841737,
+    "speed": 4.49993658,
+    "travel": 2.99999976,
+    "walkSpeed": 2.41358161,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.01125765,
+    "speed": 4.500013,
+    "travel": 2.99999976,
+    "walkSpeed": 2.41748786,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.01345229,
+    "speed": 4.500033,
+    "travel": 2.99999976,
+    "walkSpeed": 2.42040014,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.01552057,
+    "speed": 4.50000954,
+    "travel": 2.99999976,
+    "walkSpeed": 2.42305279,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.01766324,
+    "speed": 4.499985,
+    "travel": 2.99999976,
+    "walkSpeed": 2.42570567,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.019705,
+    "speed": 4.499947,
+    "travel": 2.99999976,
+    "walkSpeed": 2.42815,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.02173972,
+    "speed": 4.50000572,
+    "travel": 2.99999976,
+    "walkSpeed": 2.43050647,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.0236814,
+    "speed": 4.499983,
+    "travel": 2.99999976,
+    "walkSpeed": 2.43268466,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.02680731,
+    "speed": 4.50003672,
+    "travel": 2.99999976,
+    "walkSpeed": 2.436019,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.0296433,
+    "speed": 4.50001764,
+    "travel": 2.99999976,
+    "walkSpeed": 2.438907,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.03181624,
+    "speed": 4.49999666,
+    "travel": 2.99999976,
+    "walkSpeed": 2.441042,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.033814,
+    "speed": 4.49998236,
+    "travel": 2.99999976,
+    "walkSpeed": 2.44294167,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.03575635,
+    "speed": 4.500029,
+    "travel": 2.99999976,
+    "walkSpeed": 2.44473124,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.03789663,
+    "speed": 4.49991131,
+    "travel": 2.99999976,
+    "walkSpeed": 2.44663334,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.03988266,
+    "speed": 4.500066,
+    "travel": 2.99999976,
+    "walkSpeed": 2.44834447,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.04268575,
+    "speed": 4.499953,
+    "travel": 2.99999976,
+    "walkSpeed": 2.450649,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.04531741,
+    "speed": 4.50000048,
+    "travel": 2.99999976,
+    "walkSpeed": 2.45272255,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.047499,
+    "speed": 4.50007963,
+    "travel": 2.99999976,
+    "walkSpeed": 2.454383,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.04961467,
+    "speed": 4.49992275,
+    "travel": 2.99999976,
+    "walkSpeed": 2.45593524,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.05165315,
+    "speed": 4.50007248,
+    "travel": 2.99999976,
+    "walkSpeed": 2.45738435,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.053673,
+    "speed": 4.49998,
+    "travel": 2.99999976,
+    "walkSpeed": 2.458772,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.05571318,
+    "speed": 4.49994326,
+    "travel": 2.99999976,
+    "walkSpeed": 2.46012664,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.0582695,
+    "speed": 4.500043,
+    "travel": 2.99999976,
+    "walkSpeed": 2.461757,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.06128454,
+    "speed": 4.49997044,
+    "travel": 2.99999976,
+    "walkSpeed": 2.46358585,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.06365848,
+    "speed": 4.50001049,
+    "travel": 2.99999976,
+    "walkSpeed": 2.464972,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.06569481,
+    "speed": 4.50003862,
+    "travel": 2.99999976,
+    "walkSpeed": 2.46612263,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.06775641,
+    "speed": 4.4999547,
+    "travel": 2.99999976,
+    "walkSpeed": 2.467247,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.06981015,
+    "speed": 4.50006962,
+    "travel": 2.99999976,
+    "walkSpeed": 2.46833229,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.0718174,
+    "speed": 4.499956,
+    "travel": 2.99999976,
+    "walkSpeed": 2.46935678,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.074755,
+    "speed": 4.4999733,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47078633,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.07783985,
+    "speed": 4.50003672,
+    "travel": 2.99999976,
+    "walkSpeed": 2.472216,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.08025932,
+    "speed": 4.5000186,
+    "travel": 2.99999976,
+    "walkSpeed": 2.473293,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.082437,
+    "speed": 4.499936,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47422719,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.084552,
+    "speed": 4.500078,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47510624,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.08663869,
+    "speed": 4.49998426,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47594261,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.08872461,
+    "speed": 4.49998331,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47675061,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.09074616,
+    "speed": 4.49995327,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47750759,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.09386468,
+    "speed": 4.500009,
+    "travel": 2.99999976,
+    "walkSpeed": 2.478619,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.09622216,
+    "speed": 4.50002337,
+    "travel": 2.99999976,
+    "walkSpeed": 2.47942781,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.09845448,
+    "speed": 4.500003,
+    "travel": 2.99999976,
+    "walkSpeed": 2.480166,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.10039353,
+    "speed": 4.500007,
+    "travel": 2.99999976,
+    "walkSpeed": 2.480787,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.10236073,
+    "speed": 4.499985,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48139668,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.10451746,
+    "speed": 4.499968,
+    "travel": 2.99999976,
+    "walkSpeed": 2.4820416,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.10669518,
+    "speed": 4.50000429,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48267055,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.109596,
+    "speed": 4.50002861,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48347044,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.11210394,
+    "speed": 4.49996,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48413277,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.11422038,
+    "speed": 4.500052,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48467445,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  },
+  {
+    "time": 1.11633468,
+    "speed": 4.49999142,
+    "travel": 2.99999976,
+    "walkSpeed": 2.48519588,
+    "dodgeSpeed": 2.222222,
+    "rollProgress": -1.0,
+    "rolling": false,
+    "state": "Walk"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "quitStoppedPlayMode": true,
+  "timeScale": 1.0,
+  "audioPause": false,
+  "runInBackground": false,
+  "virtualDevices": []
+}

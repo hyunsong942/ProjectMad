@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-10-21T18:30:18.2313429+09:00",
+  "vertices": 40330,
+  "bones": 28,
+  "allBonesAssigned": true,
+  "allVerticesWeighted": true,
+  "clips": [
+    {
+      "name": "Walk",
+      "clip": "Walk",
+      "first": 0.0,
+      "last": 43.0,
+      "loop": true,
+      "type": "Generic",
+      "root": "mixamorig:Hips"
+    },
+    {
+      "name": "Punch",
+      "clip": "Attack",
+      "first": 0.0,
+      "last": 26.0,
+      "loop": false,
+      "type": "Generic",
+      "root": "mixamorig:Hips"
+    },
+    {
+      "name": "BreathingIdle",
+      "clip": "BreathingIdle",
+      "first": 0.0,
+      "last": 121.0,
+      "loop": true,
+      "type": "Generic",
+      "root": "mixamorig:Hips"
+    },
+    {
+      "name": "Death",
+      "clip": "Death",
+      "first": 0.0,
+      "last": 138.0,
+      "loop": false,
+      "type": "Generic",
+      "root": "mixamorig:Hips"
+    }
+  ],
+  "sourceCopies": [
+    {
+      "entry": "Steampunk Bronze Golem-a051fa710a8284ff997f805d486d94d3.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Rigged.fbx",
+      "sourceHash": "A56057F0CA30F25806EE4D15AED6F2111EEC3A057660DFE2041FFF08E361B736",
+      "copyHash": "A56057F0CA30F25806EE4D15AED6F2111EEC3A057660DFE2041FFF08E361B736",
+      "match": true
+    },
+    {
+      "entry": "mutant walking.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Walk.fbx",
+      "sourceHash": "91175491E398574C36B658027B058BBE1E50F30BA51EB527F97CA639E31CB1A2",
+      "copyHash": "91175491E398574C36B658027B058BBE1E50F30BA51EB527F97CA639E31CB1A2",
+      "match": true
+    },
+    {
+      "entry": "mutant swiping.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Swipe.fbx",
+      "sourceHash": "F9FC336E2DC7FBF5121EA5288535F839A6C47533D4255A38C8B78781107CFBE6",
+      "copyHash": "F9FC336E2DC7FBF5121EA5288535F839A6C47533D4255A38C8B78781107CFBE6",
+      "match": true
+    },
+    {
+      "entry": "mutant punch.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Punch.fbx",
+      "sourceHash": "FF52F8B904B9D454F8A6E1CAFD90828C8734AEFB14305AED4C6950C6B2057AE6",
+      "copyHash": "FF52F8B904B9D454F8A6E1CAFD90828C8734AEFB14305AED4C6950C6B2057AE6",
+      "match": true
+    },
+    {
+      "entry": "mutant breathing idle.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_BreathingIdle.fbx",
+      "sourceHash": "2C235CBD780C2EA8DE2E4D11B15A26A6BD1F7291BE762254B849AF397BE737DC",
+      "copyHash": "2C235CBD780C2EA8DE2E4D11B15A26A6BD1F7291BE762254B849AF397BE737DC",
+      "match": true
+    },
+    {
+      "entry": "mutant idle.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Idle.fbx",
+      "sourceHash": "432E3E540BD893FE122C3682332EDC5BD55D6F5A4B002A07A4E3CC7BFE8D348A",
+      "copyHash": "432E3E540BD893FE122C3682332EDC5BD55D6F5A4B002A07A4E3CC7BFE8D348A",
+      "match": true
+    },
+    {
+      "entry": "mutant dying.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Death.fbx",
+      "sourceHash": "887C96200A09C15CA763D00EAE0E0D0CB181EDC905B7C66E8098E5B07A3F9FB6",
+      "copyHash": "887C96200A09C15CA763D00EAE0E0D0CB181EDC905B7C66E8098E5B07A3F9FB6",
+      "match": true
+    }
+  ],
+  "weaponPrefab": "Assets/Game/Prefabs/Weapons/Varco_LionStaff_BulbStrike.prefab",
+  "weaponColliders": 0
+}

@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "timestamp": "2026-10-21T16:52:29.2185257+09:00",
+  "passed": 11,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Gauge is full when dodge is ready",
+      "passed": true,
+      "detail": "Ready at spawn."
+    },
+    {
+      "name": "Gauge contains no text and does not intercept clicks",
+      "passed": true,
+      "detail": "Images only."
+    },
+    {
+      "name": "Space consumes the gauge immediately",
+      "passed": true,
+      "detail": "Fill=4.614553E-07"
+    },
+    {
+      "name": "Gauge refills during recovery after the roll",
+      "passed": true,
+      "detail": "Fill=0.531031"
+    },
+    {
+      "name": "Gauge follows the actual cooldown",
+      "passed": true,
+      "detail": "HUD=0.531031, actual=0.531031"
+    },
+    {
+      "name": "Recharging dodge cannot restart early",
+      "passed": true,
+      "detail": "Gate and UI share readiness."
+    },
+    {
+      "name": "Pause freezes both cooldown and gauge",
+      "passed": true,
+      "detail": "Paused fill=0.531031"
+    },
+    {
+      "name": "Full gauge and ready marker agree with reuse time",
+      "passed": true,
+      "detail": "Scaled elapsed=1.640259"
+    },
+    {
+      "name": "A new Space press works after recharge",
+      "passed": true,
+      "detail": "Second roll consumed gauge."
+    },
+    {
+      "name": "Death disables the ready indication",
+      "passed": true,
+      "detail": "No ready glow on game over."
+    },
+    {
+      "name": "Restart restores a full usable gauge",
+      "passed": true,
+      "detail": "Fresh scene charge."
+    }
+  ]
+}

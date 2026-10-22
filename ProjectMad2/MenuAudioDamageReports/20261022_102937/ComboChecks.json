@@ -1,0 +1,229 @@
+{
+    "phase": "Walking to dodge transition and combo regression",
+    "timestamp": "2026-10-22T10:39:42.6823840+09:00",
+    "complete": true,
+    "passed": 44,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Valid humanoid and skinned scientist",
+            "passed": true,
+            "detail": "Skinned player, not static mesh."
+        },
+        {
+            "name": "Animator root motion disabled",
+            "passed": true,
+            "detail": "CharacterController owns displacement."
+        },
+        {
+            "name": "Idle animation moves bones",
+            "passed": true,
+            "detail": "Idle pose changes over time."
+        },
+        {
+            "name": "Walking input moves and selects Walk",
+            "passed": true,
+            "detail": "State=Walk, distance=1.578806"
+        },
+        {
+            "name": "Walking to dodge preserves entry velocity",
+            "passed": true,
+            "detail": "Walk=4.500202, first roll=3.592581"
+        },
+        {
+            "name": "Rolling lasts long enough for the supplied animation",
+            "passed": true,
+            "detail": "Observed=0.762944"
+        },
+        {
+            "name": "Roll accelerates then settles before standing",
+            "passed": true,
+            "detail": "Peak=7.643321, end=0.934512"
+        },
+        {
+            "name": "Walking roll travels three metres",
+            "passed": true,
+            "detail": "Travel=3"
+        },
+        {
+            "name": "Dodge does not change outgoing walk playback speed",
+            "passed": true,
+            "detail": "Walk parameter before=2.499995, range=2.499995..2.499995"
+        },
+        {
+            "name": "Roll animation reaches its standing recovery",
+            "passed": true,
+            "detail": "Final normalized time=1.017258"
+        },
+        {
+            "name": "Animation stays synchronized with roll movement during frame delays",
+            "passed": true,
+            "detail": "Maximum progress error=0.01725817"
+        },
+        {
+            "name": "Held movement resumes walking after dodge",
+            "passed": true,
+            "detail": "State=Walk, velocity=(0.00, 0.00, 4.50)"
+        },
+        {
+            "name": "Return to walk accelerates instead of jumping to full speed",
+            "passed": true,
+            "detail": "Recovery speeds=1.05,1.15,1.24,1.34,1.44,1.53,1.62,1.72"
+        },
+        {
+            "name": "Roll collision stops at wall without passing through",
+            "passed": true,
+            "detail": "Stopped z=-6.53"
+        },
+        {
+            "name": "Roll retains short opening invulnerability",
+            "passed": true,
+            "detail": "Opening of roll."
+        },
+        {
+            "name": "Longer animation does not extend invulnerability",
+            "passed": true,
+            "detail": "Roll continues after 0.18-second invulnerability."
+        },
+        {
+            "name": "Escape pauses roll without discarding displacement",
+            "passed": true,
+            "detail": "Roll remains frozen until resume."
+        },
+        {
+            "name": "First strike has windup before damage",
+            "passed": true,
+            "detail": "No immediate click damage."
+        },
+        {
+            "name": "Contact frame applies one hit",
+            "passed": true,
+            "detail": "Target HP=985"
+        },
+        {
+            "name": "Two colliders do not duplicate one strike",
+            "passed": true,
+            "detail": "One health target, two colliders."
+        },
+        {
+            "name": "One click plays only strike one",
+            "passed": true,
+            "detail": "1"
+        },
+        {
+            "name": "Two quick clicks play one then two",
+            "passed": true,
+            "detail": "Steps=1,2, HP=970"
+        },
+        {
+            "name": "Double click does not auto-play third",
+            "passed": true,
+            "detail": "Stopped after two."
+        },
+        {
+            "name": "Three quick clicks play all three once",
+            "passed": true,
+            "detail": "Steps=1,2,3, HP=955"
+        },
+        {
+            "name": "Finisher resets combo",
+            "passed": true,
+            "detail": "No automatic fourth strike."
+        },
+        {
+            "name": "Holding mouse does not chain attacks",
+            "passed": true,
+            "detail": "Held for 2.8 seconds."
+        },
+        {
+            "name": "Excess early clicks cap at three strikes",
+            "passed": true,
+            "detail": "Five early clicks."
+        },
+        {
+            "name": "Expired combo restarts from one",
+            "passed": true,
+            "detail": "1,1"
+        },
+        {
+            "name": "Short recovery grace permits next strike",
+            "passed": true,
+            "detail": "1,2"
+        },
+        {
+            "name": "Attack holds movement and facing",
+            "passed": true,
+            "detail": "Drift=0"
+        },
+        {
+            "name": "Dodge interrupts buffered combo",
+            "passed": true,
+            "detail": "Queued second strike cleared."
+        },
+        {
+            "name": "Dodge animation selected",
+            "passed": true,
+            "detail": "Dodge"
+        },
+        {
+            "name": "Cancelled windup does no delayed damage",
+            "passed": true,
+            "detail": "HP=1000"
+        },
+        {
+            "name": "Dodge visual stays with collision root",
+            "passed": true,
+            "detail": "Hips XZ offset=0.1407116"
+        },
+        {
+            "name": "Clicks during dodge do not start or queue attacks",
+            "passed": true,
+            "detail": "Attack pressed mid-dodge."
+        },
+        {
+            "name": "Dodge keeps original three-metre distance",
+            "passed": true,
+            "detail": "Distance=3"
+        },
+        {
+            "name": "Contact damage respects wall occlusion",
+            "passed": true,
+            "detail": "Target behind wall."
+        },
+        {
+            "name": "Range is evaluated at contact, not button press",
+            "passed": true,
+            "detail": "Target moved away during windup."
+        },
+        {
+            "name": "Escape preserves pending combo without applying paused damage",
+            "passed": true,
+            "detail": "Paused during windup."
+        },
+        {
+            "name": "Cursor capture click is not an attack",
+            "passed": true,
+            "detail": "After explicit focus release, first click only captures cursor."
+        },
+        {
+            "name": "Death clears combo and pending contact",
+            "passed": true,
+            "detail": "Death before first contact."
+        },
+        {
+            "name": "Death plays while movement stays disabled",
+            "passed": true,
+            "detail": "Death animation continues after combat is disabled."
+        },
+        {
+            "name": "Death finishes once and holds final pose",
+            "passed": true,
+            "detail": "Final death pose retained."
+        },
+        {
+            "name": "Animator child never accumulates root displacement",
+            "passed": true,
+            "detail": "Local position=(0.00, 0.02, 0.00)"
+        }
+    ]
+}

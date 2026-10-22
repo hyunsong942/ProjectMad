@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-21",
+  "scope": "Phase 4: model and texture integration only; animation deferred by user",
+  "models": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Gentleman Character-577950f548ab60f665d31aaf8728c152 (1).fbx",
+      "sourceHash": "155AABB431DAD301A851A471DE90FA5FD4ACA9135273C78C3EE843C8B328EB22",
+      "copyHash": "155AABB431DAD301A851A471DE90FA5FD4ACA9135273C78C3EE843C8B328EB22"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Bronze Golem-a051fa710a8284ff997f805d486d94d3.fbx",
+      "sourceHash": "555F987C08E7103A4653AD89CE102574F018140BB58C2FC4766BDD637EB0749E",
+      "copyHash": "555F987C08E7103A4653AD89CE102574F018140BB58C2FC4766BDD637EB0749E"
+    }
+  ],
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "roles": {
+    "gentleman": "Stationary scientist NPC",
+    "bronzeGolem": "Three guard enemy visuals"
+  },
+  "modelHeightMeters": 1.8,
+  "importAnimation": false,
+  "materials": "Universal Render Pipeline/Lit; embedded base_color.png and normal.png extracted",
+  "integrity": {
+    "before": 173,
+    "after": 200,
+    "modified": [
+      "Assets\\Game\\Prefabs\\Enemies\\GuardRobot.prefab",
+      "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets\\Game\\Models\\Varco.meta",
+      "Assets\\Game\\Models\\Varco\\Golem.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Varco_BronzeGolem.fbx",
+      "Assets\\Game\\Models\\Varco\\Golem\\Varco_BronzeGolem.fbx.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials\\Varco_BronzeGolem_URP.mat",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials\\Varco_BronzeGolem_URP.mat.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\base_color.png",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\base_color.png.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\normal.png",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\normal.png.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Varco_SteampunkGentleman.fbx",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Varco_SteampunkGentleman.fbx.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials\\Varco_SteampunkGentleman_URP.mat",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials\\Varco_SteampunkGentleman_URP.mat.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\base_color.png",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\base_color.png.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\normal.png",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\normal.png.meta",
+      "Assets\\Game\\Prefabs\\Enemies\\VarcoBronzeGolem_Visual.prefab",
+      "Assets\\Game\\Prefabs\\Enemies\\VarcoBronzeGolem_Visual.prefab.meta",
+      "Assets\\Game\\Prefabs\\Environment\\VarcoScientist.prefab",
+      "Assets\\Game\\Prefabs\\Environment\\VarcoScientist.prefab.meta"
+    ],
+    "deleted": []
+  },
+  "regression": {
+    "phase": "Phase 4 model regression",
+    "timestamp": "2026-10-21T14:52:04.3309509+09:00",
+    "complete": true,
+    "passed": 39,
+    "failed": 0,
+    "combat": "WASD and mouse only, after restoring spawn; elapsed=5.582531s, HP=70, attacks=6"
+  }
+}

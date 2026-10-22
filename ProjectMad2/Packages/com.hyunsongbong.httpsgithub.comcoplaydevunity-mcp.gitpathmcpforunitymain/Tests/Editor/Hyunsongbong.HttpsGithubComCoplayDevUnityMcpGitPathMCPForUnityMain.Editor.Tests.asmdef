@@ -1,0 +1,14 @@
+{
+    "name": "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain.Editor.Tests",
+    "references": [
+        "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain.Editor",
+        "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

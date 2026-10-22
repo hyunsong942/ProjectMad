@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-10-21T14:54:00.6715945+09:00",
+  "checks": [
+    {
+      "name": "GuardRobot_03 visual and feedback",
+      "passed": true,
+      "detail": "Imported mesh, feedback binding, no duplicate collider/Animator"
+    },
+    {
+      "name": "GuardRobot_02 visual and feedback",
+      "passed": true,
+      "detail": "Imported mesh, feedback binding, no duplicate collider/Animator"
+    },
+    {
+      "name": "GuardRobot_01 visual and feedback",
+      "passed": true,
+      "detail": "Imported mesh, feedback binding, no duplicate collider/Animator"
+    },
+    {
+      "name": "Scientist rests on 0.3m platform",
+      "passed": true,
+      "detail": "Center: (-9.00, 1.20, -1.70), Extents: (0.54, 0.90, 0.66)"
+    },
+    {
+      "name": "Assets/Game/Models/Varco/Scientist/Varco_SteampunkGentleman.fbx texture and animation settings",
+      "passed": true,
+      "detail": "Base color + normal map; no animation imported"
+    },
+    {
+      "name": "Assets/Game/Models/Varco/Golem/Varco_BronzeGolem.fbx texture and animation settings",
+      "passed": true,
+      "detail": "Base color + normal map; no animation imported"
+    },
+    {
+      "name": "Death feedback affects actual Golem mesh",
+      "passed": true,
+      "detail": "RGBA(0.130, 0.140, 0.150, 1.000)"
+    },
+    {
+      "name": "Temporary cameras and test objects cleaned up",
+      "passed": true,
+      "detail": "No helper objects or test devices remain"
+    }
+  ],
+  "passed": 8,
+  "failed": 0
+}

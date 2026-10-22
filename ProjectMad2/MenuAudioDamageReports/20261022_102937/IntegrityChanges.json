@@ -1,0 +1,34 @@
+{
+  "before": 392,
+  "after": 403,
+  "modified": [
+    "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "Assets/Game/Tests/Phase3PlayModeChecks.cs",
+    "Assets/Game/Tests/PlayerComboPlayModeChecks.cs",
+    "Assets/Game/Scripts/Combat/LabCombatAudio.cs",
+    "Assets/Game/Scripts/Combat/LabHealth.cs",
+    "Assets/Game/Scripts/Enemy/LabEnemyAnimation.cs",
+    "Assets/Game/Scripts/Enemy/LabEnemyGuard.cs",
+    "Assets/Game/Scripts/Managers/LabStageController.cs",
+    "Assets/Game/Scripts/Player/LabPlayerAnimation.cs",
+    "Assets/Game/Scripts/Player/LabPlayerCombat.cs",
+    "Assets/Game/Scripts/Player/LabPlayerDodge.cs",
+    "Assets/Game/Scripts/Player/LabPlayerInput.cs",
+    "Assets/Game/Scripts/Player/LabPlayerMotor.cs",
+    "Assets/Game/Scripts/UI/LabStageHUD.cs"
+  ],
+  "added": [
+    "Assets/Game/Audio/Music.meta",
+    "Assets/Game/Tests/MenuAudioDamagePlayModeChecks.cs",
+    "Assets/Game/Tests/MenuAudioDamagePlayModeChecks.cs.meta",
+    "Assets/Game/Audio/Music/HarmonyOfTimeAndSteam.mp3",
+    "Assets/Game/Audio/Music/HarmonyOfTimeAndSteam.mp3.meta",
+    "Assets/Game/Scripts/Managers/LabGameSession.cs",
+    "Assets/Game/Scripts/Managers/LabGameSession.cs.meta",
+    "Assets/Game/Scripts/UI/LabDamageNumbers.cs",
+    "Assets/Game/Scripts/UI/LabDamageNumbers.cs.meta",
+    "Assets/Game/Scripts/UI/LabMenuView.cs",
+    "Assets/Game/Scripts/UI/LabMenuView.cs.meta"
+  ],
+  "removed": []
+}

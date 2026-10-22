@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-21",
+  "scope": "User-supplied creature animations on three bronze golem guards and bulb-end staff on the scientist",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "roles": {
+    "user": "Provided Creature Pack archive and Lion Steampunk Staff FBX; delegated walking/attack selection and specified bulb-end strikes.",
+    "assistant": "Selected clips, configured the original skeletal rig, grounded the visuals, synchronized AI and animation, mounted the staff, adjusted contact timing and verified gameplay."
+  },
+  "backup": "DevelopmentBackups/CreatureAnimationAndStaff",
+  "originalFiles": [
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\Creature Pack (1).zip",
+      "sha256": "5AD33853D0BAE55822D612C8BCEA856A12295C2B41A87930123E7122E89DB820"
+    },
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\Lion Steampunk Staff-5962eb4e3d78c59c46f63ff6ec964a64.fbx",
+      "sha256": "E9BA28028792FE4AD311DD8CB78F9A460F675C918B5C4D9F21E0389207DAD1B3"
+    },
+    {
+      "path": "Assets/Game/Models/Varco/LionStaff/Varco_LionStaff.fbx",
+      "sha256": "E9BA28028792FE4AD311DD8CB78F9A460F675C918B5C4D9F21E0389207DAD1B3"
+    }
+  ],
+  "sourceCopies": [
+    {
+      "entry": "Steampunk Bronze Golem-a051fa710a8284ff997f805d486d94d3.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Rigged.fbx",
+      "sourceHash": "A56057F0CA30F25806EE4D15AED6F2111EEC3A057660DFE2041FFF08E361B736",
+      "copyHash": "A56057F0CA30F25806EE4D15AED6F2111EEC3A057660DFE2041FFF08E361B736",
+      "match": true
+    },
+    {
+      "entry": "mutant walking.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Walk.fbx",
+      "sourceHash": "91175491E398574C36B658027B058BBE1E50F30BA51EB527F97CA639E31CB1A2",
+      "copyHash": "91175491E398574C36B658027B058BBE1E50F30BA51EB527F97CA639E31CB1A2",
+      "match": true
+    },
+    {
+      "entry": "mutant swiping.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Swipe.fbx",
+      "sourceHash": "F9FC336E2DC7FBF5121EA5288535F839A6C47533D4255A38C8B78781107CFBE6",
+      "copyHash": "F9FC336E2DC7FBF5121EA5288535F839A6C47533D4255A38C8B78781107CFBE6",
+      "match": true
+    },
+    {
+      "entry": "mutant punch.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Punch.fbx",
+      "sourceHash": "FF52F8B904B9D454F8A6E1CAFD90828C8734AEFB14305AED4C6950C6B2057AE6",
+      "copyHash": "FF52F8B904B9D454F8A6E1CAFD90828C8734AEFB14305AED4C6950C6B2057AE6",
+      "match": true
+    },
+    {
+      "entry": "mutant breathing idle.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_BreathingIdle.fbx",
+      "sourceHash": "2C235CBD780C2EA8DE2E4D11B15A26A6BD1F7291BE762254B849AF397BE737DC",
+      "copyHash": "2C235CBD780C2EA8DE2E4D11B15A26A6BD1F7291BE762254B849AF397BE737DC",
+      "match": true
+    },
+    {
+      "entry": "mutant idle.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Idle.fbx",
+      "sourceHash": "432E3E540BD893FE122C3682332EDC5BD55D6F5A4B002A07A4E3CC7BFE8D348A",
+      "copyHash": "432E3E540BD893FE122C3682332EDC5BD55D6F5A4B002A07A4E3CC7BFE8D348A",
+      "match": true
+    },
+    {
+      "entry": "mutant dying.fbx",
+      "asset": "Assets/Game/Animations/Golem/Source/Golem_Death.fbx",
+      "sourceHash": "887C96200A09C15CA763D00EAE0E0D0CB181EDC905B7C66E8098E5B07A3F9FB6",
+      "copyHash": "887C96200A09C15CA763D00EAE0E0D0CB181EDC905B7C66E8098E5B07A3F9FB6",
+      "match": true
+    }
+  ],
+  "enemy": {
+    "rig": "Generic; original Mixamo skeleton is used directly",
+    "rootMotion": false,
+    "vertices": 40330,
+    "bones": 28,
+    "source": "Assets/Game/Animations/Golem/Source/Golem_Rigged.fbx",
+    "prefab": "Assets/Game/Prefabs/Enemies/VarcoBronzeGolem_Animated.prefab",
+    "guardPrefab": "Assets/Game/Prefabs/Enemies/GuardRobot.prefab",
+    "controller": "Assets/Game/Animations/Golem/Golem.controller",
+    "driver": "Assets/Game/Scripts/Enemy/LabEnemyAnimation.cs",
+    "material": "Assets/Game/Models/Varco/Golem/Materials/Varco_BronzeGolem_URP.mat",
+    "importScale": 1.58343267,
+    "visualScale": 1.17211151,
+    "idleHeightMeters": 1.8,
+    "chosen": {
+      "idle": "mutant breathing idle.fbx",
+      "walk": "mutant walking.fbx",
+      "attack": "mutant punch.fbx",
+      "death": "mutant dying.fbx"
+    },
+    "clips": [
+      {
+        "name": "Walk",
+        "clip": "Walk",
+        "first": 0,
+        "last": 43,
+        "loop": true,
+        "type": "Generic",
+        "root": "mixamorig:Hips"
+      },
+      {
+        "name": "Punch",
+        "clip": "Attack",
+        "first": 0,
+        "last": 26,
+        "loop": false,
+        "type": "Generic",
+        "root": "mixamorig:Hips"
+      },
+      {
+        "name": "BreathingIdle",
+        "clip": "BreathingIdle",
+        "first": 0,
+        "last": 121,
+        "loop": true,
+        "type": "Generic",
+        "root": "mixamorig:Hips"
+      },
+      {
+        "name": "Death",
+        "clip": "Death",
+        "first": 0,
+        "last": 138,
+        "loop": false,
+        "type": "Generic",
+        "root": "mixamorig:Hips"
+      }
+    ],
+    "attack": {
+      "sourceFrames": [
+        0,
+        26
+      ],
+      "contactFrame": 8,
+      "windupSeconds": 0.45,
+      "recoverySeconds": 1.0125,
+      "totalSeconds": 1.4625,
+      "playbackSpeed": 0.59259259259259256,
+      "cooldownSeconds": 1.5,
+      "damage": 10,
+      "rangeMeters": 1.8,
+      "damageOnce": true,
+      "movementDuringRecovery": false
+    },
+    "walk": {
+      "moveMetersPerSecond": 2.5,
+      "clipMetersPerSecond": 1.395,
+      "animationSpeedFollowsControllerVelocity": true
+    },
+    "grounding": {
+      "file": "GolemGroundingSamples.json",
+      "samplesPerClip": 81,
+      "method": "Lowest baked mesh vertex sampled offline into per-state offset curves; blend curves in LateUpdate. No per-frame mesh baking in gameplay.",
+      "maximumObservedErrorMeters": 0.0982396,
+      "measurementSamples": 416
+    },
+    "unusedImportedComparisons": [
+      "Golem_Swipe.fbx",
+      "Golem_Idle.fbx"
+    ]
+  },
+  "staff": {
+    "prefab": "Assets/Game/Prefabs/Weapons/Varco_LionStaff_BulbStrike.prefab",
+    "source": "Assets/Game/Models/Varco/LionStaff/Varco_LionStaff.fbx",
+    "material": "Assets/Game/Models/Varco/LionStaff/Materials/Varco_LionStaff_URP.mat",
+    "lengthMeters": 1.45,
+    "hand": "mixamorig:RightHand",
+    "socketLocalPosition": [
+      0,
+      0.06,
+      0
+    ],
+    "normalizedSocketAxisFrom": [
+      -0.66,
+      0.63,
+      -0.35
+    ],
+    "modelLocalPosition": [
+      0,
+      0.3,
+      0
+    ],
+    "flip": "180 degrees around wrapper Z, so local +Y points toward the blue bulb",
+    "hitPointLocalPosition": [
+      0,
+      0.9,
+      0
+    ],
+    "colliders": 0,
+    "textures": {
+      "used": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "retained": [
+        "orm.png"
+      ]
+    },
+    "playerCombo": {
+      "mirrorAttack2": true,
+      "hitNormalizedTimes": [
+        0.675,
+        0.225,
+        0.25
+      ],
+      "sourceContactFrames": [
+        29.6,
+        46.3,
+        79
+      ],
+      "contactSeconds": [
+        0.45,
+        0.13125,
+        0.2291666667
+      ],
+      "damagePerHit": 15,
+      "clickRulesUnchanged": true,
+      "hitQuery": "Existing range/angle/line-of-sight query preserved; contact timing follows the bulb swing. No extra physics damage collider."
+    }
+  },
+  "validation": {
+    "runtime": {
+      "file": "CreatureAnimationRuntimeChecks.json",
+      "passed": 9,
+      "failed": 0
+    },
+    "combo": {
+      "file": "CreatureStaffComboTestResults.json",
+      "passed": 43,
+      "failed": 0
+    },
+    "stage": {
+      "file": "CreatureStaffStageTestResults.json",
+      "passed": 39,
+      "failed": 0,
+      "combat": "WASD and mouse only, after restoring spawn; elapsed=7.258057s, HP=70, attacks=6"
+    },
+    "totalPassed": 91,
+    "totalFailed": 0,
+    "static": "CreatureStaffStaticChecks.json",
+    "staffPoses": "StaffContactPoseChecks.json",
+    "sceneIssues": 0,
+    "finalConsoleErrors": 0,
+    "finalConsoleWarnings": 0,
+    "userManualPlay": false,
+    "buildPerformed": false
+  },
+  "integrity": {
+    "before": 327,
+    "after": 365,
+    "modified": [
+      "Assets/Game/Animations/Scientist/Scientist.controller",
+      "Assets/Game/Prefabs/Enemies/GuardRobot.prefab",
+      "Assets/Game/Prefabs/Player/VarcoScientist_Animated.prefab",
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+      "Assets/Game/Scripts/Enemy/LabEnemyGuard.cs",
+      "Assets/Game/Tests/PlayerComboPlayModeChecks.cs"
+    ],
+    "added": [
+      "Assets/Game/Animations/Golem.meta",
+      "Assets/Game/Animations/Golem/Golem.controller",
+      "Assets/Game/Animations/Golem/Golem.controller.meta",
+      "Assets/Game/Animations/Golem/Source.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_BreathingIdle.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_BreathingIdle.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Death.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Death.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Idle.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Idle.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Punch.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Punch.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Rigged.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Rigged.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Swipe.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Swipe.fbx.meta",
+      "Assets/Game/Animations/Golem/Source/Golem_Walk.fbx",
+      "Assets/Game/Animations/Golem/Source/Golem_Walk.fbx.meta",
+      "Assets/Game/Models/Varco/LionStaff.meta",
+      "Assets/Game/Models/Varco/LionStaff/Materials.meta",
+      "Assets/Game/Models/Varco/LionStaff/Materials/Varco_LionStaff_URP.mat",
+      "Assets/Game/Models/Varco/LionStaff/Materials/Varco_LionStaff_URP.mat.meta",
+      "Assets/Game/Models/Varco/LionStaff/Textures.meta",
+      "Assets/Game/Models/Varco/LionStaff/Textures/base_color.png",
+      "Assets/Game/Models/Varco/LionStaff/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/LionStaff/Textures/normal.png",
+      "Assets/Game/Models/Varco/LionStaff/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/LionStaff/Textures/orm.png",
+      "Assets/Game/Models/Varco/LionStaff/Textures/orm.png.meta",
+      "Assets/Game/Models/Varco/LionStaff/Varco_LionStaff.fbx",
+      "Assets/Game/Models/Varco/LionStaff/Varco_LionStaff.fbx.meta",
+      "Assets/Game/Prefabs/Enemies/VarcoBronzeGolem_Animated.prefab",
+      "Assets/Game/Prefabs/Enemies/VarcoBronzeGolem_Animated.prefab.meta",
+      "Assets/Game/Prefabs/Weapons.meta",
+      "Assets/Game/Prefabs/Weapons/Varco_LionStaff_BulbStrike.prefab",
+      "Assets/Game/Prefabs/Weapons/Varco_LionStaff_BulbStrike.prefab.meta",
+      "Assets/Game/Scripts/Enemy/LabEnemyAnimation.cs",
+      "Assets/Game/Scripts/Enemy/LabEnemyAnimation.cs.meta"
+    ],
+    "deleted": [],
+    "historicalEvidenceRestored": 17
+  },
+  "finalState": {
+    "playing": false,
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "dirty": false,
+    "rootCount": 11,
+    "guards": 3,
+    "staffCount": 1,
+    "timeScale": 1
+  },
+  "correctedAttempts": [
+    "Copied Humanoid avatar produced six leg-rig mismatch warnings; separate Humanoid retargeting distorted feet. Changed to Generic original bone animation and verified directly.",
+    "Two combo attempts passed 42/43 because the duration assertion excluded the first integrated movement frame. Measured total roll was 0.761 seconds although the truncated span was 0.638 seconds. Corrected the sampling boundary while retaining the 0.65-0.85 second acceptance interval. Final attempt 43/43.",
+    "Initial ZIP direct-type compilation failed because CodeDom lacked the assembly reference; reflective ZIP access succeeded. An exact-string test patch did not match line endings; bounded replacement succeeded without altering gameplay code."
+  ],
+  "captures": [
+    "Captures/CreatureAnimationAndStaff/Final_GameHUD.png",
+    "Captures/CreatureAnimationAndStaff/Staff_ThreeHits_Final.png",
+    "Captures/CreatureAnimationAndStaff/Stage_UnlockedHUD.png",
+    "Captures/CreatureAnimationAndStaff/Stage_ClearScreen.png",
+    "Captures/CreatureAnimationAndStaff/Stage_GameOverScreen.png"
+  ],
+  "tools": [
+    "read_mcp_resource",
+    "import_model_file",
+    "execute_code",
+    "manage_camera",
+    "manage_scene",
+    "manage_editor",
+    "read_console"
+  ],
+  "recordedAt": "2026-10-21T18:41:30.4936295+09:00"
+}

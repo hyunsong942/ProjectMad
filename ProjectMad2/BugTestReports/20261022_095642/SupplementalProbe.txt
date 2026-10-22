@@ -1,0 +1,1 @@
+Runtime-only EditorApplication callback: gauge readiness/cooldown, south-wall camera collision, golem animation timing/recovery/death/grounding. No gameplay source changes.

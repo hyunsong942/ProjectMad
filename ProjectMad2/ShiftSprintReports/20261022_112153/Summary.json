@@ -1,0 +1,11 @@
+{
+  "sprint": 25,
+  "combo": 44,
+  "total": 69,
+  "failed": 0,
+  "sceneIssues": 0,
+  "playModeErrors": 0,
+  "playModeWarnings": 0,
+  "postStopMCPWarnings": 1,
+  "buildTested": false
+}

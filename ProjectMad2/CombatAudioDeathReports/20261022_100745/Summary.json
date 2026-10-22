@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "date": "2026-10-22",
+  "project": "ProjectMad",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "ownership": "WAV 및 FBX 원본은 사용자 제공. 오디오 분할·가장자리 페이드·재생 연결·리타게팅·게임 로직 통합은 이번 작업에서 수행.",
+  "audio": {
+    "sourceSwingDurationSeconds": 7.76,
+    "staffCuts": [
+      {
+        "clip": "Staff_Swing_01",
+        "start": 0.04,
+        "end": 0.5,
+        "comboStep": 1
+      },
+      {
+        "clip": "Staff_Swing_02",
+        "start": 1.24,
+        "end": 1.65,
+        "comboStep": 1
+      },
+      {
+        "clip": "Staff_Swing_03",
+        "start": 2.7,
+        "end": 3.035,
+        "comboStep": 2
+      },
+      {
+        "clip": "Staff_Swing_04",
+        "start": 3.065,
+        "end": 3.44,
+        "comboStep": 2
+      },
+      {
+        "clip": "Staff_Swing_05",
+        "start": 4.46,
+        "end": 5.15,
+        "comboStep": 3
+      },
+      {
+        "clip": "Staff_Swing_06",
+        "start": 5.85,
+        "end": 6.4,
+        "comboStep": 3
+      },
+      {
+        "clip": "Staff_Swing_07",
+        "start": 7.4,
+        "end": 7.76,
+        "comboStep": 3
+      }
+    ],
+    "format": "48000 Hz mono PCM16",
+    "edgeFadeSeconds": {
+      "staffIn": 0.003,
+      "staffOut": 0.02,
+      "robotIn": 0.002,
+      "robotOut": 0.015
+    },
+    "variants": "각 콤보 단계의 짧은 클립들을 순환 사용",
+    "staffTiming": "피해 판정 0.08초 전 재생. 회피·조작 해제·사망으로 콤보가 취소되면 현재 소리도 중단.",
+    "staffVolume": [
+      0.64,
+      0.64,
+      0.78
+    ],
+    "staffPitch": [
+      1,
+      1.03,
+      0.94
+    ],
+    "robot": {
+      "source": "Mechanical_hit_2.wav",
+      "start": 0.05,
+      "end": 0.6,
+      "clip": "Assets/Game/Audio/Combat/Golem_Attack.wav",
+      "volume": 0.72,
+      "timing": "골렘 펀치의 판정 시점에 1회. 빗나가도 공격 동작음은 재생."
+    },
+    "spatial": {
+      "playerBlend": 0.5,
+      "robotBlend": 1,
+      "minDistance": 3,
+      "maxDistance": 20,
+      "doppler": 0
+    },
+    "sourceDirectory": "Assets/Game/Audio/Source",
+    "cutsDirectory": "Assets/Game/Audio/Combat"
+  },
+  "death": {
+    "source": "Flying Back Death.fbx",
+    "imported": "Assets/Game/Animations/Scientist/Source/Scientist_Death.fbx",
+    "character": "과학자 플레이어",
+    "clip": "Death",
+    "frames": [
+      0,
+      91
+    ],
+    "frameRate": 30,
+    "durationSeconds": 3.03333354,
+    "rig": "Humanoid; valid avatar",
+    "loop": false,
+    "rootMotion": false,
+    "behavior": "사망 즉시 조작과 충돌을 중지하고 Death를 끝까지 재생한 뒤 마지막 포즈 고정. 사망 동작 중 원래 재질 색 유지. 완료 후 게임 오버 패널 표시.",
+    "importer": {
+      "lockRootRotation": true,
+      "keepOriginalOrientation": true,
+      "lockRootHeightY": true,
+      "keepOriginalPositionY": true,
+      "lockRootPositionXZ": false,
+      "keepOriginalPositionXZ": true
+    },
+    "finalBodyMinimumYObserved": -0.0508605652
+  },
+  "validation": {
+    "comboPassed": 44,
+    "stagePassed": 40,
+    "audioDeathPassed": 10,
+    "robotAudioPassed": 6,
+    "totalPassed": 100,
+    "failed": 0,
+    "finalConsoleErrors": 0,
+    "finalConsoleWarnings": 0,
+    "sceneValidationIssues": 0,
+    "sourceHashesMatched": 3,
+    "restoredEvidenceFiles": 21,
+    "buildRun": false,
+    "audioVerification": "원본 파형/무음 구간과 클립 데이터 분석, 실제 AudioSource 재생 및 비영(非零) 출력 샘플 측정. 직접 청취 평가는 수행하지 않음.",
+    "visualVerification": "과학자 사망 과정의 게임 화면 캡처 확인."
+  },
+  "integrity": {
+    "baselineFiles": 365,
+    "finalFiles": 392,
+    "modifiedExistingFiles": 10,
+    "addedFiles": 27,
+    "removedFiles": 0
+  },
+  "backup": "C:\\Users\\mbc\\Desktop\\unity\\ProjectMad\\DevelopmentBackups\\CombatAudioDeath_20261022_100745",
+  "reports": "CombatAudioDeathReports/20261022_100745",
+  "mcpTools": [
+    "execute_code",
+    "unity_reflect",
+    "manage_editor",
+    "manage_scene",
+    "read_console",
+    "read_mcp_resource"
+  ],
+  "sourceVerification": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Blunt_swing_3.wav",
+      "imported": "Assets/Game/Audio/Source/Blunt_swing_3.wav",
+      "sha256": "3448CA69D99F122DE4487C971947CF32E1CCD2BC8F62A3ADF2349B152F1E4DF1",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Mechanical_hit_2.wav",
+      "imported": "Assets/Game/Audio/Source/Mechanical_hit_2.wav",
+      "sha256": "0FAFB68EB325B435197A0DCF73AA5157FDECE3E9C41FEDCBBD80A126C029D527",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Flying Back Death.fbx",
+      "imported": "Assets/Game/Animations/Scientist/Source/Scientist_Death.fbx",
+      "sha256": "E9A28E1E5DEC2F5D0F14DE0F62122A7CBD81E420D1CFFE7D424DD6CABB9EF2E4",
+      "unchanged": true
+    }
+  ]
+}

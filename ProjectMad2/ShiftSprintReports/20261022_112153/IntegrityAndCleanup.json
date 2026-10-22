@@ -1,0 +1,29 @@
+{
+  "before": 408,
+  "after": 412,
+  "modified": [
+    "Assets/Game/Input/LabControls.inputactions",
+    "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "Assets/Game/Animations/Scientist/Scientist.controller",
+    "Assets/Game/Scripts/Player/LabPlayerAnimation.cs",
+    "Assets/Game/Scripts/Player/LabPlayerInput.cs",
+    "Assets/Game/Scripts/Player/LabPlayerMotor.cs",
+    "Assets/Game/Scripts/UI/LabMenuView.cs"
+  ],
+  "added": [
+    "Assets/Game/Tests/SprintPlayModeChecks.cs",
+    "Assets/Game/Tests/SprintPlayModeChecks.cs.meta",
+    "Assets/Game/Animations/Scientist/Source/Scientist_Run.fbx",
+    "Assets/Game/Animations/Scientist/Source/Scientist_Run.fbx.meta"
+  ],
+  "removed": [],
+  "restoredEvidence": 21,
+  "hashVerified": 21,
+  "editMode": true,
+  "sceneDirty": false,
+  "roots": 12,
+  "timeScale": 1.0,
+  "runInBackground": false,
+  "temporaryDevices": [],
+  "temporaryRunners": []
+}

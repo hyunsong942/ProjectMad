@@ -1,0 +1,173 @@
+{
+    "timestamp": "2026-10-22T10:44:28.3958999+09:00",
+    "complete": true,
+    "passed": 33,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Startup opens main menu and hides gameplay HUD",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Startup freezes gameplay but loops streamed BGM",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Main menu blocks movement attacks dodge and enemy AI",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Main menu settings button works with paused clock",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Mouse sliders independently set master effects and music",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Volume groups apply to listener music and every combat source",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Back returns to the originating main menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Volume values are saved to PlayerPrefs",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Master slider reaches mute without changing group values",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Music slider mutes only music",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Effects slider mutes all combat sources while music plays",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Escape closes settings to main menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Actual Start button enters gameplay without an accidental attack",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "BGM continues from menu into game without restarting",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Actual melee contact displays one matching enemy damage number",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Rejected friendly damage creates no number",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Player damage also displays exact applied damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Escape opens pause menu and releases cursor",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes position combo clocks damage numbers and health",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Paused damage and attack entry points are rejected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "BGM continues while effects and gameplay are paused",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause settings opens while simulation remains frozen",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Escape from pause settings returns to pause",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Resume button restores control and cannot queue a menu click",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Damage numbers expire after resumed gameplay time",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Overkill displays remaining health rather than requested damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Exit reloads a clean stage behind main menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Scene reload preserves music volume and avoids duplicate services",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Starting again begins a fresh playable run",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes death animation and postpones game-over UI",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Resuming death reaches held pose and game-over panel",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Existing result Restart returns directly to gameplay",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Repeated exit remains stable with one music source",
+            "detail": "",
+            "passed": true
+        }
+    ]
+}

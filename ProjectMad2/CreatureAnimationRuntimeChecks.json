@@ -1,0 +1,55 @@
+{
+  "complete": true,
+  "timestamp": "2026-10-21T18:27:20.5232951+09:00",
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Walking animation follows actual pursuit",
+      "passed": true,
+      "detail": "Observed Chase movement with Walk state."
+    },
+    {
+      "name": "One hit applies the configured damage",
+      "passed": true,
+      "detail": "events=1, damage=10"
+    },
+    {
+      "name": "Damage aligns with frame 8 of the 26-frame punch",
+      "passed": true,
+      "detail": "normalized=0.3069333"
+    },
+    {
+      "name": "Attack recovery keeps feet stationary",
+      "passed": true,
+      "detail": "planar displacement=0"
+    },
+    {
+      "name": "Pursuit resumes after recovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Death animation reaches its final pose",
+      "passed": true,
+      "detail": "state=Death"
+    },
+    {
+      "name": "Dead guard colliders are disabled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CharacterController owns movement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Animated silhouette stays grounded",
+      "passed": true,
+      "detail": "max error=0.0982396, samples=416"
+    }
+  ],
+  "groundSamples": 416,
+  "maxGroundErrorMeters": 0.0982396
+}

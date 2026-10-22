@@ -1,0 +1,11 @@
+{
+    "name": "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain.Tests",
+    "references": [
+        "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

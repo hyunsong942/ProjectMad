@@ -1,0 +1,111 @@
+{
+  "complete": true,
+  "timestamp": "2026-10-21T17:34:35.4050968+09:00",
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Source copy intact: Varco_InventorHouse.fbx",
+      "passed": true,
+      "detail": "77C1D4160932A74D99C2783F2E908628CD779B13DF2A5FC2F94EA615D3AA5B68"
+    },
+    {
+      "name": "Source copy intact: Varco_ClockworkShop.fbx",
+      "passed": true,
+      "detail": "EB3D1858842016144C32FB050E7098218044334469459C3166D2E92BC5346FD3"
+    },
+    {
+      "name": "Source copy intact: Varco_BrassWorkshop.fbx",
+      "passed": true,
+      "detail": "AAADC4672758404C28F9B395120129C68C45D354EB3ED9FE3CF34C00E82DD0B6"
+    },
+    {
+      "name": "Source copy intact: Varco_BoilerHouse.fbx",
+      "passed": true,
+      "detail": "D1254A0B8C6297F18CF27CF6C6F21212DFCAAC55B10C9B549975DB3DFC817E80"
+    },
+    {
+      "name": "Source copy intact: Varco_IndustrialWall.fbx",
+      "passed": true,
+      "detail": "0496BD854F666D967816C52DB0B88CC7065C116DC4691048D134FA2D8526ED1C"
+    },
+    {
+      "name": "Source copy intact: Steampunk_FloorTile.png",
+      "passed": true,
+      "detail": "B7317881E73C73C941A2D6E82E85AC058936C645336E2FF7704EF1643C9FE712"
+    },
+    {
+      "name": "Four buildings and twenty-four wall modules are active",
+      "passed": true,
+      "detail": "One of each building; exit corridor included."
+    },
+    {
+      "name": "Environment is grounded and supported by the floor",
+      "passed": true,
+      "detail": "Bounds within 27 x 27 metre foundation."
+    },
+    {
+      "name": "All environment renderers have URP textures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Player and guard spawns are clear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Perimeter has continuous collision away from exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Exit corridor remains open beyond locked door",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Environment models import as static assets",
+      "passed": true,
+      "detail": "No animation controllers or behaviour scripts added."
+    }
+  ],
+  "sources": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Inventor House-7ac1c082ada4370b7ca5617cb1903098.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/InventorHouse/Varco_InventorHouse.fbx",
+      "sourceHash": "77C1D4160932A74D99C2783F2E908628CD779B13DF2A5FC2F94EA615D3AA5B68",
+      "copyHash": "77C1D4160932A74D99C2783F2E908628CD779B13DF2A5FC2F94EA615D3AA5B68"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Clockwork Shop-18bb4c43515cf9a485a3693767458f15.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/ClockworkShop/Varco_ClockworkShop.fbx",
+      "sourceHash": "EB3D1858842016144C32FB050E7098218044334469459C3166D2E92BC5346FD3",
+      "copyHash": "EB3D1858842016144C32FB050E7098218044334469459C3166D2E92BC5346FD3"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Brass Workshop Building-42d9191cf0a646b446854bbae31875ff.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/BrassWorkshop/Varco_BrassWorkshop.fbx",
+      "sourceHash": "AAADC4672758404C28F9B395120129C68C45D354EB3ED9FE3CF34C00E82DD0B6",
+      "copyHash": "AAADC4672758404C28F9B395120129C68C45D354EB3ED9FE3CF34C00E82DD0B6"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Boiler House-4b92e3288042b0727b97e8e0ce9da5b7.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/BoilerHouse/Varco_BoilerHouse.fbx",
+      "sourceHash": "D1254A0B8C6297F18CF27CF6C6F21212DFCAAC55B10C9B549975DB3DFC817E80",
+      "copyHash": "D1254A0B8C6297F18CF27CF6C6F21212DFCAAC55B10C9B549975DB3DFC817E80"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Industrial Wall-ac5284c61707d934c925801bfc286c28 (1).fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/IndustrialWall/Varco_IndustrialWall.fbx",
+      "sourceHash": "0496BD854F666D967816C52DB0B88CC7065C116DC4691048D134FA2D8526ED1C",
+      "copyHash": "0496BD854F666D967816C52DB0B88CC7065C116DC4691048D134FA2D8526ED1C"
+    },
+    {
+      "source": "C:\\Users\\mbc\\AppData\\Local\\Temp\\codex-clipboard-55ff810e-dddb-4a50-8962-9ad85e0dfbee.png",
+      "asset": "Assets/Game/Textures/Environment/Steampunk_FloorTile.png",
+      "sourceHash": "B7317881E73C73C941A2D6E82E85AC058936C645336E2FF7704EF1643C9FE712",
+      "copyHash": "B7317881E73C73C941A2D6E82E85AC058936C645336E2FF7704EF1643C9FE712"
+    }
+  ]
+}

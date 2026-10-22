@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-21T17:53:58.6571543+09:00",
+  "sourceHash": "C73042123F455391172D42056BE6FEDA7433EDD1131C6E99B91AC0688C7D1537",
+  "copyHash": "C73042123F455391172D42056BE6FEDA7433EDD1131C6E99B91AC0688C7D1537",
+  "sourceUnchanged": true,
+  "wallCount": 24,
+  "thicknessScaleUnchanged": true,
+  "allHeights4_5m": true,
+  "meshSurfaceRays": 3652,
+  "missedSurfaceRays": 1,
+  "misses": [
+    "side=3 p=-2.6 y=1.5"
+  ],
+  "exitCapsules": 13,
+  "blockedExitCapsules": 0,
+  "blocked": [],
+  "source": "C:\\Users\\mbc\\Downloads\\Steampunk Brick Wall-659062009254b2f90e090fcd66510d41.fbx",
+  "asset": "Assets/Game/Models/Varco/Environment/BrickWall/Varco_BrickWall.fbx"
+}

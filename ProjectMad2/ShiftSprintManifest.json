@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-22",
+  "request": "Running.fbx로 Shift 달리기 적용 및 남은 개발 작업 안내",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "source": "C:/Users/mbc/Downloads/Running.fbx",
+  "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Run.fbx",
+  "sourceVerification": {
+    "sourcePreserved": true,
+    "sha256": "1ADD109EA74AD6348B4B406E84051F0B3B179DF5B94EC8635DA151CBF62232F7",
+    "length": 0.8333334,
+    "loop": true,
+    "human": true,
+    "validAvatar": true
+  },
+  "input": {
+    "action": "Gameplay/Sprint",
+    "bindings": [
+      "<Keyboard>/leftShift",
+      "<Keyboard>/rightShift"
+    ],
+    "mode": "hold while moving"
+  },
+  "movement": {
+    "walk": 4.5,
+    "sprint": 7,
+    "transitionSeconds": 0.18,
+    "staminaCost": 0,
+    "rollDistance": 3,
+    "rollDuration": 0.75
+  },
+  "animation": {
+    "clip": "Run",
+    "firstFrame": 0,
+    "lastFrame": 25,
+    "fps": 30,
+    "seconds": 0.8333334,
+    "humanoid": true,
+    "loop": true,
+    "rootMotion": false,
+    "stateParameter": "RunSpeed",
+    "runMetersPerSecond": 4.43329,
+    "sprintSpeed": 7,
+    "animationPlayback": 1.5789628
+  },
+  "tests": {
+    "sprint": 25,
+    "combo": 44,
+    "total": 69,
+    "failed": 0,
+    "sceneIssues": 0,
+    "playModeErrors": 0,
+    "playModeWarnings": 0,
+    "postStopMCPWarnings": 1,
+    "buildTested": false
+  },
+  "remainingPriorities": [
+    "목표 3~5분에 맞춘 스테이지 분량/난이도 조정",
+    "Windows 실행 파일 빌드 및 실제 플레이 검사",
+    "제출용 조작법/기능 설명/AI 개발 포트폴리오 정리"
+  ],
+  "optionalPolish": [
+    "발소리와 피격음",
+    "타격/사망 효과 보강"
+  ],
+  "integrity": {
+    "before": 408,
+    "after": 412,
+    "modified": [
+      "Assets/Game/Input/LabControls.inputactions",
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+      "Assets/Game/Animations/Scientist/Scientist.controller",
+      "Assets/Game/Scripts/Player/LabPlayerAnimation.cs",
+      "Assets/Game/Scripts/Player/LabPlayerInput.cs",
+      "Assets/Game/Scripts/Player/LabPlayerMotor.cs",
+      "Assets/Game/Scripts/UI/LabMenuView.cs"
+    ],
+    "added": [
+      "Assets/Game/Tests/SprintPlayModeChecks.cs",
+      "Assets/Game/Tests/SprintPlayModeChecks.cs.meta",
+      "Assets/Game/Animations/Scientist/Source/Scientist_Run.fbx",
+      "Assets/Game/Animations/Scientist/Source/Scientist_Run.fbx.meta"
+    ],
+    "removed": [],
+    "restoredEvidence": 21,
+    "hashVerified": 21,
+    "editMode": true,
+    "sceneDirty": false,
+    "roots": 12,
+    "timeScale": 1,
+    "runInBackground": false,
+    "temporaryDevices": [],
+    "temporaryRunners": []
+  },
+  "backup": "DevelopmentBackups/ShiftSprint_20261022_112153",
+  "reports": "ShiftSprintReports/20261022_112153",
+  "tools": [
+    "read_mcp_resource",
+    "execute_code",
+    "manage_editor",
+    "read_console",
+    "manage_scene"
+  ]
+}

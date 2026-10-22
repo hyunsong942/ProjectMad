@@ -1,0 +1,50 @@
+[
+  {
+    "step": 1,
+    "contact": 0.675,
+    "bulb": [
+      0.0532302856,
+      0.7992706,
+      1.44404685
+    ],
+    "hand": [
+      0.0281867981,
+      0.906978846,
+      0.5107749
+    ],
+    "bulbForwardOfHand": true,
+    "bulbInFront": true
+  },
+  {
+    "step": 2,
+    "contact": 0.225,
+    "bulb": [
+      0.435524,
+      1.02796149,
+      1.17553592
+    ],
+    "hand": [
+      0.473011017,
+      1.37719417,
+      0.303839058
+    ],
+    "bulbForwardOfHand": true,
+    "bulbInFront": true
+  },
+  {
+    "step": 3,
+    "contact": 0.25,
+    "bulb": [
+      -0.0520095825,
+      0.672215939,
+      1.57821
+    ],
+    "hand": [
+      0.113868713,
+      0.825429559,
+      0.665941
+    ],
+    "bulbForwardOfHand": true,
+    "bulbInFront": true
+  }
+]

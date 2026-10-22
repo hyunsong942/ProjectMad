@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-21",
+  "scope": "Phase 4 models, textures, player locomotion animations and click-driven three-hit combo",
+  "models": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Gentleman Character-577950f548ab60f665d31aaf8728c152 (1).fbx",
+      "sourceHash": "155AABB431DAD301A851A471DE90FA5FD4ACA9135273C78C3EE843C8B328EB22",
+      "copyHash": "155AABB431DAD301A851A471DE90FA5FD4ACA9135273C78C3EE843C8B328EB22"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Bronze Golem-a051fa710a8284ff997f805d486d94d3.fbx",
+      "sourceHash": "555F987C08E7103A4653AD89CE102574F018140BB58C2FC4766BDD637EB0749E",
+      "copyHash": "555F987C08E7103A4653AD89CE102574F018140BB58C2FC4766BDD637EB0749E"
+    }
+  ],
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "roles": {
+    "gentleman": "Controllable scientist player character",
+    "bronzeGolem": "Three guard enemy visuals"
+  },
+  "modelHeightMeters": 1.8,
+  "importAnimation": false,
+  "materials": "Universal Render Pipeline/Lit; embedded base_color.png and normal.png extracted",
+  "integrity": {
+    "before": 173,
+    "after": 200,
+    "modified": [
+      "Assets\\Game\\Prefabs\\Enemies\\GuardRobot.prefab",
+      "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets\\Game\\Models\\Varco.meta",
+      "Assets\\Game\\Models\\Varco\\Golem.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Varco_BronzeGolem.fbx",
+      "Assets\\Game\\Models\\Varco\\Golem\\Varco_BronzeGolem.fbx.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials\\Varco_BronzeGolem_URP.mat",
+      "Assets\\Game\\Models\\Varco\\Golem\\Materials\\Varco_BronzeGolem_URP.mat.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\base_color.png",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\base_color.png.meta",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\normal.png",
+      "Assets\\Game\\Models\\Varco\\Golem\\Textures\\normal.png.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Varco_SteampunkGentleman.fbx",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Varco_SteampunkGentleman.fbx.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials\\Varco_SteampunkGentleman_URP.mat",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Materials\\Varco_SteampunkGentleman_URP.mat.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\base_color.png",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\base_color.png.meta",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\normal.png",
+      "Assets\\Game\\Models\\Varco\\Scientist\\Textures\\normal.png.meta",
+      "Assets\\Game\\Prefabs\\Enemies\\VarcoBronzeGolem_Visual.prefab",
+      "Assets\\Game\\Prefabs\\Enemies\\VarcoBronzeGolem_Visual.prefab.meta",
+      "Assets\\Game\\Prefabs\\Environment\\VarcoScientist.prefab",
+      "Assets\\Game\\Prefabs\\Environment\\VarcoScientist.prefab.meta"
+    ],
+    "deleted": []
+  },
+  "regression": {
+    "phase": "Phase 4 model regression",
+    "timestamp": "2026-10-21T14:52:04.3309509+09:00",
+    "complete": true,
+    "passed": 39,
+    "failed": 0,
+    "combat": "WASD and mouse only, after restoring spawn; elapsed=5.582531s, HP=70, attacks=6"
+  },
+  "playerRoleCorrection": {
+    "date": "2026-10-21",
+    "requestedBy": "User clarified that the scientist is the player character",
+    "playerVisualPrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Visual.prefab",
+    "removedSceneObjects": [
+      "VarcoScientist_ResearchStation",
+      "ScientistNPC_Varco",
+      "NPC_PlaceholderBase"
+    ],
+    "oldEnvironmentPrefab": "Retained as unused historical asset",
+    "animation": "Deferred by user; no Animator, Animation or clips added",
+    "integrity": {
+      "before": 200,
+      "after": 202,
+      "modified": [
+        "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+      ],
+      "added": [
+        "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Visual.prefab.meta",
+        "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Visual.prefab"
+      ],
+      "deleted": []
+    },
+    "regression": {
+      "phase": "Player scientist correction regression",
+      "timestamp": "2026-10-21T15:08:52.6177172+09:00",
+      "complete": true,
+      "passed": 39,
+      "failed": 0,
+      "combat": "WASD and mouse only, after restoring spawn; elapsed=5.601201s, HP=70, attacks=6"
+    },
+    "validationFile": "PlayerScientistValidation.json",
+    "testResultsFile": "PlayerScientistTestResults.json"
+  },
+  "activePlayerModel": {
+    "revision": 3,
+    "date": "2026-10-21",
+    "role": "Controllable scientist player character",
+    "source": "C:\\Users\\mbc\\Downloads\\Drunk Idle.fbx",
+    "sourceHash": "5381A8DFC34BEB43D54CBF0344C08ED7AB3DC154945AAB87325ABBFDDA730234",
+    "copyHash": "5381A8DFC34BEB43D54CBF0344C08ED7AB3DC154945AAB87325ABBFDDA730234",
+    "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Idle.fbx",
+    "visualPrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Animated.prefab",
+    "material": "Assets/Game/Models/Varco/ScientistV2/Materials/Varco_SteampunkGentleman_V2_URP.mat",
+    "textures": [
+      "base_color.png",
+      "normal.png"
+    ],
+    "heightMeters": 1.8,
+    "importAnimation": true,
+    "previousVersionPreserved": true,
+    "validationFile": "PlayerComboAnimationManifest.json",
+    "testResultsFile": "PlayerComboTestResults.json",
+    "baseVisualSource": "C:\\Users\\mbc\\Downloads\\Steampunk Gentleman Character-b22ccfb55b658305fe38768ba9525eaa (1) (1).fbx",
+    "rig": "Humanoid",
+    "stageTestResultsFile": "PlayerComboStageTestResults.json"
+  },
+  "modelRevisions": [
+    {
+      "revision": 2,
+      "date": "2026-10-21",
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Gentleman Character-b22ccfb55b658305fe38768ba9525eaa (1) (1).fbx",
+      "previousVisualPrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Visual.prefab",
+      "currentVisualPrefab": "Assets/Game/Prefabs/Player/VarcoScientistV2_Visual.prefab",
+      "integrity": {
+        "before": 202,
+        "after": 215,
+        "modified": [
+          "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+        ],
+        "added": [
+          "Assets\\Game\\Models\\Varco\\ScientistV2.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Varco_SteampunkGentleman_V2.fbx.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Varco_SteampunkGentleman_V2.fbx",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\base_color.png",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\base_color.png.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials\\Varco_SteampunkGentleman_V2_URP.mat.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\normal.png.meta",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\normal.png",
+          "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials\\Varco_SteampunkGentleman_V2_URP.mat",
+          "Assets\\Game\\Prefabs\\Player\\VarcoScientistV2_Visual.prefab",
+          "Assets\\Game\\Prefabs\\Player\\VarcoScientistV2_Visual.prefab.meta"
+        ],
+        "deleted": []
+      },
+      "regression": {
+        "complete": true,
+        "passed": 39,
+        "failed": 0,
+        "timestamp": "2026-10-21T15:33:37.842856+09:00"
+      }
+    },
+    {
+      "revision": 3,
+      "date": "2026-10-21",
+      "purpose": "Activate skinned scientist and player combo animations from user FBX files",
+      "previousVisualPrefab": "Assets/Game/Prefabs/Player/VarcoScientistV2_Visual.prefab",
+      "currentVisualPrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Animated.prefab",
+      "integrity": {
+        "before": 215,
+        "after": 234,
+        "modified": [
+          "Assets\\Game\\Scripts\\Player\\LabPlayerMotor.cs",
+          "Assets\\Game\\Scripts\\Player\\LabPlayerDodge.cs",
+          "Assets\\Game\\Scripts\\Player\\LabPlayerCombat.cs",
+          "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+        ],
+        "added": [
+          "Assets\\Game\\Tests\\PlayerComboPlayModeChecks.cs.meta",
+          "Assets\\Game\\Tests\\PlayerComboPlayModeChecks.cs",
+          "Assets\\Game\\Scripts\\Player\\LabPlayerAnimation.cs.meta",
+          "Assets\\Game\\Scripts\\Player\\LabPlayerAnimation.cs",
+          "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Animated.prefab.meta",
+          "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Animated.prefab",
+          "Assets\\Game\\Animations.meta",
+          "Assets\\Game\\Animations\\Scientist.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source.meta",
+          "Assets\\Game\\Animations\\Scientist\\Scientist.controller",
+          "Assets\\Game\\Animations\\Scientist\\Scientist.controller.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Walk.fbx.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Walk.fbx",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Idle.fbx.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Idle.fbx",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Dodge.fbx.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Dodge.fbx",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Combo_Source.fbx.meta",
+          "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Combo_Source.fbx"
+        ],
+        "deleted": [],
+        "originalPhase3EvidenceRestored": true
+      },
+      "validation": {
+        "combo": {
+          "passed": 30,
+          "failed": 0,
+          "complete": true,
+          "timestamp": "2026-10-21T16:02:25.9631929+09:00"
+        },
+        "stage": {
+          "passed": 39,
+          "failed": 0,
+          "complete": true,
+          "timestamp": "2026-10-21T16:05:34.5177399+09:00",
+          "combat": "WASD and mouse only, after restoring spawn; elapsed=7.223408s, HP=60, attacks=6"
+        }
+      }
+    }
+  ],
+  "animationScope": {
+    "player": "Idle, walk, dodge and three-hit combo enabled by user request",
+    "enemies": "Unchanged; no enemy animation added",
+    "manifest": "PlayerComboAnimationManifest.json"
+  },
+  "environment": {
+    "date": "2026-10-21",
+    "manifest": "SteampunkEnvironmentManifest.json",
+    "buildingCount": 4,
+    "wallModuleCount": 24,
+    "floor": "Assets/Game/Textures/Environment/Steampunk_FloorTile.png",
+    "validation": {
+      "staticPassed": 13,
+      "stagePassed": 39,
+      "failed": 0
+    },
+    "activeWallRevision": {
+      "date": "2026-10-21",
+      "manifest": "BrickWallRefinementManifest.json",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrickWall.prefab",
+      "heightMeters": 4.5,
+      "depthMeters": 0.850493848,
+      "checks": "BrickWallRefinementChecks.json",
+      "supersedes": "Original IndustrialWall placements and wall measurements in this historical manifest"
+    }
+  }
+}

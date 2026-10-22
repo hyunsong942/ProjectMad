@@ -1,0 +1,187 @@
+{
+    "complete": true,
+    "passed": 35,
+    "failed": 1,
+    "checks": [
+        {
+            "name": "Boss is dormant and exit locked before starting",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Main menu cannot activate boss",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Two guard deaths do not summon boss",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Last guard summons boss once and keeps exit locked",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Repeated awaken cannot restart the encounter",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss appears away from player with full health",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Introduction cannot deal or receive damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss health bar is visible at full health",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss rig and all seven motions are valid",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes boss clock movement and pose",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause hides gameplay boss bar canvas",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Roar finishes and enables combat",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Distant boss runs toward player",
+            "detail": "0.4001756",
+            "passed": true
+        },
+        {
+            "name": "First attack is telegraphed punch",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Attack commits its direction and can be sidestepped",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Warning ends after contact and recovery gives an opening",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Second attack alternates to wide swipe",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Swipe applies exactly 22 damage at contact",
+            "detail": "Damage=22",
+            "passed": true
+        },
+        {
+            "name": "One animation cannot apply repeated damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Attack sounds play once per contact",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Timed Space dodge avoids boss contact",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss cannot damage through solid wall",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Three actual mouse clicks deal three 15-damage combo hits",
+            "detail": "Damage=45",
+            "passed": true
+        },
+        {
+            "name": "Boss health bar tracks remaining fraction",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss hits generate floating damage numbers",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Friendly and invalid damage cannot hurt boss",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Paused combat rejects boss damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss death happens once and disables collision",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Only defeated boss unlocks exit",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Boss death hides its health bar",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Death animation reaches its final pose",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Dead boss stays still at final pose",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Exit clears completed encounter",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Restart restores three guards and dormant boss",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Player death during boss intro produces Game Over and stops boss",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Return to menu reloads fresh dormant encounter",
+            "detail": "",
+            "passed": false
+        }
+    ]
+}

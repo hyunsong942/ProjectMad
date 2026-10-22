@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-10-22T10:02:00.2172221+09:00",
+  "complete": true,
+  "passed": 16,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Dodge gauge starts full and ready",
+      "passed": true,
+      "detail": "fill=1"
+    },
+    {
+      "name": "Dodge can start from ready state",
+      "passed": true,
+      "detail": "Direct action call; input path covered by combo suite."
+    },
+    {
+      "name": "Gauge follows dodge recharge",
+      "passed": true,
+      "detail": "fill=0.1293729, progress=0.1293729"
+    },
+    {
+      "name": "Dodge cannot repeat during roll",
+      "passed": true,
+      "detail": "Active roll rejected second action."
+    },
+    {
+      "name": "Cooldown remains after roll ends",
+      "passed": true,
+      "detail": "remaining=0.5989609"
+    },
+    {
+      "name": "Gauge becomes ready with actual cooldown",
+      "passed": true,
+      "detail": "remaining=0"
+    },
+    {
+      "name": "Camera avoids the south wall",
+      "passed": true,
+      "detail": "camera=(0.00, 1.61, -11.31), distance=0.540356"
+    },
+    {
+      "name": "Golem walk animation follows pursuit",
+      "passed": true,
+      "detail": "Observed actual Chase movement with Walk state."
+    },
+    {
+      "name": "Golem punch applies one ten-point hit",
+      "passed": true,
+      "detail": "events=1, damage=10"
+    },
+    {
+      "name": "Golem damage matches punch contact frame",
+      "passed": true,
+      "detail": "normalized=0.3076456"
+    },
+    {
+      "name": "Golem finishes recovery before moving",
+      "passed": true,
+      "detail": "recoverySeen=True, stationary=True, resumed=True"
+    },
+    {
+      "name": "Enemy animation does not drive root movement",
+      "passed": true,
+      "detail": "CharacterController movement."
+    },
+    {
+      "name": "Dead golem finishes death animation",
+      "passed": true,
+      "detail": "state=Death, normalized=1.426697"
+    },
+    {
+      "name": "Dead golem does not block movement",
+      "passed": true,
+      "detail": "All guard colliders disabled."
+    },
+    {
+      "name": "Golem remains near ground while animating",
+      "passed": true,
+      "detail": "maximum vertical deviation=0.1173929, samples=108"
+    },
+    {
+      "name": "Game over disables dodge gauge readiness",
+      "passed": true,
+      "detail": "fill=0"
+    }
+  ],
+  "groundSamples": 108,
+  "maxGroundErrorMeters": 0.117392853
+}

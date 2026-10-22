@@ -1,0 +1,10 @@
+{
+    "name": "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain.Editor",
+    "references": [
+      "Hyunsongbong.HttpsGithubComCoplayDevUnityMcpGitPathMCPForUnityMain"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

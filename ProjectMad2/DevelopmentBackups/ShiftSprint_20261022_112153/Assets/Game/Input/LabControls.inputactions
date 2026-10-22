@@ -1,0 +1,195 @@
+{
+  "name": "LabControls",
+  "maps": [
+    {
+      "name": "Gameplay",
+      "id": "3ae0f9ec-5800-400a-93f8-96c540190684",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "expectedControlType": "Vector2",
+          "id": "34e5f5c0-f721-4508-9ee8-e2f5d8d99f48",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Look",
+          "type": "Value",
+          "expectedControlType": "Vector2",
+          "id": "e02389d5-f4c7-47ad-be27-def2d5bfb640",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Dodge",
+          "type": "Button",
+          "expectedControlType": "Button",
+          "id": "ac53a8b9-e622-472c-af8b-cef5c81bef03",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "ReleaseCursor",
+          "type": "Button",
+          "expectedControlType": "Button",
+          "id": "a641f036-0c32-4600-8985-e4f0c4baad30",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "CaptureCursor",
+          "type": "Button",
+          "expectedControlType": "Button",
+          "id": "df11c3b3-17f6-4c1b-b43d-0a71bbb7e6ce",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Attack",
+          "type": "Button",
+          "expectedControlType": "Button",
+          "id": "ec492d5b-16db-48f4-8faa-d32770e5d293",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        }
+      ],
+      "bindings": [
+        {
+          "name": "WASD",
+          "id": "ec15baf9-774e-464c-9570-a4ccb145ff8a",
+          "path": "2DVector",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Move",
+          "isComposite": true,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "up",
+          "id": "9bc1efe5-05f0-4fb3-b837-29fd0461e377",
+          "path": "<Keyboard>/w",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "down",
+          "id": "af7cc2af-8625-45c3-aa24-8c6d7dfa0fa9",
+          "path": "<Keyboard>/s",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "left",
+          "id": "ee14f68f-adf8-42d4-81a4-626cd34702e6",
+          "path": "<Keyboard>/a",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "right",
+          "id": "a6589c52-c2ab-4575-825a-202ccea5ebf1",
+          "path": "<Keyboard>/d",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": true
+        },
+        {
+          "name": "",
+          "id": "1d2a10dc-f8ed-45cf-a0fb-1f4d61004aad",
+          "path": "<Mouse>/delta",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Look",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "a6d49177-568f-413d-8782-5c6cd0bc7071",
+          "path": "<Keyboard>/space",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Dodge",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "8445e99f-2362-4422-b9bb-cfabfb04f1e1",
+          "path": "<Keyboard>/escape",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "ReleaseCursor",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "80d4a8f8-eb1c-49a1-bf1f-3a2abed00a7d",
+          "path": "<Mouse>/leftButton",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "CaptureCursor",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "0effbee4-edb6-4a5a-90d1-b0839f19ca16",
+          "path": "<Mouse>/leftButton",
+          "interactions": "",
+          "processors": "",
+          "groups": "Keyboard&Mouse",
+          "action": "Attack",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": [
+    {
+      "name": "Keyboard&Mouse",
+      "bindingGroup": "Keyboard&Mouse",
+      "devices": [
+        {
+          "devicePath": "<Keyboard>",
+          "isOptional": false,
+          "isOR": false
+        },
+        {
+          "devicePath": "<Mouse>",
+          "isOptional": false,
+          "isOR": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "task": "User supplied bronze golem boss",
+  "timestamp": "2026-10-22T13:14:46.5619752+09:00",
+  "backup": "DevelopmentBackups/BronzeBoss_20261022_125120",
+  "report": "BronzeBossReports/20261022_125120",
+  "sourceSHA256": "8D403217679E2FB5E8AA33CEB4E8BED840DC944062A0EC62880CB3D12451D342",
+  "bossHealth": 300,
+  "bossHeightApproxMetres": 3.2,
+  "animationRig": "Generic",
+  "motions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Roar",
+    "Punch",
+    "Swipe",
+    "Death"
+  ],
+  "bossChecks": {
+    "complete": true,
+    "passed": 36,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "Boss is dormant and exit locked before starting",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Main menu cannot activate boss",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Two guard deaths do not summon boss",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Last guard summons boss once and keeps exit locked",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Repeated awaken cannot restart the encounter",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss appears away from player with full health",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Introduction cannot deal or receive damage",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss health bar is visible at full health",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss rig and all seven motions are valid",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Pause freezes boss clock movement and pose",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Pause hides gameplay boss bar canvas",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Roar finishes and enables combat",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Distant boss runs toward player",
+        "detail": "0.416622",
+        "passed": true
+      },
+      {
+        "name": "First attack is telegraphed punch",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Attack commits its direction and can be sidestepped",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Warning ends after contact and recovery gives an opening",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Second attack alternates to wide swipe",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Swipe applies exactly 22 damage at contact",
+        "detail": "Damage=22",
+        "passed": true
+      },
+      {
+        "name": "One animation cannot apply repeated damage",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Attack sounds play once per contact",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Timed Space dodge avoids boss contact",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss cannot damage through solid wall",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Three actual mouse clicks deal three 15-damage combo hits",
+        "detail": "Damage=45",
+        "passed": true
+      },
+      {
+        "name": "Boss health bar tracks remaining fraction",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss hits generate floating damage numbers",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Friendly and invalid damage cannot hurt boss",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Paused combat rejects boss damage",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss death happens once and disables collision",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Only defeated boss unlocks exit",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Boss death hides its health bar",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Death animation reaches its final pose",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Dead boss stays still at final pose",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Exit clears completed encounter",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Restart restores three guards and dormant boss",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Player death during boss intro produces Game Over and stops boss",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Return to menu reloads fresh dormant encounter",
+        "detail": "",
+        "passed": true
+      }
+    ]
+  },
+  "stageChecks": {
+    "phase": "Phase 3",
+    "timestamp": "2026-10-22T13:13:04.3778531+09:00",
+    "complete": true,
+    "passed": 42,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "Stage begins with 100 HP and three living guards",
+        "passed": true,
+        "detail": "Initial state."
+      },
+      {
+        "name": "HUD displays initial health, enemy count and objective",
+        "passed": true,
+        "detail": "Korean HUD visible."
+      },
+      {
+        "name": "Korean font available",
+        "passed": true,
+        "detail": "Malgun Gothic"
+      },
+      {
+        "name": "Health bar supports partial fill",
+        "passed": true,
+        "detail": "Built-in UI sprite assigned."
+      },
+      {
+        "name": "Exit initially locked",
+        "passed": true,
+        "detail": "Physical barrier and objective agree."
+      },
+      {
+        "name": "Restart ignored while running",
+        "passed": true,
+        "detail": "No result screen at startup."
+      },
+      {
+        "name": "Running stage cannot reload from Restart",
+        "passed": true,
+        "detail": "State guard."
+      },
+      {
+        "name": "Locked door physically blocks player",
+        "passed": true,
+        "detail": "Player z=8.770001"
+      },
+      {
+        "name": "Locked exit rejects player",
+        "passed": true,
+        "detail": "Enemy count=3."
+      },
+      {
+        "name": "Locked trigger cannot clear even if entered",
+        "passed": true,
+        "detail": "Player placed inside trigger for boundary test."
+      },
+      {
+        "name": "Input-only combat clears all three default guards",
+        "passed": true,
+        "detail": "WASD and mouse only, after restoring spawn; elapsed=7.283689s, HP=60, attacks=6"
+      },
+      {
+        "name": "Enemy counter tracks deaths",
+        "passed": true,
+        "detail": "Observed counts=3,2,1,0"
+      },
+      {
+        "name": "Dead guards cannot decrement count twice",
+        "passed": true,
+        "detail": "Repeated damage rejected."
+      },
+      {
+        "name": "Last guard activates boss and keeps exit locked",
+        "passed": true,
+        "detail": "Boss progression gate."
+      },
+      {
+        "name": "Boss defeat unlocks stage progression",
+        "passed": true,
+        "detail": "Direct boss damage fixture; actual boss input and patterns are covered by BossPlayModeChecks."
+      },
+      {
+        "name": "Defeated encounter opens exit without instant victory",
+        "passed": true,
+        "detail": "Door unlocked, barrier off, still must enter exit."
+      },
+      {
+        "name": "HUD switches objective to escape",
+        "passed": true,
+        "detail": "목표  북쪽 출구로 탈출하세요"
+      },
+      {
+        "name": "Health HUD reflects combat damage",
+        "passed": true,
+        "detail": "HP=60, fill=0.6"
+      },
+      {
+        "name": "Open door lifts clear of player",
+        "passed": true,
+        "detail": "Lifted door."
+      },
+      {
+        "name": "Door status light remains visible and green after opening",
+        "passed": true,
+        "detail": "Fixed header status light."
+      },
+      {
+        "name": "Only player can use exit",
+        "passed": true,
+        "detail": "Non-player rejected."
+      },
+      {
+        "name": "Walking into unlocked exit wins",
+        "passed": true,
+        "detail": "Exit trigger activated through actual CharacterController movement; pos=(0.02, 0.03, 9.80)"
+      },
+      {
+        "name": "Clear UI appears",
+        "passed": true,
+        "detail": "연구소 탈출 성공"
+      },
+      {
+        "name": "Victory disables player actions",
+        "passed": true,
+        "detail": "Movement, attack, dodge and CC stopped."
+      },
+      {
+        "name": "Victory releases cursor",
+        "passed": true,
+        "detail": "Cursor available for UI."
+      },
+      {
+        "name": "Victory cannot become game over from late damage",
+        "passed": true,
+        "detail": "Terminal state protected."
+      },
+      {
+        "name": "Clear-screen mouse button restarts scene keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Clear-screen mouse button restarts scene",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Restart restores controls and colliders",
+        "passed": true,
+        "detail": "Fresh scene actors."
+      },
+      {
+        "name": "Restart hides result screen and resets HUD",
+        "passed": true,
+        "detail": "HUD restored."
+      },
+      {
+        "name": "Default enemy attacks cause game over",
+        "passed": true,
+        "detail": "HP=0, enemy successful hits=10"
+      },
+      {
+        "name": "Death animation stays visible before result panel",
+        "passed": true,
+        "detail": "Game over locks controls immediately while the death clip plays."
+      },
+      {
+        "name": "Game-over UI and empty health bar",
+        "passed": true,
+        "detail": "Death HUD state."
+      },
+      {
+        "name": "Death prevents movement attacks and dodge",
+        "passed": true,
+        "detail": "Input attempted after death."
+      },
+      {
+        "name": "Game over stops all guard AI",
+        "passed": true,
+        "detail": "No attacks under result screen."
+      },
+      {
+        "name": "Game over cannot trigger victory",
+        "passed": true,
+        "detail": "Terminal state stays GameOver."
+      },
+      {
+        "name": "Game-over mouse button restarts scene keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Game-over mouse button restarts scene",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Player death after final guard kill loses during boss introduction",
+        "passed": true,
+        "detail": "Same-frame damage boundary; direct damage used only for this fixture."
+      },
+      {
+        "name": "Repeated restart resets subscriptions and enemy count keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Repeated restart resets subscriptions and enemy count",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Final fresh scene is playable",
+        "passed": true,
+        "detail": "Three successive reloads completed."
+      }
+    ]
+  },
+  "baselineFiles": 412,
+  "finalFiles": 455,
+  "modified": [
+    "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "Assets/Game/Tests/Phase3PlayModeChecks.cs",
+    "Assets/Game/Scripts/Managers/LabStageController.cs",
+    "Assets/Game/Scripts/UI/LabDamageNumbers.cs",
+    "Assets/Game/Scripts/UI/LabStageHUD.cs"
+  ],
+  "added": [
+    "Assets/Game/Animations/Boss.meta",
+    "Assets/Game/Materials/BossGolem_Bronze.mat",
+    "Assets/Game/Materials/BossGolem_Bronze.mat.meta",
+    "Assets/Game/Materials/Boss_AttackWarning.mat",
+    "Assets/Game/Materials/Boss_AttackWarning.mat.meta",
+    "Assets/Game/Materials/Boss_WarningEdge.mat",
+    "Assets/Game/Materials/Boss_WarningEdge.mat.meta",
+    "Assets/Game/Meshes/Boss_PunchWarning.asset",
+    "Assets/Game/Meshes/Boss_PunchWarning.asset.meta",
+    "Assets/Game/Meshes/Boss_SwipeWarning.asset",
+    "Assets/Game/Meshes/Boss_SwipeWarning.asset.meta",
+    "Assets/Game/Tests/BossPlayModeChecks.cs",
+    "Assets/Game/Tests/BossPlayModeChecks.cs.meta",
+    "Assets/Game/Animations/Boss/Boss.controller",
+    "Assets/Game/Animations/Boss/Boss.controller.meta",
+    "Assets/Game/Animations/Boss/Source.meta",
+    "Assets/Game/Models/Varco/BossGolem.meta",
+    "Assets/Game/Prefabs/Enemies/Boss_FurnaceGuardian.prefab",
+    "Assets/Game/Prefabs/Enemies/Boss_FurnaceGuardian.prefab.meta",
+    "Assets/Game/Scripts/Enemy/LabBossGolem.cs",
+    "Assets/Game/Scripts/Enemy/LabBossGolem.cs.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_BreathingIdle.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_BreathingIdle.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Death.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Death.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Punch.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Punch.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Roar.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Roar.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Run.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Run.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Swipe.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Swipe.fbx.meta",
+    "Assets/Game/Animations/Boss/Source/Boss_Walk.fbx",
+    "Assets/Game/Animations/Boss/Source/Boss_Walk.fbx.meta",
+    "Assets/Game/Models/Varco/BossGolem/Source.meta",
+    "Assets/Game/Models/Varco/BossGolem/Textures.meta",
+    "Assets/Game/Models/Varco/BossGolem/Source/BossGolem.fbx",
+    "Assets/Game/Models/Varco/BossGolem/Source/BossGolem.fbx.meta",
+    "Assets/Game/Models/Varco/BossGolem/Textures/base_color.png",
+    "Assets/Game/Models/Varco/BossGolem/Textures/base_color.png.meta",
+    "Assets/Game/Models/Varco/BossGolem/Textures/normal.png",
+    "Assets/Game/Models/Varco/BossGolem/Textures/normal.png.meta"
+  ],
+  "deleted": [],
+  "historicalEvidenceRestored": 21,
+  "sceneValidationIssues": 0,
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "buildPerformed": false,
+  "limitations": "Full input-only boss fight balance and standalone Windows build not tested. Guard combat, boss combo damage, dodge, stage exit and UI input verified; direct damage fixtures used for final boss death and stage boundaries.",
+  "tools": [
+    "read_mcp_resource",
+    "execute_code",
+    "manage_editor",
+    "manage_scene",
+    "manage_camera",
+    "read_console"
+  ]
+}

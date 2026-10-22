@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-21",
+  "checks": [
+    {
+      "name": "New scientist prefab active under Player",
+      "passed": true
+    },
+    {
+      "name": "One player CharacterController; model has no colliders",
+      "passed": true
+    },
+    {
+      "name": "Model height and ground alignment preserved",
+      "passed": true
+    },
+    {
+      "name": "Animations deferred",
+      "passed": true
+    },
+    {
+      "name": "Feedback references new scientist mesh",
+      "passed": true
+    },
+    {
+      "name": "New textures and URP material connected",
+      "passed": true
+    },
+    {
+      "name": "Original visual assets preserved",
+      "passed": true
+    },
+    {
+      "name": "Three golem guards retained; no scientist NPC",
+      "passed": true
+    }
+  ],
+  "bounds": "Center: (0.0000, 0.9500, -8.0000), Extents: (0.6881, 0.9000, 0.1865)",
+  "meshes": [
+    {
+      "vertices": 29683,
+      "triangles": 40000
+    }
+  ],
+  "textureSizes": [
+    {
+      "baseWidth": 2048,
+      "baseHeight": 2048,
+      "normalWidth": 2048,
+      "normalHeight": 2048
+    }
+  ],
+  "finalState": {
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "dirty": false,
+    "playing": false,
+    "rootCount": 11,
+    "inputEnabled": true,
+    "cameraControllerEnabled": true,
+    "cameraFOV": 60,
+    "activePrefab": "Assets/Game/Prefabs/Player/VarcoScientistV2_Visual.prefab",
+    "runners": 0,
+    "testDevices": 0
+  },
+  "sceneValidation": {
+    "sceneName": "MadScientistLab_Prototype",
+    "totalIssues": 0,
+    "missingScripts": 0,
+    "brokenPrefabs": 0,
+    "repaired": 0,
+    "issues": [],
+    "truncated": false,
+    "note": null
+  },
+  "console": {
+    "errors": 0,
+    "warnings": 1,
+    "note": "Play Mode regression finished with no errors or warnings. After exiting Play Mode, one MCP WebSocket is not initialised warning was returned; all MCP operation calls succeeded."
+  },
+  "source": {
+    "path": "C:\\Users\\mbc\\Downloads\\Steampunk Gentleman Character-b22ccfb55b658305fe38768ba9525eaa (1) (1).fbx",
+    "size": 24453744,
+    "hash": "FC1DF814EA5F5A84A49AF2D6E39D381AC130317EACC9C24A62D51EBA4BF018B1",
+    "copyHash": "FC1DF814EA5F5A84A49AF2D6E39D381AC130317EACC9C24A62D51EBA4BF018B1"
+  },
+  "integrity": {
+    "before": 202,
+    "after": 215,
+    "modified": [
+      "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets\\Game\\Models\\Varco\\ScientistV2.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Varco_SteampunkGentleman_V2.fbx.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Varco_SteampunkGentleman_V2.fbx",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\base_color.png",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\base_color.png.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials\\Varco_SteampunkGentleman_V2_URP.mat.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\normal.png.meta",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Textures\\normal.png",
+      "Assets\\Game\\Models\\Varco\\ScientistV2\\Materials\\Varco_SteampunkGentleman_V2_URP.mat",
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientistV2_Visual.prefab",
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientistV2_Visual.prefab.meta"
+    ],
+    "deleted": []
+  },
+  "regression": {
+    "complete": true,
+    "passed": 39,
+    "failed": 0,
+    "timestamp": "2026-10-21T15:33:37.8428560+09:00"
+  }
+}

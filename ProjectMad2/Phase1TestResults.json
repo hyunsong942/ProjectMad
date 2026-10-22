@@ -1,0 +1,139 @@
+{
+    "phase": "Phase 1",
+    "timestamp": "2026-10-21T13:14:16.5832618+09:00",
+    "complete": true,
+    "passed": 26,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Single isolated development scene",
+            "passed": true,
+            "detail": "Scene, Camera, AudioListener counts must each be 1."
+        },
+        {
+            "name": "Dedicated input has no Jump action",
+            "passed": true,
+            "detail": "Only Move, Look, Dodge, ReleaseCursor, CaptureCursor."
+        },
+        {
+            "name": "Idle remains grounded",
+            "passed": true,
+            "detail": "(0.000, 0.030, -6.000)"
+        },
+        {
+            "name": "W movement speed",
+            "passed": true,
+            "detail": "distance=2.708, seconds=0.602"
+        },
+        {
+            "name": "Release movement stops",
+            "passed": true,
+            "detail": "(0.000, 0.000, 0.000)"
+        },
+        {
+            "name": "S moves backwards",
+            "passed": true,
+            "detail": "z delta=-1.805"
+        },
+        {
+            "name": "A moves left and turns character",
+            "passed": true,
+            "detail": "(-1.000, 0.000, 0.000)"
+        },
+        {
+            "name": "D moves right",
+            "passed": true,
+            "detail": "x delta=1.807"
+        },
+        {
+            "name": "Diagonal speed normalized",
+            "passed": true,
+            "detail": "distance=2.703, seconds=0.601"
+        },
+        {
+            "name": "Movement follows camera yaw",
+            "passed": true,
+            "detail": "(2.259, 0.000, 0.000)"
+        },
+        {
+            "name": "Mouse rotates camera",
+            "passed": true,
+            "detail": "yaw=76.8, pitch=58.39994"
+        },
+        {
+            "name": "Upper pitch limit",
+            "passed": true,
+            "detail": "pitch=65"
+        },
+        {
+            "name": "Lower pitch limit",
+            "passed": true,
+            "detail": "pitch=-20"
+        },
+        {
+            "name": "Space starts a dodge",
+            "passed": true,
+            "detail": "Space was delivered through the new InputAction."
+        },
+        {
+            "name": "No-input dodge follows facing and travels 3m",
+            "passed": true,
+            "detail": "(3.000, 0.000, 0.000)"
+        },
+        {
+            "name": "Cooldown blocks a second dodge",
+            "passed": true,
+            "detail": "cooldown remaining=0.419"
+        },
+        {
+            "name": "Dodge available after recovery",
+            "passed": true,
+            "detail": "Recovery cooldown is 0.8 seconds after the 0.3-second dodge."
+        },
+        {
+            "name": "Directional dodge ignores movement changes",
+            "passed": true,
+            "detail": "(-2.859, 0.000, 0.000)"
+        },
+        {
+            "name": "Normal movement resumes after dodge",
+            "passed": true,
+            "detail": "x delta=1.807"
+        },
+        {
+            "name": "Walking blocked by perimeter wall",
+            "passed": true,
+            "detail": "z=11.070"
+        },
+        {
+            "name": "Dodge blocked by perimeter wall",
+            "passed": true,
+            "detail": "z=11.070"
+        },
+        {
+            "name": "Dodge blocked by obstacle",
+            "passed": true,
+            "detail": "z=1.070"
+        },
+        {
+            "name": "Camera avoids wall",
+            "passed": true,
+            "detail": "(0.000, 1.588, -11.233)"
+        },
+        {
+            "name": "Escape releases cursor and stops controls",
+            "passed": true,
+            "detail": "control=False"
+        },
+        {
+            "name": "Click recaptures controls",
+            "passed": true,
+            "detail": "control=True"
+        },
+        {
+            "name": "No upward launch during movement or dodge",
+            "passed": true,
+            "detail": "max root y=0.044"
+        }
+    ]
+}

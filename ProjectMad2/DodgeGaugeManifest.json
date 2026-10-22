@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-21T16:55:43.5899609+09:00",
+  "request": "Text-free dodge cooldown gauge or consecutive dodges",
+  "implemented": "Gold refill gauge below health bar",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "chargeSeconds": 1.55,
+  "dodgeSeconds": 0.75,
+  "recoverySeconds": 0.8,
+  "readyFlashSeconds": 0.25,
+  "chargeCount": 1,
+  "textCount": 0,
+  "blocksRaycasts": false,
+  "backup": "DevelopmentBackups/DodgeGauge",
+  "integrity": {
+    "before": 234,
+    "after": 236,
+    "modified": [
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+      "Assets/Game/Scripts/Player/LabPlayerDodge.cs"
+    ],
+    "added": [
+      "Assets/Game/Scripts/UI/LabDodgeGauge.cs",
+      "Assets/Game/Scripts/UI/LabDodgeGauge.cs.meta"
+    ],
+    "deleted": []
+  },
+  "gaugeValidation": {
+    "complete": true,
+    "timestamp": "2026-10-21T16:52:29.2185257+09:00",
+    "passed": 11,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "Gauge is full when dodge is ready",
+        "passed": true,
+        "detail": "Ready at spawn."
+      },
+      {
+        "name": "Gauge contains no text and does not intercept clicks",
+        "passed": true,
+        "detail": "Images only."
+      },
+      {
+        "name": "Space consumes the gauge immediately",
+        "passed": true,
+        "detail": "Fill=4.614553E-07"
+      },
+      {
+        "name": "Gauge refills during recovery after the roll",
+        "passed": true,
+        "detail": "Fill=0.531031"
+      },
+      {
+        "name": "Gauge follows the actual cooldown",
+        "passed": true,
+        "detail": "HUD=0.531031, actual=0.531031"
+      },
+      {
+        "name": "Recharging dodge cannot restart early",
+        "passed": true,
+        "detail": "Gate and UI share readiness."
+      },
+      {
+        "name": "Pause freezes both cooldown and gauge",
+        "passed": true,
+        "detail": "Paused fill=0.531031"
+      },
+      {
+        "name": "Full gauge and ready marker agree with reuse time",
+        "passed": true,
+        "detail": "Scaled elapsed=1.640259"
+      },
+      {
+        "name": "A new Space press works after recharge",
+        "passed": true,
+        "detail": "Second roll consumed gauge."
+      },
+      {
+        "name": "Death disables the ready indication",
+        "passed": true,
+        "detail": "No ready glow on game over."
+      },
+      {
+        "name": "Restart restores a full usable gauge",
+        "passed": true,
+        "detail": "Fresh scene charge."
+      }
+    ]
+  },
+  "stageValidation": {
+    "phase": "Phase 3",
+    "timestamp": "2026-10-21T16:53:38.8004309+09:00",
+    "complete": true,
+    "passed": 39,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "Stage begins with 100 HP and three living guards",
+        "passed": true,
+        "detail": "Initial state."
+      },
+      {
+        "name": "HUD displays initial health, enemy count and objective",
+        "passed": true,
+        "detail": "Korean HUD visible."
+      },
+      {
+        "name": "Korean font available",
+        "passed": true,
+        "detail": "Malgun Gothic"
+      },
+      {
+        "name": "Health bar supports partial fill",
+        "passed": true,
+        "detail": "Built-in UI sprite assigned."
+      },
+      {
+        "name": "Exit initially locked",
+        "passed": true,
+        "detail": "Physical barrier and objective agree."
+      },
+      {
+        "name": "Restart ignored while running",
+        "passed": true,
+        "detail": "No result screen at startup."
+      },
+      {
+        "name": "Running stage cannot reload from Restart",
+        "passed": true,
+        "detail": "State guard."
+      },
+      {
+        "name": "Locked door physically blocks player",
+        "passed": true,
+        "detail": "Player z=8.770001"
+      },
+      {
+        "name": "Locked exit rejects player",
+        "passed": true,
+        "detail": "Enemy count=3."
+      },
+      {
+        "name": "Locked trigger cannot clear even if entered",
+        "passed": true,
+        "detail": "Player placed inside trigger for boundary test."
+      },
+      {
+        "name": "Input-only combat clears all three default guards",
+        "passed": true,
+        "detail": "WASD and mouse only, after restoring spawn; elapsed=7.227997s, HP=60, attacks=6"
+      },
+      {
+        "name": "Enemy counter tracks deaths",
+        "passed": true,
+        "detail": "Observed counts=3,2,1,0"
+      },
+      {
+        "name": "Dead guards cannot decrement count twice",
+        "passed": true,
+        "detail": "Repeated damage rejected."
+      },
+      {
+        "name": "Final guard opens exit without instant victory",
+        "passed": true,
+        "detail": "Door unlocked, barrier off, still must enter exit."
+      },
+      {
+        "name": "HUD switches objective to escape",
+        "passed": true,
+        "detail": "목표  북쪽 출구로 탈출하세요"
+      },
+      {
+        "name": "Health HUD reflects combat damage",
+        "passed": true,
+        "detail": "HP=60, fill=0.6"
+      },
+      {
+        "name": "Open door lifts clear of player",
+        "passed": true,
+        "detail": "Lifted door."
+      },
+      {
+        "name": "Door status light remains visible and green after opening",
+        "passed": true,
+        "detail": "Fixed header status light."
+      },
+      {
+        "name": "Only player can use exit",
+        "passed": true,
+        "detail": "Non-player rejected."
+      },
+      {
+        "name": "Walking into unlocked exit wins",
+        "passed": true,
+        "detail": "Exit trigger activated through actual CharacterController movement; pos=(0.20, 0.03, 9.75)"
+      },
+      {
+        "name": "Clear UI appears",
+        "passed": true,
+        "detail": "연구소 탈출 성공"
+      },
+      {
+        "name": "Victory disables player actions",
+        "passed": true,
+        "detail": "Movement, attack, dodge and CC stopped."
+      },
+      {
+        "name": "Victory releases cursor",
+        "passed": true,
+        "detail": "Cursor available for UI."
+      },
+      {
+        "name": "Victory cannot become game over from late damage",
+        "passed": true,
+        "detail": "Terminal state protected."
+      },
+      {
+        "name": "Clear-screen mouse button restarts scene keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Clear-screen mouse button restarts scene",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Restart restores controls and colliders",
+        "passed": true,
+        "detail": "Fresh scene actors."
+      },
+      {
+        "name": "Restart hides result screen and resets HUD",
+        "passed": true,
+        "detail": "HUD restored."
+      },
+      {
+        "name": "Default enemy attacks cause game over",
+        "passed": true,
+        "detail": "HP=0, enemy successful hits=10"
+      },
+      {
+        "name": "Game-over UI and empty health bar",
+        "passed": true,
+        "detail": "Death HUD state."
+      },
+      {
+        "name": "Death prevents movement attacks and dodge",
+        "passed": true,
+        "detail": "Input attempted after death."
+      },
+      {
+        "name": "Game over stops all guard AI",
+        "passed": true,
+        "detail": "No attacks under result screen."
+      },
+      {
+        "name": "Game over cannot trigger victory",
+        "passed": true,
+        "detail": "Terminal state stays GameOver."
+      },
+      {
+        "name": "Game-over mouse button restarts scene keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Game-over mouse button restarts scene",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Player death after final kill still loses before escape",
+        "passed": true,
+        "detail": "Same-frame damage boundary; direct damage used only for this fixture."
+      },
+      {
+        "name": "Repeated restart resets subscriptions and enemy count keeps shared font atlas",
+        "passed": true,
+        "detail": "Font reused across scene reload."
+      },
+      {
+        "name": "Repeated restart resets subscriptions and enemy count",
+        "passed": true,
+        "detail": "Actual virtual mouse click through InputSystemUIInputModule; scene reloaded=True"
+      },
+      {
+        "name": "Final fresh scene is playable",
+        "passed": true,
+        "detail": "Three successive reloads completed."
+      }
+    ]
+  },
+  "sceneIssues": 0,
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "historicalStageEvidenceRestored": true,
+  "finalState": {
+    "playing": false,
+    "dirty": false,
+    "temporaryDevices": 0
+  },
+  "tools": [
+    "execute_code",
+    "manage_editor",
+    "manage_scene",
+    "read_console"
+  ]
+}

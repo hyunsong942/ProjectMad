@@ -1,0 +1,59 @@
+{
+    "phase": "Phase 3",
+    "timestamp": "2026-10-21T14:13:28.2836639+09:00",
+    "complete": false,
+    "passed": 10,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Stage begins with 100 HP and three living guards",
+            "passed": true,
+            "detail": "Initial state."
+        },
+        {
+            "name": "HUD displays initial health, enemy count and objective",
+            "passed": true,
+            "detail": "Korean HUD visible."
+        },
+        {
+            "name": "Korean font available",
+            "passed": true,
+            "detail": "Malgun Gothic"
+        },
+        {
+            "name": "Health bar supports partial fill",
+            "passed": true,
+            "detail": "Built-in UI sprite assigned."
+        },
+        {
+            "name": "Exit initially locked",
+            "passed": true,
+            "detail": "Physical barrier and objective agree."
+        },
+        {
+            "name": "Restart ignored while running",
+            "passed": true,
+            "detail": "No result screen at startup."
+        },
+        {
+            "name": "Running stage cannot reload from Restart",
+            "passed": true,
+            "detail": "State guard."
+        },
+        {
+            "name": "Locked door physically blocks player",
+            "passed": true,
+            "detail": "Player z=8"
+        },
+        {
+            "name": "Locked exit rejects player",
+            "passed": true,
+            "detail": "Enemy count=3."
+        },
+        {
+            "name": "Locked trigger cannot clear even if entered",
+            "passed": true,
+            "detail": "Player placed inside trigger for boundary test."
+        }
+    ]
+}

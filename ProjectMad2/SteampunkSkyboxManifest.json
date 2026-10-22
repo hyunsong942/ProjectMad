@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-22",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "source": "C:/Users/mbc/AppData/Local/Temp/codex-clipboard-a3604559-c504-45bf-9c4a-41d43db44e0f.png",
+  "texture": "Assets/Game/Textures/Skybox/SteampunkNightCity.png",
+  "material": "Assets/Game/Materials/SteampunkNightSkybox.mat",
+  "mapping": "Skybox/Panoramic, latitude-longitude, 360 degrees",
+  "size": [
+    1774,
+    887
+  ],
+  "rotation": 180,
+  "exposure": 1,
+  "sourcePreserved": true,
+  "sha256": "D5672253A8071810675DC18992049740A6F0227ACEE22A843093880D3AF033E4",
+  "backup": "DevelopmentBackups/SteampunkSkybox_20261022_110909",
+  "reports": "SteampunkSkyboxReports/20261022_110909",
+  "validation": {
+    "playModeRenderVerified": true,
+    "sceneIssues": 0,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "fullCombatRegressionRerun": false
+  },
+  "integrity": {
+    "sourcePreserved": true,
+    "sha256": "D5672253A8071810675DC18992049740A6F0227ACEE22A843093880D3AF033E4",
+    "before": 403,
+    "after": 408,
+    "modified": [
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets/Game/Materials/SteampunkNightSkybox.mat",
+      "Assets/Game/Materials/SteampunkNightSkybox.mat.meta",
+      "Assets/Game/Textures/Skybox.meta",
+      "Assets/Game/Textures/Skybox/SteampunkNightCity.png",
+      "Assets/Game/Textures/Skybox/SteampunkNightCity.png.meta"
+    ],
+    "removed": [],
+    "cameraClear": "Skybox",
+    "cameraPosition": "(0.00, 3.33, -11.17)",
+    "cameraRotation": "(20.00, 0.00, 0.00)",
+    "skybox": "SteampunkNightSkybox",
+    "skyboxRotation": 180,
+    "ambientMode": "Skybox",
+    "ambientIntensity": 1,
+    "reflectionIntensity": 1,
+    "sceneDirty": false,
+    "roots": 12,
+    "cameras": 1,
+    "editMode": true,
+    "timeScale": 1
+  },
+  "tools": [
+    "read_mcp_resource",
+    "execute_code",
+    "manage_camera",
+    "manage_editor",
+    "manage_scene",
+    "read_console"
+  ]
+}

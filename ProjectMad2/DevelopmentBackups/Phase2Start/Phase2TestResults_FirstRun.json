@@ -1,0 +1,194 @@
+{
+    "phase": "Phase 2",
+    "timestamp": "2026-10-21T13:26:59.3460489+09:00",
+    "complete": true,
+    "passed": 37,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Initial health and factions",
+            "passed": true,
+            "detail": "Player 100; guard 30."
+        },
+        {
+            "name": "Input actions include Attack and exclude Jump",
+            "passed": true,
+            "detail": "Left mouse Attack and Space Dodge."
+        },
+        {
+            "name": "Mouse attack damages guard once",
+            "passed": true,
+            "detail": "Guard HP=15, hits=1"
+        },
+        {
+            "name": "Damage flashes the guard",
+            "passed": true,
+            "detail": "PropertyBlock red channel=1"
+        },
+        {
+            "name": "Attack cooldown rejects spam",
+            "passed": true,
+            "detail": "Attacks=1"
+        },
+        {
+            "name": "Two valid hits kill 30 HP guard",
+            "passed": true,
+            "detail": "HP=0"
+        },
+        {
+            "name": "Multiple colliders do not duplicate damage",
+            "passed": true,
+            "detail": "Root CharacterController plus child trigger: HP=15"
+        },
+        {
+            "name": "Targets behind player are excluded",
+            "passed": true,
+            "detail": "HP=30"
+        },
+        {
+            "name": "Targets outside range are excluded",
+            "passed": true,
+            "detail": "Distance 3.5m; HP=30"
+        },
+        {
+            "name": "Wall blocks player damage",
+            "passed": true,
+            "detail": "Dodge_Blocker between attacker and target."
+        },
+        {
+            "name": "Attack cannot start during dodge",
+            "passed": true,
+            "detail": "Dodge and click on the same input frame."
+        },
+        {
+            "name": "Cursor capture click does not attack",
+            "passed": true,
+            "detail": "Capture was consumed before Attack."
+        },
+        {
+            "name": "Next click attacks after cursor capture",
+            "passed": true,
+            "detail": "HP=15"
+        },
+        {
+            "name": "Invalid damage is rejected",
+            "passed": true,
+            "detail": "Negative, NaN and infinity."
+        },
+        {
+            "name": "Friendly and self damage are rejected",
+            "passed": true,
+            "detail": "Same faction and same actor."
+        },
+        {
+            "name": "Dodge begins with invulnerability",
+            "passed": true,
+            "detail": "Damage rejected by LabHealth."
+        },
+        {
+            "name": "Invulnerability expires before dodge ends",
+            "passed": true,
+            "detail": "StillDodging=True, HP=90"
+        },
+        {
+            "name": "Damage works after dodge",
+            "passed": true,
+            "detail": "HP=80"
+        },
+        {
+            "name": "Guard remains Idle outside detection",
+            "passed": true,
+            "detail": "State=Idle"
+        },
+        {
+            "name": "Guard detects and chases at configured speed",
+            "passed": true,
+            "detail": "Travel=1.001743"
+        },
+        {
+            "name": "Guard loses distant player",
+            "passed": true,
+            "detail": "State=Idle"
+        },
+        {
+            "name": "Attack has a visible windup",
+            "passed": true,
+            "detail": "No damage before 0.45 second strike."
+        },
+        {
+            "name": "Guard strike deals 10 damage",
+            "passed": true,
+            "detail": "HP=90"
+        },
+        {
+            "name": "Guard attack cooldown prevents repeated hits",
+            "passed": true,
+            "detail": "HP=90, attacks=1"
+        },
+        {
+            "name": "Guard can attack again after cooldown",
+            "passed": true,
+            "detail": "HP=80, hits=2"
+        },
+        {
+            "name": "Dodge escapes an enemy strike range",
+            "passed": true,
+            "detail": "HP=100, distance=3.950399"
+        },
+        {
+            "name": "Timed dodge blocks an in-range AI hit",
+            "passed": true,
+            "detail": "Wall blocks displacement; target remains in range during invulnerability."
+        },
+        {
+            "name": "Enemy death event occurs once",
+            "passed": true,
+            "detail": "Death events=1"
+        },
+        {
+            "name": "Dead guard stops and cancels windup",
+            "passed": true,
+            "detail": "State=Dead, player HP=100"
+        },
+        {
+            "name": "Dead source cannot inflict damage",
+            "passed": true,
+            "detail": "Central damage guard."
+        },
+        {
+            "name": "AI strike can kill player",
+            "passed": true,
+            "detail": "HP=0"
+        },
+        {
+            "name": "Dead player cannot move attack or dodge",
+            "passed": true,
+            "detail": "Movement, combat, dodge, input and CharacterController disabled."
+        },
+        {
+            "name": "Guard stops attacking dead player",
+            "passed": true,
+            "detail": "State=Idle"
+        },
+        {
+            "name": "Death cancels an active vulnerable dodge",
+            "passed": true,
+            "detail": "Killed after the 0.18-second invulnerability window."
+        },
+        {
+            "name": "Phase 1 movement still works",
+            "passed": true,
+            "detail": "Movement regression after combat changes."
+        },
+        {
+            "name": "Phase 1 dodge still travels 3m",
+            "passed": true,
+            "detail": "Travel=3"
+        },
+        {
+            "name": "Phase 1 camera still rotates",
+            "passed": true,
+            "detail": "yaw=15, pitch=25.99999"
+        }
+    ]
+}

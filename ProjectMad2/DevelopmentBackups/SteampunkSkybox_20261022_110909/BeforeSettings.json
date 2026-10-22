@@ -1,0 +1,8 @@
+{
+  "clear": "SolidColor",
+  "skybox": "Resources/unity_builtin_extra",
+  "skyboxName": "Default-Skybox",
+  "ambient": "Skybox",
+  "ambientIntensity": 1.0,
+  "reflectionIntensity": 1.0
+}

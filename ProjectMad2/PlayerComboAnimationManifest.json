@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-21",
+  "scope": "User-authorized player idle/walk/dodge and click-driven three-hit combo",
+  "sources": [
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\Drunk Idle.fbx",
+      "size": 25083440,
+      "hash": "5381A8DFC34BEB43D54CBF0344C08ED7AB3DC154945AAB87325ABBFDDA730234",
+      "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Idle.fbx",
+      "copyHash": "5381A8DFC34BEB43D54CBF0344C08ED7AB3DC154945AAB87325ABBFDDA730234"
+    },
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\Walking.fbx",
+      "size": 419280,
+      "hash": "1254FBBFB924C98D697133657291B41AFA2C544607B042B1E2ADFDDA8D082146",
+      "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Walk.fbx",
+      "copyHash": "1254FBBFB924C98D697133657291B41AFA2C544607B042B1E2ADFDDA8D082146"
+    },
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\dodge.fbx",
+      "size": 504848,
+      "hash": "486FE9FFAE93926FE427F814DCCAE0C41A15F2C790CF1ABB531BA7BA1A2180F4",
+      "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Dodge.fbx",
+      "copyHash": "486FE9FFAE93926FE427F814DCCAE0C41A15F2C790CF1ABB531BA7BA1A2180F4"
+    },
+    {
+      "path": "C:\\Users\\mbc\\Downloads\\Standing Melee Combo Attack Ver. 2.fbx",
+      "size": 670272,
+      "hash": "564F951FDF10EF93E4E8A66F5AA3934854FB26D938DD555C046F4F763B95D37F",
+      "asset": "Assets/Game/Animations/Scientist/Source/Scientist_Combo_Source.fbx",
+      "copyHash": "564F951FDF10EF93E4E8A66F5AA3934854FB26D938DD555C046F4F763B95D37F"
+    }
+  ],
+  "playerPrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Animated.prefab",
+  "controller": "Assets/Game/Animations/Scientist/Scientist.controller",
+  "rig": "Humanoid",
+  "skinnedVertexCount": 29683,
+  "rootMotion": false,
+  "input": {
+    "singleClick": "Attack1 only",
+    "doubleClick": "Attack1 then Attack2",
+    "tripleClick": "Attack1 then Attack2 then Attack3",
+    "bufferCapacity": 2,
+    "maxChainLength": 3,
+    "holdRepeats": false,
+    "postStrikeGraceSeconds": 0.25,
+    "finisherRecoverySeconds": 0.12,
+    "cancelOn": [
+      "dodge",
+      "cursor release",
+      "death",
+      "component disabled / stage terminal state"
+    ]
+  },
+  "attackClips": [
+    {
+      "name": "Attack1",
+      "sourceFrames": [
+        8,
+        40
+      ],
+      "sourceContactFrame": 29.6,
+      "fps": 30,
+      "speed": 1.6,
+      "durationSeconds": 0.66666666666666663,
+      "contactSeconds": 0.45000000794728595,
+      "hitNormalizedTime": 0.675,
+      "mirrored": false
+    },
+    {
+      "name": "Attack2",
+      "sourceFrames": [
+        40,
+        68
+      ],
+      "sourceContactFrame": 46.3,
+      "fps": 30,
+      "speed": 1.6,
+      "durationSeconds": 0.58333333333333326,
+      "contactSeconds": 0.13124999652306238,
+      "hitNormalizedTime": 0.225,
+      "mirrored": true
+    },
+    {
+      "name": "Attack3",
+      "sourceFrames": [
+        68,
+        112
+      ],
+      "sourceContactFrame": 79.0,
+      "fps": 30,
+      "speed": 1.6,
+      "durationSeconds": 0.91666666666666652,
+      "contactSeconds": 0.22916666666666663,
+      "hitNormalizedTime": 0.25,
+      "mirrored": false
+    }
+  ],
+  "locomotion": {
+    "idleFrames": [
+      0,
+      222
+    ],
+    "walkFrames": [
+      0,
+      42
+    ],
+    "dodgeFrames": [
+      10,
+      60
+    ],
+    "dodgeDistanceMeters": 3,
+    "dodgeDurationSeconds": 0.75,
+    "dodgeCooldownSeconds": 0.8,
+    "dodgeInvulnerabilitySeconds": 0.18,
+    "walkMetersPerSecondParameter": 1.8,
+    "dodgePlaybackSpeed": 2.222222,
+    "dodgeEntryBlendSeconds": 0.09,
+    "dodgeToWalkRecoverySeconds": 0.12,
+    "animatorSpeedParameters": [
+      "WalkSpeed",
+      "DodgeSpeed",
+      "AttackSpeed"
+    ]
+  },
+  "combat": {
+    "damagePerStrike": 15,
+    "rangeMeters": 2.2,
+    "angleDegrees": 100,
+    "movementAndFacingHeldDuringAttack": true,
+    "queryAtContact": true,
+    "oneHitPerTargetPerStrike": true
+  },
+  "validation": {
+    "combo": {
+      "passed": 30,
+      "failed": 0,
+      "complete": true,
+      "timestamp": "2026-10-21T16:02:25.9631929+09:00"
+    },
+    "stage": {
+      "passed": 39,
+      "failed": 0,
+      "complete": true,
+      "timestamp": "2026-10-21T16:05:34.5177399+09:00",
+      "combat": "WASD and mouse only, after restoring spawn; elapsed=7.223408s, HP=60, attacks=6"
+    },
+    "note": "These are initial combo implementation results; latest dodge refinement results are in latestDodgeRefinement and DodgeTransitionManifest.json."
+  },
+  "finalState": {
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "dirty": false,
+    "playing": false,
+    "roots": 11,
+    "activePrefab": "Assets/Game/Prefabs/Player/VarcoScientist_Animated.prefab",
+    "animatorValid": true,
+    "rootMotion": false,
+    "renderer": 29683,
+    "colliders": [
+      "CharacterController"
+    ],
+    "enabledComponents": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "clipRanges": [
+      {
+        "name": "Attack1",
+        "first": 8,
+        "last": 40,
+        "loop": false
+      },
+      {
+        "name": "Attack2",
+        "first": 40,
+        "last": 68,
+        "loop": false
+      },
+      {
+        "name": "Attack3",
+        "first": 68,
+        "last": 112,
+        "loop": false
+      }
+    ],
+    "temporaryObjects": [],
+    "testDevices": 0
+  },
+  "sceneValidation": {
+    "sceneName": "MadScientistLab_Prototype",
+    "totalIssues": 0,
+    "missingScripts": 0,
+    "brokenPrefabs": 0,
+    "repaired": 0,
+    "issues": [],
+    "truncated": false,
+    "note": null
+  },
+  "console": {
+    "duringPlay": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "afterStop": {
+      "errors": 0,
+      "warnings": 1,
+      "warning": "MCP WebSocket is not initialised; all Unity MCP operations succeeded."
+    }
+  },
+  "integrity": {
+    "before": 215,
+    "after": 234,
+    "modified": [
+      "Assets\\Game\\Scripts\\Player\\LabPlayerMotor.cs",
+      "Assets\\Game\\Scripts\\Player\\LabPlayerDodge.cs",
+      "Assets\\Game\\Scripts\\Player\\LabPlayerCombat.cs",
+      "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets\\Game\\Tests\\PlayerComboPlayModeChecks.cs.meta",
+      "Assets\\Game\\Tests\\PlayerComboPlayModeChecks.cs",
+      "Assets\\Game\\Scripts\\Player\\LabPlayerAnimation.cs.meta",
+      "Assets\\Game\\Scripts\\Player\\LabPlayerAnimation.cs",
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Animated.prefab.meta",
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Animated.prefab",
+      "Assets\\Game\\Animations.meta",
+      "Assets\\Game\\Animations\\Scientist.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source.meta",
+      "Assets\\Game\\Animations\\Scientist\\Scientist.controller",
+      "Assets\\Game\\Animations\\Scientist\\Scientist.controller.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Walk.fbx.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Walk.fbx",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Idle.fbx.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Idle.fbx",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Dodge.fbx.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Dodge.fbx",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Combo_Source.fbx.meta",
+      "Assets\\Game\\Animations\\Scientist\\Source\\Scientist_Combo_Source.fbx"
+    ],
+    "deleted": [],
+    "originalPhase3EvidenceRestored": true
+  },
+  "apiReference": "https://docs.unity3d.com/ja/6000.0/ScriptReference/ModelImporterClipAnimation-lockRootPositionXZ.html",
+  "latestDodgeRefinement": {
+    "manifest": "DodgeTransitionManifest.json",
+    "validation": {
+      "transitionAndCombo": {
+        "passed": 43,
+        "failed": 0,
+        "complete": true,
+        "timestamp": "2026-10-21T16:41:52.6126036+09:00"
+      },
+      "stage": {
+        "passed": 39,
+        "failed": 0,
+        "complete": true,
+        "timestamp": "2026-10-21T16:42:50.6306894+09:00"
+      },
+      "distanceIntegration": {
+        "passed": 10,
+        "failed": 0,
+        "report": "DodgeDistanceChecks.json",
+        "deltaTimes": [
+          0.033333333333333333,
+          0.016666666666666666,
+          0.0083333333333333332,
+          0.017,
+          0.2
+        ],
+        "entrySpeeds": [
+          0,
+          4.5
+        ]
+      },
+      "sceneIssues": 0,
+      "measuredWalkToRoll": {
+        "walkingSpeed": 4.499969,
+        "firstFrameAverageSpeed": 3.561677,
+        "peakSpeed": 7.929829,
+        "finalSpeed": 0.005287129,
+        "totalDistance": 3,
+        "maximumAnimationProgressError": 0.001749158
+      },
+      "playConsole": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "afterStopConsole": {
+        "errors": 0,
+        "warnings": 1,
+        "warning": "MCP WebSocket is not initialised; all tool operations succeeded."
+      }
+    },
+    "previousDurationSeconds": 0.3
+  },
+  "staffRevision": {
+    "date": "2026-10-21",
+    "prefab": "Assets/Game/Prefabs/Weapons/Varco_LionStaff_BulbStrike.prefab",
+    "hand": "RightHand",
+    "strikingEnd": "Blue bulb",
+    "manifest": "CreatureStaffAnimationManifest.json"
+  }
+}

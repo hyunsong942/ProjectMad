@@ -1,0 +1,98 @@
+{
+  "sources": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Blunt_swing_3.wav",
+      "imported": "Assets/Game/Audio/Source/Blunt_swing_3.wav",
+      "sha256": "3448CA69D99F122DE4487C971947CF32E1CCD2BC8F62A3ADF2349B152F1E4DF1",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Mechanical_hit_2.wav",
+      "imported": "Assets/Game/Audio/Source/Mechanical_hit_2.wav",
+      "sha256": "0FAFB68EB325B435197A0DCF73AA5157FDECE3E9C41FEDCBBD80A126C029D527",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Flying Back Death.fbx",
+      "imported": "Assets/Game/Animations/Scientist/Source/Scientist_Death.fbx",
+      "sha256": "E9A28E1E5DEC2F5D0F14DE0F62122A7CBD81E420D1CFFE7D424DD6CABB9EF2E4",
+      "unchanged": true
+    }
+  ],
+  "audio": [
+    {
+      "path": "Assets/Game/Audio/Combat/Golem_Attack.wav",
+      "length": 0.55,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.26290589962414079,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_01.wav",
+      "length": 0.46,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.14521496526292571,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_02.wav",
+      "length": 0.41,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.19921068304828332,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_03.wav",
+      "length": 0.335,
+      "channels": 1,
+      "peak": 0.794281,
+      "rms": 0.16482654516050266,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_04.wav",
+      "length": 0.375,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.16850785942180913,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_05.wav",
+      "length": 0.69,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.14577238102617177,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_06.wav",
+      "length": 0.55,
+      "channels": 1,
+      "peak": 0.794281,
+      "rms": 0.14967417508210665,
+      "startSample": 0.0,
+      "endSample": 0.0
+    },
+    {
+      "path": "Assets/Game/Audio/Combat/Staff_Swing_07.wav",
+      "length": 0.36,
+      "channels": 1,
+      "peak": 0.7943115,
+      "rms": 0.19547098467752777,
+      "startSample": 0.0,
+      "endSample": 0.0
+    }
+  ],
+  "listenerCount": 1,
+  "listenerVolume": 1.0
+}

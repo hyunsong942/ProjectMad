@@ -1,0 +1,154 @@
+{
+    "phase": "Player combo animation",
+    "timestamp": "2026-10-21T15:59:41.8580448+09:00",
+    "complete": true,
+    "passed": 28,
+    "failed": 1,
+    "checks": [
+        {
+            "name": "Valid humanoid and skinned scientist",
+            "passed": true,
+            "detail": "Skinned player, not static mesh."
+        },
+        {
+            "name": "Animator root motion disabled",
+            "passed": true,
+            "detail": "CharacterController owns displacement."
+        },
+        {
+            "name": "Idle animation moves bones",
+            "passed": true,
+            "detail": "Idle pose changes over time."
+        },
+        {
+            "name": "Walking input moves and selects Walk",
+            "passed": false,
+            "detail": "Idle"
+        },
+        {
+            "name": "First strike has windup before damage",
+            "passed": true,
+            "detail": "No immediate click damage."
+        },
+        {
+            "name": "Contact frame applies one hit",
+            "passed": true,
+            "detail": "Target HP=985"
+        },
+        {
+            "name": "Two colliders do not duplicate one strike",
+            "passed": true,
+            "detail": "One health target, two colliders."
+        },
+        {
+            "name": "One click plays only strike one",
+            "passed": true,
+            "detail": "1"
+        },
+        {
+            "name": "Two quick clicks play one then two",
+            "passed": true,
+            "detail": "Steps=1,2, HP=970"
+        },
+        {
+            "name": "Double click does not auto-play third",
+            "passed": true,
+            "detail": "Stopped after two."
+        },
+        {
+            "name": "Three quick clicks play all three once",
+            "passed": true,
+            "detail": "Steps=1,2,3, HP=955"
+        },
+        {
+            "name": "Finisher resets combo",
+            "passed": true,
+            "detail": "No automatic fourth strike."
+        },
+        {
+            "name": "Holding mouse does not chain attacks",
+            "passed": true,
+            "detail": "Held for 2.8 seconds."
+        },
+        {
+            "name": "Excess early clicks cap at three strikes",
+            "passed": true,
+            "detail": "Five early clicks."
+        },
+        {
+            "name": "Expired combo restarts from one",
+            "passed": true,
+            "detail": "1,1"
+        },
+        {
+            "name": "Short recovery grace permits next strike",
+            "passed": true,
+            "detail": "1,2"
+        },
+        {
+            "name": "Attack holds movement and facing",
+            "passed": true,
+            "detail": "Drift=0"
+        },
+        {
+            "name": "Dodge interrupts buffered combo",
+            "passed": true,
+            "detail": "Queued second strike cleared."
+        },
+        {
+            "name": "Dodge animation selected",
+            "passed": true,
+            "detail": "Dodge"
+        },
+        {
+            "name": "Cancelled windup does no delayed damage",
+            "passed": true,
+            "detail": "HP=1000"
+        },
+        {
+            "name": "Dodge visual stays with collision root",
+            "passed": true,
+            "detail": "Hips XZ offset=0.1079908"
+        },
+        {
+            "name": "Dodge keeps original three-metre distance",
+            "passed": true,
+            "detail": "Distance=2.999999"
+        },
+        {
+            "name": "Contact damage respects wall occlusion",
+            "passed": true,
+            "detail": "Target behind wall."
+        },
+        {
+            "name": "Range is evaluated at contact, not button press",
+            "passed": true,
+            "detail": "Target moved away during windup."
+        },
+        {
+            "name": "Releasing cursor cancels queued strikes",
+            "passed": true,
+            "detail": "Escape during windup."
+        },
+        {
+            "name": "Cursor capture click is not an attack",
+            "passed": true,
+            "detail": "First click only captures cursor."
+        },
+        {
+            "name": "Death clears combo and pending contact",
+            "passed": true,
+            "detail": "Death before first contact."
+        },
+        {
+            "name": "Death freezes animation and movement",
+            "passed": true,
+            "detail": "Terminal state."
+        },
+        {
+            "name": "Animator child never accumulates root displacement",
+            "passed": true,
+            "detail": "Local position=(0.00, 0.02, 0.00)"
+        }
+    ]
+}

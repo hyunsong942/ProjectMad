@@ -1,0 +1,807 @@
+{
+  "date": "2026-10-21",
+  "scope": "User-provided steampunk buildings, perimeter wall and floor image integration",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "ownership": {
+    "user": "Provided all five FBX models, their embedded textures and the floor image; chose floor/building/perimeter roles.",
+    "assistant": "Imported and configured assets, created reusable collider prefabs and tile mesh, placed the scene, verified gameplay and documented changes."
+  },
+  "backup": "DevelopmentBackups/SteampunkEnvironment",
+  "sources": [
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Inventor House-7ac1c082ada4370b7ca5617cb1903098.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/InventorHouse/Varco_InventorHouse.fbx",
+      "sourceHash": "77C1D4160932A74D99C2783F2E908628CD779B13DF2A5FC2F94EA615D3AA5B68",
+      "copyHash": "77C1D4160932A74D99C2783F2E908628CD779B13DF2A5FC2F94EA615D3AA5B68"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Clockwork Shop-18bb4c43515cf9a485a3693767458f15.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/ClockworkShop/Varco_ClockworkShop.fbx",
+      "sourceHash": "EB3D1858842016144C32FB050E7098218044334469459C3166D2E92BC5346FD3",
+      "copyHash": "EB3D1858842016144C32FB050E7098218044334469459C3166D2E92BC5346FD3"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Brass Workshop Building-42d9191cf0a646b446854bbae31875ff.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/BrassWorkshop/Varco_BrassWorkshop.fbx",
+      "sourceHash": "AAADC4672758404C28F9B395120129C68C45D354EB3ED9FE3CF34C00E82DD0B6",
+      "copyHash": "AAADC4672758404C28F9B395120129C68C45D354EB3ED9FE3CF34C00E82DD0B6"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Boiler House-4b92e3288042b0727b97e8e0ce9da5b7.fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/BoilerHouse/Varco_BoilerHouse.fbx",
+      "sourceHash": "D1254A0B8C6297F18CF27CF6C6F21212DFCAAC55B10C9B549975DB3DFC817E80",
+      "copyHash": "D1254A0B8C6297F18CF27CF6C6F21212DFCAAC55B10C9B549975DB3DFC817E80"
+    },
+    {
+      "source": "C:\\Users\\mbc\\Downloads\\Steampunk Industrial Wall-ac5284c61707d934c925801bfc286c28 (1).fbx",
+      "asset": "Assets/Game/Models/Varco/Environment/IndustrialWall/Varco_IndustrialWall.fbx",
+      "sourceHash": "0496BD854F666D967816C52DB0B88CC7065C116DC4691048D134FA2D8526ED1C",
+      "copyHash": "0496BD854F666D967816C52DB0B88CC7065C116DC4691048D134FA2D8526ED1C"
+    },
+    {
+      "source": "C:\\Users\\mbc\\AppData\\Local\\Temp\\codex-clipboard-55ff810e-dddb-4a50-8962-9ad85e0dfbee.png",
+      "asset": "Assets/Game/Textures/Environment/Steampunk_FloorTile.png",
+      "sourceHash": "B7317881E73C73C941A2D6E82E85AC058936C645336E2FF7704EF1643C9FE712",
+      "copyHash": "B7317881E73C73C941A2D6E82E85AC058936C645336E2FF7704EF1643C9FE712"
+    }
+  ],
+  "models": [
+    {
+      "name": "InventorHouse",
+      "asset": "Assets/Game/Models/Varco/Environment/InventorHouse/Varco_InventorHouse.fbx",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_InventorHouse.prefab",
+      "material": "Assets/Game/Models/Varco/Environment/InventorHouse/Materials/Varco_InventorHouse_URP.mat",
+      "embeddedTextures": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "animationType": "None",
+      "importAnimation": false,
+      "normalMap": true,
+      "collider": "One root BoxCollider fitted to the oriented mesh bounds",
+      "prefabTargetSizeMeters": 6.5
+    },
+    {
+      "name": "ClockworkShop",
+      "asset": "Assets/Game/Models/Varco/Environment/ClockworkShop/Varco_ClockworkShop.fbx",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_ClockworkShop.prefab",
+      "material": "Assets/Game/Models/Varco/Environment/ClockworkShop/Materials/Varco_ClockworkShop_URP.mat",
+      "embeddedTextures": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "animationType": "None",
+      "importAnimation": false,
+      "normalMap": true,
+      "collider": "One root BoxCollider fitted to the oriented mesh bounds",
+      "prefabTargetSizeMeters": 6.5
+    },
+    {
+      "name": "BrassWorkshop",
+      "asset": "Assets/Game/Models/Varco/Environment/BrassWorkshop/Varco_BrassWorkshop.fbx",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrassWorkshop.prefab",
+      "material": "Assets/Game/Models/Varco/Environment/BrassWorkshop/Materials/Varco_BrassWorkshop_URP.mat",
+      "embeddedTextures": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "animationType": "None",
+      "importAnimation": false,
+      "normalMap": true,
+      "collider": "One root BoxCollider fitted to the oriented mesh bounds",
+      "prefabTargetSizeMeters": 6.5
+    },
+    {
+      "name": "BoilerHouse",
+      "asset": "Assets/Game/Models/Varco/Environment/BoilerHouse/Varco_BoilerHouse.fbx",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BoilerHouse.prefab",
+      "material": "Assets/Game/Models/Varco/Environment/BoilerHouse/Materials/Varco_BoilerHouse_URP.mat",
+      "embeddedTextures": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "animationType": "None",
+      "importAnimation": false,
+      "normalMap": true,
+      "collider": "One root BoxCollider fitted to the oriented mesh bounds",
+      "prefabTargetSizeMeters": 6.5
+    },
+    {
+      "name": "IndustrialWall",
+      "asset": "Assets/Game/Models/Varco/Environment/IndustrialWall/Varco_IndustrialWall.fbx",
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab",
+      "material": "Assets/Game/Models/Varco/Environment/IndustrialWall/Materials/Varco_IndustrialWall_URP.mat",
+      "embeddedTextures": [
+        "base_color.png",
+        "normal.png"
+      ],
+      "animationType": "None",
+      "importAnimation": false,
+      "normalMap": true,
+      "collider": "One root BoxCollider fitted to the oriented mesh bounds",
+      "prefabTargetSizeMeters": 4
+    }
+  ],
+  "placements": [
+    {
+      "group": "Buildings",
+      "name": "InventorHouse_West",
+      "position": [
+        -8.8,
+        0,
+        -3.5
+      ],
+      "yaw": 90,
+      "scale": [
+        1.23076928,
+        1.23076928,
+        1.23076928
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_InventorHouse.prefab"
+    },
+    {
+      "group": "Buildings",
+      "name": "ClockworkShop_East",
+      "position": [
+        8.8,
+        0,
+        -3.5
+      ],
+      "yaw": 270,
+      "scale": [
+        1.23076928,
+        1.23076928,
+        1.23076928
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_ClockworkShop.prefab"
+    },
+    {
+      "group": "Buildings",
+      "name": "BrassWorkshop_West",
+      "position": [
+        -8.8,
+        0,
+        4.8
+      ],
+      "yaw": 90,
+      "scale": [
+        1.23076928,
+        1.23076928,
+        1.23076928
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrassWorkshop.prefab"
+    },
+    {
+      "group": "Buildings",
+      "name": "BoilerHouse_East",
+      "position": [
+        8.8,
+        0,
+        4.8
+      ],
+      "yaw": 270,
+      "scale": [
+        1.23076928,
+        1.23076928,
+        1.23076928
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BoilerHouse.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_1",
+      "position": [
+        -10,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_1",
+      "position": [
+        -12,
+        0,
+        -10
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_1",
+      "position": [
+        12,
+        0,
+        -10
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_2",
+      "position": [
+        -6,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_2",
+      "position": [
+        -12,
+        0,
+        -6
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_2",
+      "position": [
+        12,
+        0,
+        -6
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_3",
+      "position": [
+        -2,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_3",
+      "position": [
+        -12,
+        0,
+        -2
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_3",
+      "position": [
+        12,
+        0,
+        -2
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_4",
+      "position": [
+        2,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_4",
+      "position": [
+        -12,
+        0,
+        2
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_4",
+      "position": [
+        12,
+        0,
+        2
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_5",
+      "position": [
+        6,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_5",
+      "position": [
+        -12,
+        0,
+        6
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_5",
+      "position": [
+        12,
+        0,
+        6
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_South_6",
+      "position": [
+        10,
+        0,
+        -12
+      ],
+      "yaw": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_West_6",
+      "position": [
+        -12,
+        0,
+        10
+      ],
+      "yaw": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_East_6",
+      "position": [
+        12,
+        0,
+        10
+      ],
+      "yaw": 270,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_North_-9.4",
+      "position": [
+        -9.4,
+        0,
+        12
+      ],
+      "yaw": 180,
+      "scale": [
+        1.1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_North_-5",
+      "position": [
+        -5,
+        0,
+        12
+      ],
+      "yaw": 180,
+      "scale": [
+        1.1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_North_5",
+      "position": [
+        5,
+        0,
+        12
+      ],
+      "yaw": 180,
+      "scale": [
+        1.1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "Wall_North_9.4",
+      "position": [
+        9.4,
+        0,
+        12
+      ],
+      "yaw": 180,
+      "scale": [
+        1.1,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "ExitWall_Left",
+      "position": [
+        -3.7,
+        0,
+        10.7
+      ],
+      "yaw": 90,
+      "scale": [
+        0.75,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    },
+    {
+      "group": "PerimeterWalls",
+      "name": "ExitWall_Right",
+      "position": [
+        3.7,
+        0,
+        10.7
+      ],
+      "yaw": 270,
+      "scale": [
+        0.75,
+        1,
+        1
+      ],
+      "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab"
+    }
+  ],
+  "layout": {
+    "buildingCount": 4,
+    "buildingHeightMeters": 8,
+    "wallCount": 24,
+    "wallHeightMeters": 2.72424841,
+    "wallModuleWidthMeters": 4,
+    "perimeterCenterLinesMeters": 12,
+    "northOpeningWidthMeters": 5.6,
+    "exitCorridorSideWalls": 2,
+    "centralCombatArea": "Kept clear; spawn capsules and unlocked exit path verified"
+  },
+  "floor": {
+    "image": "Assets/Game/Textures/Environment/Steampunk_FloorTile.png",
+    "material": "Assets/Game/Materials/Environment/Steampunk_FloorTile_URP.mat",
+    "mesh": "Assets/Game/Meshes/Environment/Steampunk_TiledFloor_9x9.asset",
+    "sourceDimensions": [
+      264,
+      258
+    ],
+    "grid": [
+      9,
+      9
+    ],
+    "tileSizeMeters": 3,
+    "footprintMeters": [
+      27,
+      27
+    ],
+    "quadCount": 81,
+    "vertexCount": 324,
+    "triangleCount": 162,
+    "surfaceY": 0.004,
+    "uvInsetPixels": 4.5,
+    "uvMin": [
+      0.017045454545454544,
+      0.017441860465116279
+    ],
+    "uvMax": [
+      0.98295454545454541,
+      0.98255813953488369
+    ],
+    "materialTiling": [
+      1,
+      1
+    ],
+    "textureImport": {
+      "wrap": "Repeat",
+      "filter": "Trilinear",
+      "mipmaps": true,
+      "aniso": 8,
+      "npot": "None",
+      "sRGB": true
+    },
+    "imageBytesUnchanged": true,
+    "physics": "Original Ground BoxCollider expanded from 24x24 to 27x27; tile surface has no duplicate collider"
+  },
+  "preservedPlaceholders": {
+    "disabled": [
+      "Laboratory/FloorMarkings",
+      "Laboratory/Wall_North",
+      "Laboratory/Wall_South",
+      "Laboratory/Wall_East",
+      "Laboratory/Wall_West",
+      "Laboratory/Dodge_Blocker",
+      "Laboratory/Pillar_A",
+      "Laboratory/Pillar_B",
+      "StageZones/StartZone/StartPlatformMark",
+      "StageZones/ResearchArea_PrimitivePlaceholder",
+      "StageZones/MachineArea_Primitives",
+      "StageZones/ResearchSign"
+    ],
+    "exitCorridor": "Original corridor renderers hidden; colliders retained. Original door, frame, trigger and gameplay logic retained."
+  },
+  "validation": {
+    "static": {
+      "file": "SteampunkEnvironmentStaticChecks.json",
+      "passed": 13,
+      "failed": 0
+    },
+    "stage": {
+      "file": "SteampunkEnvironmentStageTestResults.json",
+      "complete": true,
+      "passed": 39,
+      "failed": 0,
+      "timestamp": "2026-10-21T17:37:33.0401665+09:00",
+      "combat": "WASD and mouse only, after restoring spawn; elapsed=7.231228s, HP=60, attacks=6"
+    },
+    "scene": {
+      "totalIssues": 0,
+      "missingScripts": 0,
+      "brokenPrefabs": 0
+    },
+    "console": {
+      "playModeErrors": 0,
+      "playModeWarnings": 0,
+      "afterStopErrors": 0,
+      "afterStopWarnings": 1,
+      "warning": "MCP-FOR-UNITY WebSocket is not initialised during play-mode exit; subsequent MCP calls succeeded."
+    },
+    "manualUserPlay": false,
+    "buildPerformed": false
+  },
+  "captures": [
+    "Captures/SteampunkEnvironment/Layout_Overview_Final.png",
+    "Captures/SteampunkEnvironment/Environment_PlayerHUD.png",
+    "Captures/SteampunkEnvironment/Player_View_Final.png",
+    "Captures/SteampunkEnvironment/Environment_UnlockedHUD.png",
+    "Captures/SteampunkEnvironment/Environment_ClearScreen.png",
+    "Captures/SteampunkEnvironment/Environment_GameOverScreen.png"
+  ],
+  "integrity": {
+    "before": 236,
+    "after": 314,
+    "modified": [
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets/Game/Materials/Environment.meta",
+      "Assets/Game/Materials/Environment/Steampunk_FloorTile_URP.mat",
+      "Assets/Game/Materials/Environment/Steampunk_FloorTile_URP.mat.meta",
+      "Assets/Game/Meshes.meta",
+      "Assets/Game/Meshes/Environment.meta",
+      "Assets/Game/Meshes/Environment/Steampunk_TiledFloor_9x9.asset",
+      "Assets/Game/Meshes/Environment/Steampunk_TiledFloor_9x9.asset.meta",
+      "Assets/Game/Models/Varco/Environment.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Materials.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Materials/Varco_BoilerHouse_URP.mat",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Materials/Varco_BoilerHouse_URP.mat.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Textures.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Textures/base_color.png",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Textures/normal.png",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Varco_BoilerHouse.fbx",
+      "Assets/Game/Models/Varco/Environment/BoilerHouse/Varco_BoilerHouse.fbx.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Materials.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Materials/Varco_BrassWorkshop_URP.mat",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Materials/Varco_BrassWorkshop_URP.mat.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Textures.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Textures/base_color.png",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Textures/normal.png",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Varco_BrassWorkshop.fbx",
+      "Assets/Game/Models/Varco/Environment/BrassWorkshop/Varco_BrassWorkshop.fbx.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Materials.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Materials/Varco_ClockworkShop_URP.mat",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Materials/Varco_ClockworkShop_URP.mat.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Textures.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Textures/base_color.png",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Textures/normal.png",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Varco_ClockworkShop.fbx",
+      "Assets/Game/Models/Varco/Environment/ClockworkShop/Varco_ClockworkShop.fbx.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Materials.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Materials/Varco_IndustrialWall_URP.mat",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Materials/Varco_IndustrialWall_URP.mat.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Textures.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Textures/base_color.png",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Textures/normal.png",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Varco_IndustrialWall.fbx",
+      "Assets/Game/Models/Varco/Environment/IndustrialWall/Varco_IndustrialWall.fbx.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Materials.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Materials/Varco_InventorHouse_URP.mat",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Materials/Varco_InventorHouse_URP.mat.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Textures.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Textures/base_color.png",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Textures/base_color.png.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Textures/normal.png",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Textures/normal.png.meta",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Varco_InventorHouse.fbx",
+      "Assets/Game/Models/Varco/Environment/InventorHouse/Varco_InventorHouse.fbx.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_BoilerHouse.prefab",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_BoilerHouse.prefab.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrassWorkshop.prefab",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrassWorkshop.prefab.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_ClockworkShop.prefab",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_ClockworkShop.prefab.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_IndustrialWall.prefab.meta",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_InventorHouse.prefab",
+      "Assets/Game/Prefabs/Environment/Steampunk/Varco_InventorHouse.prefab.meta",
+      "Assets/Game/Textures.meta",
+      "Assets/Game/Textures/Environment.meta",
+      "Assets/Game/Textures/Environment/Steampunk_FloorTile.png",
+      "Assets/Game/Textures/Environment/Steampunk_FloorTile.png.meta"
+    ],
+    "deleted": [],
+    "originalPhase3EvidenceRestored": 4
+  },
+  "finalState": {
+    "playMode": false,
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "sceneDirty": false,
+    "rootCount": 11,
+    "groundScale": [
+      27,
+      0.5,
+      27
+    ],
+    "meshVertices": 324,
+    "meshTriangles": 162,
+    "timeScale": 1
+  },
+  "tools": [
+    "Unity MCP read_mcp_resource",
+    "import_model_file",
+    "execute_code",
+    "manage_scene",
+    "manage_camera",
+    "manage_editor",
+    "read_console"
+  ],
+  "recordedAt": "2026-10-21T17:40:35.5965648+09:00",
+  "activeWallRevision": {
+    "date": "2026-10-21",
+    "manifest": "BrickWallRefinementManifest.json",
+    "prefab": "Assets/Game/Prefabs/Environment/Steampunk/Varco_BrickWall.prefab",
+    "heightMeters": 4.5,
+    "depthMeters": 0.850493848,
+    "checks": "BrickWallRefinementChecks.json",
+    "supersedes": "Original IndustrialWall placements and wall measurements in this historical manifest"
+  }
+}

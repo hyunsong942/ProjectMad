@@ -1,0 +1,16 @@
+{
+  "combo": 44,
+  "stage": 40,
+  "newFeatures": 33,
+  "total": 117,
+  "failed": 0,
+  "quitEditorVerified": true,
+  "sourceHashVerified": true,
+  "sceneIssues": 0,
+  "playModeErrors": 0,
+  "playModeWarnings": 0,
+  "postStopMCPWarnings": 1,
+  "warning": "MCP WebSocket is not initialised on leaving Play Mode; subsequent MCP operations succeeded",
+  "buildTested": false,
+  "directListeningEvaluated": false
+}

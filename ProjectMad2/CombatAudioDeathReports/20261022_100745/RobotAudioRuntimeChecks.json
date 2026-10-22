@@ -1,0 +1,130 @@
+{
+  "complete": true,
+  "passed": 6,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Robot attacks play the supplied sound",
+      "passed": true,
+      "detail": "events=13"
+    },
+    {
+      "name": "Robot sounds align with punch contact",
+      "passed": true,
+      "detail": "Contact frame 8/26, tolerance 0.09 normalized."
+    },
+    {
+      "name": "Robot source emits nonzero samples",
+      "passed": true,
+      "detail": "peak=0.3148147"
+    },
+    {
+      "name": "Scientist keeps material colors during death",
+      "passed": true,
+      "detail": "Death presentation is not immediately blackened."
+    },
+    {
+      "name": "Restart recreates four configured audio sources",
+      "passed": true,
+      "detail": "count=4"
+    },
+    {
+      "name": "Stage probe completed",
+      "passed": true,
+      "detail": "Existing stage suite completed."
+    }
+  ],
+  "robotEvents": [
+    {
+      "guard": "GuardRobot_01",
+      "attack": 1,
+      "sound": 1,
+      "normalized": 0.30856812,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_03",
+      "attack": 1,
+      "sound": 1,
+      "normalized": 0.308662355,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_02",
+      "attack": 1,
+      "sound": 1,
+      "normalized": 0.3077507,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 1,
+      "sound": 1,
+      "normalized": 0.309145182,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 2,
+      "sound": 2,
+      "normalized": 0.307810545,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 3,
+      "sound": 3,
+      "normalized": 0.3085953,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 4,
+      "sound": 4,
+      "normalized": 0.308949232,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 5,
+      "sound": 5,
+      "normalized": 0.3088031,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 6,
+      "sound": 6,
+      "normalized": 0.308196545,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 7,
+      "sound": 7,
+      "normalized": 0.308605373,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 8,
+      "sound": 8,
+      "normalized": 0.308477968,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 9,
+      "sound": 9,
+      "normalized": 0.308232933,
+      "clip": "Golem_Attack"
+    },
+    {
+      "guard": "GuardRobot_01",
+      "attack": 10,
+      "sound": 10,
+      "normalized": 0.3073843,
+      "clip": "Golem_Attack"
+    }
+  ]
+}

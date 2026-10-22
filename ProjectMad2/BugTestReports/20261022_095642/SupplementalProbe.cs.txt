@@ -1,0 +1,108 @@
+
+if (!UnityEngine.Application.isPlaying) return "Not in Play Mode";
+var dir=UnityEditor.SessionState.GetString("MadLabBugTestReportDir","");
+var player=UnityEngine.GameObject.Find("Player");
+var health=player.GetComponent<MadLab.LabHealth>();
+var input=player.GetComponent<MadLab.LabPlayerInput>();
+var dodge=player.GetComponent<MadLab.LabPlayerDodge>();
+var cc=player.GetComponent<UnityEngine.CharacterController>();
+var gauge=UnityEngine.Object.FindFirstObjectByType<MadLab.LabDodgeGauge>();
+var orbit=UnityEngine.Object.FindFirstObjectByType<MadLab.LabThirdPersonCamera>();
+var guards=UnityEngine.Object.FindObjectsByType<MadLab.LabEnemyGuard>(UnityEngine.FindObjectsSortMode.None);
+var flags=System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic;
+var actions=(UnityEngine.InputSystem.InputActionAsset)typeof(MadLab.LabPlayerInput).GetField("runtimeActions",flags).GetValue(input);
+var fill=(UnityEngine.UI.Image)typeof(MadLab.LabDodgeGauge).GetField("fill",flags).GetValue(gauge);
+var marker=(UnityEngine.UI.Image)typeof(MadLab.LabDodgeGauge).GetField("readyMarker",flags).GetValue(gauge);
+foreach(var g in guards)g.enabled=false;
+var enemy=guards[0]; var enemyHealth=enemy.GetComponent<MadLab.LabHealth>();
+var anim=enemy.GetComponent<MadLab.LabEnemyAnimation>();
+var smr=enemy.GetComponentInChildren<UnityEngine.SkinnedMeshRenderer>();
+var mesh=new UnityEngine.Mesh();
+var oldRun=UnityEngine.Application.runInBackground;
+UnityEngine.Application.runInBackground=true;
+actions.devices=new UnityEngine.InputSystem.InputDevice[0];
+input.CaptureCursor();
+var checks=new Newtonsoft.Json.Linq.JArray();
+int passed=0,failed=0,phase=0,lastFrame=-1,damageEvents=0,groundSamples=0;
+float started=UnityEngine.Time.time,phaseAt=started,hitNormalized=-1f,damageAmount=0f,maxGroundError=0f,nextGroundAt=started;
+bool complete=false,sawWalk=false,hitHandled=false,sawRecovery=false,recoveryStill=true,resumed=false;
+UnityEngine.Vector3 recoveryAnchor=UnityEngine.Vector3.zero;
+System.Action persist=()=>System.IO.File.WriteAllText(System.IO.Path.Combine(dir,"SupplementalChecks.json"),new Newtonsoft.Json.Linq.JObject {
+ ["timestamp"]=System.DateTimeOffset.UtcNow.ToOffset(System.TimeSpan.FromHours(9)).ToString("o"),
+ ["complete"]=complete,["passed"]=passed,["failed"]=failed,["checks"]=checks,
+ ["groundSamples"]=groundSamples,["maxGroundErrorMeters"]=maxGroundError
+}.ToString());
+System.Action<string,bool,string> check=(name,ok,detail)=>{checks.Add(new Newtonsoft.Json.Linq.JObject {["name"]=name,["passed"]=ok,["detail"]=detail});if(ok)passed++;else failed++;persist();};
+System.Action<UnityEngine.Vector3> place=(pos)=>{cc.enabled=false;player.transform.SetPositionAndRotation(pos,UnityEngine.Quaternion.identity);cc.enabled=true;UnityEngine.Physics.SyncTransforms();};
+System.Action<float> onDamage=(amount)=>{damageEvents++;damageAmount+=amount;var s=anim.Animator.GetCurrentAnimatorStateInfo(0);if(anim.Animator.IsInTransition(0)&&anim.Animator.GetNextAnimatorStateInfo(0).IsName("Base Layer.Attack"))s=anim.Animator.GetNextAnimatorStateInfo(0);hitNormalized=s.normalizedTime;};
+health.Damaged+=onDamage;
+UnityEditor.EditorApplication.CallbackFunction tick=null;
+System.Action cleanup=()=>{UnityEditor.EditorApplication.update-=tick;if(health!=null)health.Damaged-=onDamage;if(actions!=null)actions.devices=null;UnityEngine.Application.runInBackground=oldRun;if(input!=null)input.ReleaseCursor();UnityEngine.Object.DestroyImmediate(mesh);UnityEditor.SessionState.SetBool("MadLabSupplementalRunning",false);};
+place(new UnityEngine.Vector3(0,0.05f,-8));
+tick=()=>{
+ try {
+ if(!UnityEngine.Application.isPlaying){check("Supplemental run completed",false,"Play mode ended before completion");complete=true;persist();cleanup();return;}
+ if(lastFrame==UnityEngine.Time.frameCount)return;
+ lastFrame=UnityEngine.Time.frameCount;
+ float now=UnityEngine.Time.time;
+ if(now-started>25f){check("Supplemental run completed",false,"Timed out at phase "+phase);complete=true;persist();cleanup();return;}
+ if(input.enabled&&!input.HasControl)input.CaptureCursor();
+ if(phase>=4&&phase<=5&&now>=nextGroundAt){
+ nextGroundAt=now+0.07f;smr.BakeMesh(mesh);float low=float.MaxValue;
+ foreach(var v in mesh.vertices)low=UnityEngine.Mathf.Min(low,smr.transform.TransformPoint(v).y);
+ maxGroundError=UnityEngine.Mathf.Max(maxGroundError,UnityEngine.Mathf.Abs(low));groundSamples++;
+ }
+ if(phase==0&&now-phaseAt>0.25f){
+ check("Dodge gauge starts full and ready",dodge.IsReady&&fill.rectTransform.anchorMax.x>0.999f&&marker.enabled,"fill="+fill.rectTransform.anchorMax.x);
+ check("Dodge can start from ready state",dodge.TryStart(UnityEngine.Vector3.forward),"Direct action call; input path covered by combo suite.");
+ phase=1;phaseAt=now;
+ }else if(phase==1&&now-phaseAt>0.2f){
+ check("Gauge follows dodge recharge",!dodge.IsReady&&!marker.enabled&&fill.rectTransform.anchorMax.x>0f&&fill.rectTransform.anchorMax.x<0.4f&&UnityEngine.Mathf.Abs(fill.rectTransform.anchorMax.x-dodge.RechargeProgress)<0.05f,"fill="+fill.rectTransform.anchorMax.x+", progress="+dodge.RechargeProgress);
+ check("Dodge cannot repeat during roll",!dodge.TryStart(UnityEngine.Vector3.forward),"Active roll rejected second action.");
+ phase=2;
+ }else if(phase==2&&now-phaseAt>0.95f){
+ check("Cooldown remains after roll ends",!dodge.IsDodging&&!dodge.IsReady&&!marker.enabled&&!dodge.TryStart(UnityEngine.Vector3.forward),"remaining="+dodge.CooldownRemaining);
+ phase=3;
+ }else if(phase==3&&now-phaseAt>1.75f){
+ check("Gauge becomes ready with actual cooldown",dodge.IsReady&&marker.enabled&&fill.rectTransform.anchorMax.x>0.999f,"remaining="+dodge.CooldownRemaining);
+ place(new UnityEngine.Vector3(0,0.05f,-10.8f));
+ typeof(MadLab.LabThirdPersonCamera).GetField("yaw",flags).SetValue(orbit,0f);
+ typeof(MadLab.LabThirdPersonCamera).GetField("pitch",flags).SetValue(orbit,20f);
+ phase=31;phaseAt=now;
+ }else if(phase==31&&now-phaseAt>0.35f){
+ float cameraDistance=UnityEngine.Vector3.Distance(orbit.transform.position,player.transform.position+UnityEngine.Vector3.up*1.4f);
+ check("Camera avoids the south wall",orbit.transform.position.z>-11.58f&&cameraDistance<2f,"camera="+orbit.transform.position+", distance="+cameraDistance);
+ place(new UnityEngine.Vector3(0,0.05f,-3f));
+ var ecc=enemy.GetComponent<UnityEngine.CharacterController>();ecc.enabled=false;enemy.transform.SetPositionAndRotation(new UnityEngine.Vector3(0,0.05f,2f),UnityEngine.Quaternion.Euler(0,180,0));ecc.enabled=true;
+ enemy.enabled=true;UnityEngine.Physics.SyncTransforms();phase=4;phaseAt=now;
+ }else if(phase==4){
+ if(enemy.State==MadLab.LabEnemyGuard.GuardState.Chase&&enemy.GetComponent<UnityEngine.CharacterController>().velocity.sqrMagnitude>0.1f&&anim.CurrentState=="Walk")sawWalk=true;
+ if(damageEvents>0&&!hitHandled){hitHandled=true;recoveryAnchor=enemy.transform.position;place(player.transform.position+UnityEngine.Vector3.back*4f);}
+ if(hitHandled&&enemy.IsRecovering){sawRecovery=true;var d=enemy.transform.position-recoveryAnchor;d.y=0;if(d.magnitude>0.02f)recoveryStill=false;}
+ if(hitHandled&&!enemy.IsRecovering&&enemy.State==MadLab.LabEnemyGuard.GuardState.Chase){var d=enemy.transform.position-recoveryAnchor;d.y=0;resumed=d.magnitude>0.12f;}
+ if(resumed||now-phaseAt>6f){
+ check("Golem walk animation follows pursuit",sawWalk,"Observed actual Chase movement with Walk state.");
+ check("Golem punch applies one ten-point hit",damageEvents==1&&UnityEngine.Mathf.Abs(damageAmount-10f)<0.01f,"events="+damageEvents+", damage="+damageAmount);
+ check("Golem damage matches punch contact frame",UnityEngine.Mathf.Abs(hitNormalized-8f/26f)<0.07f,"normalized="+hitNormalized);
+ check("Golem finishes recovery before moving",sawRecovery&&recoveryStill&&resumed,"recoverySeen="+sawRecovery+", stationary="+recoveryStill+", resumed="+resumed);
+ check("Enemy animation does not drive root movement",!anim.Animator.applyRootMotion,"CharacterController movement.");
+ enemyHealth.TryTakeDamage(30f,health);phase=5;phaseAt=now;
+ }
+ }else if(phase==5&&now-phaseAt>4.9f){
+ bool collidersOff=true;foreach(var c in enemy.GetComponentsInChildren<UnityEngine.Collider>())if(c.enabled)collidersOff=false;
+ var s=anim.Animator.GetCurrentAnimatorStateInfo(0);
+ check("Dead golem finishes death animation",enemyHealth.IsDead&&anim.CurrentState=="Death"&&s.IsName("Base Layer.Death")&&s.normalizedTime>=0.98f,"state="+anim.CurrentState+", normalized="+s.normalizedTime);
+ check("Dead golem does not block movement",collidersOff,"All guard colliders disabled.");
+ check("Golem remains near ground while animating",groundSamples>30&&maxGroundError<0.12f,"maximum vertical deviation="+maxGroundError+", samples="+groundSamples);
+ health.TryTakeDamage(100f,null);phase=6;phaseAt=now;
+ }else if(phase==6&&now-phaseAt>0.2f){
+ check("Game over disables dodge gauge readiness",!dodge.isActiveAndEnabled&&!marker.enabled&&fill.rectTransform.anchorMax.x<0.001f,"fill="+fill.rectTransform.anchorMax.x);
+ complete=true;persist();cleanup();
+ }
+ }catch(System.Exception ex){check("Supplemental runtime exception",false,ex.ToString());complete=true;persist();cleanup();}
+};
+System.IO.File.WriteAllText(System.IO.Path.Combine(dir,"SupplementalProbe.txt"),"Runtime-only EditorApplication callback: gauge readiness/cooldown, south-wall camera collision, golem animation timing/recovery/death/grounding. No gameplay source changes.");
+UnityEditor.SessionState.SetBool("MadLabSupplementalRunning",true);
+UnityEditor.EditorApplication.update+=tick;
+persist();
+return new {started=true,report=System.IO.Path.Combine(dir,"SupplementalChecks.json")};

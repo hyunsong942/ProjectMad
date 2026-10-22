@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-21",
+  "request": "걷다가 회피하는 움직임이 자연스럽지 않다는 사용자 피드백",
+  "scope": "Player walking-to-dodge-to-walk motion and timing refinement through Unity MCP",
+  "backup": "DevelopmentBackups/DodgeTransition",
+  "before": {
+    "durationSeconds": 0.3,
+    "clipSpeed": 5.555556,
+    "constantTravelSpeed": 10,
+    "entryBlendSeconds": 0.035,
+    "sharedAnimatorSpeed": "PlaybackSpeed"
+  },
+  "after": {
+    "durationSeconds": 0.75,
+    "clipSpeed": 2.222222,
+    "distanceMeters": 3,
+    "entryBlendSeconds": 0.09,
+    "locomotionBlendSeconds": 0.14,
+    "walkRecoverySeconds": 0.12,
+    "walkSpeedDampingSeconds": 0.06,
+    "speedParameters": [
+      "WalkSpeed",
+      "DodgeSpeed",
+      "AttackSpeed"
+    ],
+    "idleSpeed": 1,
+    "invulnerabilitySeconds": 0.18,
+    "cooldownAfterRollSeconds": 0.8,
+    "totalStartToStartCooldownSeconds": 1.55,
+    "cumulativeTravelKeys": [
+      [
+        0,
+        0
+      ],
+      [
+        0.2,
+        0.192
+      ],
+      [
+        0.4,
+        0.553
+      ],
+      [
+        0.6,
+        0.786
+      ],
+      [
+        0.8,
+        0.937
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "entry": "First curve tangent matches velocity projected along dodge direction; clamped to a monotonic range.",
+    "synchronization": "Start offset = dodge progress * active state duration in elapsed state seconds; include final movement frame before returning to locomotion.",
+    "rootMotion": false,
+    "sourceFrames": [
+      10,
+      60
+    ]
+  },
+  "validation": {
+    "transitionAndCombo": {
+      "passed": 43,
+      "failed": 0,
+      "complete": true,
+      "timestamp": "2026-10-21T16:41:52.6126036+09:00"
+    },
+    "stage": {
+      "passed": 39,
+      "failed": 0,
+      "complete": true,
+      "timestamp": "2026-10-21T16:42:50.6306894+09:00"
+    },
+    "distanceIntegration": {
+      "passed": 10,
+      "failed": 0,
+      "report": "DodgeDistanceChecks.json",
+      "deltaTimes": [
+        0.03333333333333333,
+        0.016666666666666666,
+        0.008333333333333333,
+        0.017,
+        0.2
+      ],
+      "entrySpeeds": [
+        0,
+        4.5
+      ]
+    },
+    "sceneIssues": 0,
+    "measuredWalkToRoll": {
+      "walkingSpeed": 4.499969,
+      "firstFrameAverageSpeed": 3.561677,
+      "peakSpeed": 7.929829,
+      "finalSpeed": 0.005287129,
+      "totalDistance": 3,
+      "maximumAnimationProgressError": 0.001749158
+    },
+    "playConsole": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "afterStopConsole": {
+      "errors": 0,
+      "warnings": 1,
+      "warning": "MCP WebSocket is not initialised; all tool operations succeeded."
+    }
+  },
+  "attempts": [
+    {
+      "report": "DodgeTransitionTestAttempt1.json",
+      "passed": 41,
+      "failed": 1,
+      "reason": "First-frame movement preceded animation; roll ended at normalized time 0.9415."
+    },
+    {
+      "report": "DodgeTransitionTestAttempt2.json",
+      "passed": 42,
+      "failed": 1,
+      "reason": "Clip-seconds offset was multiplied by state speed; measured animation progress error 0.1083."
+    },
+    {
+      "report": "DodgeTransitionTestResults.json",
+      "passed": 43,
+      "failed": 0,
+      "fix": "Elapsed state seconds used for offset; max progress error 0.00175."
+    }
+  ],
+  "integrity": {
+    "before": 234,
+    "after": 234,
+    "modified": [
+      "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+      "Assets/Game/Tests/PlayerComboPlayModeChecks.cs",
+      "Assets/Game/Animations/Scientist/Scientist.controller",
+      "Assets/Game/Scripts/Player/LabPlayerAnimation.cs",
+      "Assets/Game/Scripts/Player/LabPlayerDodge.cs",
+      "Assets/Game/Scripts/Player/LabPlayerMotor.cs"
+    ],
+    "added": [],
+    "deleted": [],
+    "originalStageEvidenceRestored": true,
+    "fbxAndImportSettingsUnchanged": true
+  },
+  "finalState": {
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "playing": false,
+    "dirty": false,
+    "roots": 11,
+    "temporaryObjects": 0,
+    "testInputDevices": 0
+  },
+  "reports": [
+    "DodgeTransitionTestResults.json",
+    "DodgeTransitionStageTestResults.json",
+    "DodgeDistanceChecks.json",
+    "DodgeTransitionSamples.json"
+  ],
+  "captures": "Captures/DodgeTransition",
+  "tools": [
+    "execute_code",
+    "manage_editor",
+    "manage_scene",
+    "read_console",
+    "read_mcp_resource"
+  ],
+  "apiReference": "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Animator.CrossFadeInFixedTime.html"
+}

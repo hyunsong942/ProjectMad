@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-10-22",
+  "project": "ProjectMad",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "result": "확인한 자동 검사 98개 통과, 게임 진행을 막는 오류는 재현되지 않음",
+  "suites": [
+    {
+      "report": "ComboChecks.json",
+      "passed": 43,
+      "failed": 0
+    },
+    {
+      "report": "StageChecks.json",
+      "passed": 39,
+      "failed": 0
+    },
+    {
+      "report": "SupplementalChecks.json",
+      "passed": 16,
+      "failed": 0
+    }
+  ],
+  "total": {
+    "passed": 98,
+    "failed": 0
+  },
+  "sceneValidation": {
+    "missingScripts": 0,
+    "brokenPrefabs": 0,
+    "issues": 0
+  },
+  "observations": [
+    {
+      "severity": "visual observation",
+      "description": "골렘의 스킨 메시 최저점과 지면 높이 차이가 108회 샘플에서 최대 0.117392853m 관측됨. 보조 검사 허용 범위 0.12m 내에서 통과했으나 발 위치 자체를 측정한 것은 아니므로 동작의 자연스러움과 접지는 추가 시각 검토 및 보정 여지가 있음."
+    },
+    {
+      "severity": "tooling warning",
+      "description": "플레이 모드 전환 중 MCP 플러그인 경고 1건: [WebSocket] Unexpected receive error: WebSocket is not initialised. 이후 MCP 명령과 전체 테스트 완료. 게임 스크립트 오류는 관측되지 않음."
+    }
+  ],
+  "methods": "기존 테스트는 가상 키보드·마우스 입력 사용. 보조 검사는 회피·체력 동작 호출 및 런타임 상태·모델 높이 측정 사용. 콤보와 클리어 화면 캡처 확인.",
+  "limitations": [
+    "Unity Editor Play Mode 검사이며 실행 파일 빌드 및 별도의 수동 플레이는 수행하지 않음",
+    "모든 입력 순서, 모든 프레임률, 모든 기기의 동작을 보장하지 않음"
+  ],
+  "preservation": {
+    "projectFiles": 365,
+    "modified": 0,
+    "added": 0,
+    "deleted": 0,
+    "previousEvidenceRestoredAndVerified": 21,
+    "sceneDirty": false,
+    "playMode": false,
+    "temporaryRunners": 0
+  },
+  "tools": [
+    "read_mcp_resource",
+    "manage_editor",
+    "execute_code",
+    "read_console",
+    "manage_scene"
+  ]
+}

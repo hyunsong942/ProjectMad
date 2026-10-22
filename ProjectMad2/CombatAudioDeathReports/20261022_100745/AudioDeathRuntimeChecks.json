@@ -1,0 +1,460 @@
+{
+  "complete": true,
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Whoosh clips play during combo",
+      "passed": true,
+      "detail": "events=17"
+    },
+    {
+      "name": "Each sound matches the combo step",
+      "passed": true,
+      "detail": "Recorded step and active combat step match."
+    },
+    {
+      "name": "Audio source emits nonzero samples",
+      "passed": true,
+      "detail": "peak=0.4223677"
+    },
+    {
+      "name": "No new swing starts during dodge",
+      "passed": true,
+      "detail": "Cancellation cases covered by input suite."
+    },
+    {
+      "name": "Death animation plays before game over panel",
+      "passed": true,
+      "detail": "Result overlay hidden during the fall."
+    },
+    {
+      "name": "Death finishes and holds final pose",
+      "passed": true,
+      "detail": "clip=3.033334 seconds."
+    },
+    {
+      "name": "Death keeps player collision root stationary",
+      "passed": true,
+      "detail": "CharacterController disabled."
+    },
+    {
+      "name": "Game over appears after death animation",
+      "passed": true,
+      "detail": "Result panel displayed."
+    },
+    {
+      "name": "Death stops action audio",
+      "passed": true,
+      "detail": "No pending attack audio."
+    },
+    {
+      "name": "Probe completed",
+      "passed": true,
+      "detail": "Existing combo suite completed."
+    }
+  ],
+  "swingEvents": [
+    {
+      "time": 18.1247864,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.555690765,
+      "audioPlaying": true
+    },
+    {
+      "time": 19.3720436,
+      "step": 1,
+      "clip": "Staff_Swing_02",
+      "progress": 0.5571327,
+      "audioPlaying": true
+    },
+    {
+      "time": 19.7203732,
+      "step": 2,
+      "clip": "Staff_Swing_03",
+      "progress": 0.09046716,
+      "audioPlaying": true
+    },
+    {
+      "time": 21.0537567,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.555765152,
+      "audioPlaying": true
+    },
+    {
+      "time": 21.40174,
+      "step": 2,
+      "clip": "Staff_Swing_04",
+      "progress": 0.08800505,
+      "audioPlaying": true
+    },
+    {
+      "time": 22.0852623,
+      "step": 3,
+      "clip": "Staff_Swing_05",
+      "progress": 0.164160267,
+      "audioPlaying": true
+    },
+    {
+      "time": 23.83407,
+      "step": 1,
+      "clip": "Staff_Swing_02",
+      "progress": 0.5555906,
+      "audioPlaying": true
+    },
+    {
+      "time": 26.93564,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.557559,
+      "audioPlaying": true
+    },
+    {
+      "time": 27.28352,
+      "step": 2,
+      "clip": "Staff_Swing_03",
+      "progress": 0.08939469,
+      "audioPlaying": true
+    },
+    {
+      "time": 27.9664936,
+      "step": 3,
+      "clip": "Staff_Swing_06",
+      "progress": 0.164882287,
+      "audioPlaying": true
+    },
+    {
+      "time": 29.79579,
+      "step": 1,
+      "clip": "Staff_Swing_02",
+      "progress": 0.5577564,
+      "audioPlaying": true
+    },
+    {
+      "time": 31.0859089,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.555333138,
+      "audioPlaying": true
+    },
+    {
+      "time": 32.38186,
+      "step": 1,
+      "clip": "Staff_Swing_02",
+      "progress": 0.5579052,
+      "audioPlaying": true
+    },
+    {
+      "time": 32.8326874,
+      "step": 2,
+      "clip": "Staff_Swing_04",
+      "progress": 0.08847916,
+      "audioPlaying": true
+    },
+    {
+      "time": 34.2447662,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.5587406,
+      "audioPlaying": true
+    },
+    {
+      "time": 39.0923347,
+      "step": 1,
+      "clip": "Staff_Swing_02",
+      "progress": 0.557481766,
+      "audioPlaying": true
+    },
+    {
+      "time": 40.3880768,
+      "step": 1,
+      "clip": "Staff_Swing_01",
+      "progress": 0.5560169,
+      "audioPlaying": true
+    }
+  ],
+  "deathSamples": [
+    {
+      "time": 0.0,
+      "minY": -0.0359516852,
+      "maxY": 1.6485796,
+      "state": "Attack1",
+      "normalized": 0.413104028
+    },
+    {
+      "time": 0.101135254,
+      "minY": -0.02478237,
+      "maxY": 1.72902524,
+      "state": "Death",
+      "normalized": 0.03023773
+    },
+    {
+      "time": 0.201980591,
+      "minY": 0.0334437974,
+      "maxY": 1.57297778,
+      "state": "Death",
+      "normalized": 0.06348402
+    },
+    {
+      "time": 0.37620163,
+      "minY": 0.467093825,
+      "maxY": 1.70822263,
+      "state": "Death",
+      "normalized": 0.1209195
+    },
+    {
+      "time": 0.477127075,
+      "minY": 0.5533425,
+      "maxY": 1.759628,
+      "state": "Death",
+      "normalized": 0.154190719
+    },
+    {
+      "time": 0.5788994,
+      "minY": 0.7349535,
+      "maxY": 1.63023877,
+      "state": "Death",
+      "normalized": 0.187743053
+    },
+    {
+      "time": 0.6796837,
+      "minY": 0.556064665,
+      "maxY": 1.56219745,
+      "state": "Death",
+      "normalized": 0.2209682
+    },
+    {
+      "time": 0.781005859,
+      "minY": 0.246036813,
+      "maxY": 1.31929469,
+      "state": "Death",
+      "normalized": 0.2543704
+    },
+    {
+      "time": 0.975643158,
+      "minY": -0.009456892,
+      "maxY": 1.18272734,
+      "state": "Death",
+      "normalized": 0.318536967
+    },
+    {
+      "time": 1.0772934,
+      "minY": -0.0219922177,
+      "maxY": 1.24655175,
+      "state": "Death",
+      "normalized": 0.352047771
+    },
+    {
+      "time": 1.17801666,
+      "minY": -0.010412734,
+      "maxY": 1.11395407,
+      "state": "Death",
+      "normalized": 0.385253251
+    },
+    {
+      "time": 1.27876282,
+      "minY": -0.0182691328,
+      "maxY": 1.023728,
+      "state": "Death",
+      "normalized": 0.418466717
+    },
+    {
+      "time": 1.37934113,
+      "minY": -0.024885606,
+      "maxY": 0.8354378,
+      "state": "Death",
+      "normalized": 0.451624334
+    },
+    {
+      "time": 1.48021317,
+      "minY": -0.009400826,
+      "maxY": 0.7024785,
+      "state": "Death",
+      "normalized": 0.484879285
+    },
+    {
+      "time": 1.58169937,
+      "minY": -0.0192413144,
+      "maxY": 0.6200085,
+      "state": "Death",
+      "normalized": 0.5183354
+    },
+    {
+      "time": 1.68281555,
+      "minY": -0.03333045,
+      "maxY": 0.5245292,
+      "state": "Death",
+      "normalized": 0.551670432
+    },
+    {
+      "time": 1.87511444,
+      "minY": -0.04528914,
+      "maxY": 0.431709081,
+      "state": "Death",
+      "normalized": 0.615066469
+    },
+    {
+      "time": 1.97608566,
+      "minY": -0.07928069,
+      "maxY": 0.433736622,
+      "state": "Death",
+      "normalized": 0.648352861
+    },
+    {
+      "time": 2.07749939,
+      "minY": -0.08258237,
+      "maxY": 0.439632833,
+      "state": "Death",
+      "normalized": 0.681786537
+    },
+    {
+      "time": 2.17934418,
+      "minY": -0.08775164,
+      "maxY": 0.443937778,
+      "state": "Death",
+      "normalized": 0.715361953
+    },
+    {
+      "time": 2.28091812,
+      "minY": -0.0784460455,
+      "maxY": 0.445782334,
+      "state": "Death",
+      "normalized": 0.7488479
+    },
+    {
+      "time": 2.381977,
+      "minY": -0.100923538,
+      "maxY": 0.4375501,
+      "state": "Death",
+      "normalized": 0.782163858
+    },
+    {
+      "time": 2.48201752,
+      "minY": -0.08834237,
+      "maxY": 0.432066977,
+      "state": "Death",
+      "normalized": 0.81514436
+    },
+    {
+      "time": 2.58256531,
+      "minY": -0.08164406,
+      "maxY": 0.435335159,
+      "state": "Death",
+      "normalized": 0.848291636
+    },
+    {
+      "time": 2.6831665,
+      "minY": -0.0897307545,
+      "maxY": 0.436007768,
+      "state": "Death",
+      "normalized": 0.881457448
+    },
+    {
+      "time": 2.78396225,
+      "minY": -0.08235203,
+      "maxY": 0.43788594,
+      "state": "Death",
+      "normalized": 0.9146868
+    },
+    {
+      "time": 2.9754982,
+      "minY": -0.05856351,
+      "maxY": 0.433490276,
+      "state": "Death",
+      "normalized": 0.977830768
+    },
+    {
+      "time": 3.076851,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.17717743,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.27733231,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.37890244,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.480297,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.58081436,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.682251,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.78326035,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.883854,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 3.98413849,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 4.085205,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 4.18570328,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    },
+    {
+      "time": 4.28601456,
+      "minY": -0.0508605652,
+      "maxY": 0.4312949,
+      "state": "Death",
+      "normalized": 1.00037956
+    }
+  ]
+}

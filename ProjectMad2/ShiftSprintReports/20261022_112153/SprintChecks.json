@@ -1,0 +1,133 @@
+{
+    "timestamp": "2026-10-22T11:28:53.8499447+09:00",
+    "complete": true,
+    "passed": 25,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Sprint has both Shift bindings and held-state polling",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Shift cannot move or animate gameplay behind main menu",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Run state uses valid Humanoid rig without root motion",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Existing walking remains 4.5 metres per second",
+            "detail": "Speed=4.499836",
+            "passed": true
+        },
+        {
+            "name": "Left Shift selects Run and reaches seven metres per second",
+            "detail": "Speed=7.000159",
+            "passed": true
+        },
+        {
+            "name": "Run animation cadence follows retargeted stride length",
+            "detail": "RunSpeed=1.508898",
+            "passed": true
+        },
+        {
+            "name": "Running actually animates the leg bones",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Releasing Shift returns to walk speed and animation",
+            "detail": "Speed=4.499982",
+            "passed": true
+        },
+        {
+            "name": "Shift alone never runs in place",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Right Shift also runs",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Diagonal sprint is normalized",
+            "detail": "Speed=6.99999",
+            "passed": true
+        },
+        {
+            "name": "Sprint faces the actual movement direction",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Sprint cannot tunnel through a wall",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Blocked movement returns animation to idle",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Dodge takes animation priority over sprint",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Sprinting keeps the original three-metre roll",
+            "detail": "Travel=3",
+            "passed": true
+        },
+        {
+            "name": "Sprint does not shorten the dodge animation",
+            "detail": "Seconds=0.7503747",
+            "passed": true
+        },
+        {
+            "name": "Held Shift resumes running after dodge recovery",
+            "detail": "Speed=7.000012",
+            "passed": true
+        },
+        {
+            "name": "Releasing Shift during dodge resumes walking",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes sprint position clock and animation",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Holding Shift through resume restores sprint",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Attack interrupts sprint and holds the player still",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Held Shift can resume running after attack",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Death disables sprint input and movement",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Running never accumulates displacement on the visual root",
+            "detail": "",
+            "passed": true
+        }
+    ]
+}

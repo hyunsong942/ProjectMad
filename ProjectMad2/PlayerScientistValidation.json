@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-21",
+  "scope": "Scientist is the controllable player; animations deferred",
+  "checks": [
+    {
+      "name": "Scientist visual is active under Player",
+      "passed": true
+    },
+    {
+      "name": "Primitive player visuals disabled",
+      "passed": true
+    },
+    {
+      "name": "Player has exactly one CharacterController and no additional collider",
+      "passed": true
+    },
+    {
+      "name": "Scientist has no Animator or Animation",
+      "passed": true
+    },
+    {
+      "name": "Player feedback references scientist renderer",
+      "passed": true
+    },
+    {
+      "name": "Scientist feet align to Player origin and height is 1.8m",
+      "passed": true
+    },
+    {
+      "name": "Incorrect NPC and platform removed",
+      "passed": true
+    },
+    {
+      "name": "All three golem guards retained",
+      "passed": true
+    }
+  ],
+  "boundsCenter": "(0.0000, 0.9500, -8.0000)",
+  "boundsSize": "(1.3598, 1.8000, 0.3758)",
+  "feetY": 0.0500000119,
+  "playerY": 0.05,
+  "references": [
+    "LabThirdPersonCamera.m_Script=LabThirdPersonCamera",
+    "LabThirdPersonCamera.target=Player",
+    "LabThirdPersonCamera.input=Player",
+    "LabStageController.m_Script=LabStageController",
+    "LabStageController.player=Player",
+    "LabStageController.data=GuardRobot_01",
+    "LabStageController.data=GuardRobot_02",
+    "LabStageController.data=GuardRobot_03",
+    "LabStageController.exitDoor=ExitZone"
+  ],
+  "materials": [
+    {
+      "name": "Varco_SteampunkGentleman_URP",
+      "shader": "Universal Render Pipeline/Lit",
+      "baseMap": "base_color",
+      "normal": "normal"
+    }
+  ],
+  "finalState": {
+    "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+    "dirty": false,
+    "playing": false,
+    "inputEnabled": true,
+    "rootCount": 11,
+    "playerVisual": true,
+    "npcCount": 0,
+    "temporaryObjects": [],
+    "testDevices": 0
+  },
+  "sceneValidation": {
+    "sceneName": "MadScientistLab_Prototype",
+    "totalIssues": 0,
+    "missingScripts": 0,
+    "brokenPrefabs": 0,
+    "repaired": 0,
+    "issues": [],
+    "truncated": false,
+    "note": null
+  },
+  "console": {
+    "errors": 0,
+    "warnings": 1,
+    "note": "MCP WebSocket is not initialised warning during Play Mode transition. Subsequent MCP calls succeeded; no direct file-edit fallback."
+  },
+  "integrity": {
+    "before": 200,
+    "after": 202,
+    "modified": [
+      "Assets\\Game\\Scenes\\MadScientistLab_Prototype.unity"
+    ],
+    "added": [
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Visual.prefab.meta",
+      "Assets\\Game\\Prefabs\\Player\\VarcoScientist_Visual.prefab"
+    ],
+    "deleted": []
+  }
+}

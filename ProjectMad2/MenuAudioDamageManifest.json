@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-22",
+  "scene": "Assets/Game/Scenes/MadScientistLab_Prototype.unity",
+  "userRequest": "배경음악, 타격 피해량 표시, 시작/종료/설정 메뉴, Esc 일시정지 및 나가기, 마스터/효과음/배경음 볼륨 조절",
+  "music": {
+    "source": "C:/Users/mbc/Downloads/Harmony of time and steam_2.mp3",
+    "asset": "Assets/Game/Audio/Music/HarmonyOfTimeAndSteam.mp3",
+    "sha256": "5CCEA54556B3B6464726E24AF55A9DF9BD86A8E17C2FDD882B51B71EF6937A4D",
+    "sourcePreserved": true,
+    "seconds": 188.055511,
+    "stereo": true,
+    "streaming": true,
+    "loop": true,
+    "defaultVolume": 0.35,
+    "continuesDuringMenusAndPause": true
+  },
+  "menus": {
+    "main": [
+      "게임 시작",
+      "설정",
+      "게임 종료"
+    ],
+    "pause": [
+      "계속하기",
+      "설정",
+      "나가기 · 시작 메뉴"
+    ],
+    "escape": "gameplay -> pause; pause -> resume; settings -> previous menu",
+    "returnToMain": "reload clean stage, preserve music and volumes",
+    "quit": "Stop Editor Play Mode or Application.Quit in build"
+  },
+  "audio": {
+    "master": 1,
+    "effects": 0.8,
+    "music": 0.35,
+    "persistence": "PlayerPrefs (saved on settings close and application/session exit)",
+    "pausedEffects": true,
+    "bgmOutputVerified": {
+      "menuPeak": 0.1629284,
+      "gamePeak": 0.250543535,
+      "samples": 2123
+    }
+  },
+  "damage": {
+    "event": "actual accepted LabHealth damage",
+    "enemyColor": "gold",
+    "playerColor": "red",
+    "lifetimeSeconds": 0.85,
+    "poolCapacity": 24,
+    "pausedLifetime": true,
+    "overkillShowsAppliedDamage": true
+  },
+  "tests": {
+    "combo": 44,
+    "stage": 40,
+    "newFeatures": 33,
+    "total": 117,
+    "failed": 0,
+    "quitEditorVerified": true,
+    "sourceHashVerified": true,
+    "sceneIssues": 0,
+    "playModeErrors": 0,
+    "playModeWarnings": 0,
+    "postStopMCPWarnings": 1,
+    "warning": "MCP WebSocket is not initialised on leaving Play Mode; subsequent MCP operations succeeded",
+    "buildTested": false,
+    "directListeningEvaluated": false
+  },
+  "integrity": {
+    "baseline": 392,
+    "after": 403,
+    "modified": 14,
+    "added": 11,
+    "removed": 0,
+    "historicalEvidenceRestoredAndHashVerified": 21,
+    "temporaryRunners": 0,
+    "temporaryInputDevices": 0,
+    "finalMode": "Edit Mode",
+    "sceneDirty": false,
+    "roots": 12
+  },
+  "backup": "DevelopmentBackups/MenuAudioDamage_20261022_102937",
+  "reports": "MenuAudioDamageReports/20261022_102937",
+  "tools": [
+    "read_mcp_resource",
+    "execute_code",
+    "manage_editor",
+    "manage_scene",
+    "manage_camera",
+    "read_console"
+  ]
+}

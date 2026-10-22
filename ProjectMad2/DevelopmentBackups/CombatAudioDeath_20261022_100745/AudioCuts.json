@@ -1,0 +1,44 @@
+[
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_01.wav",
+    "sourceStart": 0.04,
+    "sourceEnd": 0.5,
+    "duration": 0.46
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_02.wav",
+    "sourceStart": 1.24,
+    "sourceEnd": 1.65,
+    "duration": 0.41
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_03.wav",
+    "sourceStart": 2.7,
+    "sourceEnd": 3.035,
+    "duration": 0.335
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_04.wav",
+    "sourceStart": 3.065,
+    "sourceEnd": 3.44,
+    "duration": 0.375
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_05.wav",
+    "sourceStart": 4.46,
+    "sourceEnd": 5.15,
+    "duration": 0.69
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_06.wav",
+    "sourceStart": 5.85,
+    "sourceEnd": 6.4,
+    "duration": 0.55
+  },
+  {
+    "path": "Assets/Game/Audio/Combat/Staff_Swing_07.wav",
+    "sourceStart": 7.4,
+    "sourceEnd": 7.76,
+    "duration": 0.36
+  }
+]

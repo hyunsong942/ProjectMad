@@ -1,0 +1,82 @@
+[
+  {
+    "dt": 0.0333333351,
+    "entrySpeed": 0.0,
+    "distance": 3.00000024,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.0333333351,
+    "entrySpeed": 4.5,
+    "distance": 3.00000024,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.0166666675,
+    "entrySpeed": 0.0,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.0166666675,
+    "entrySpeed": 4.5,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.008333334,
+    "entrySpeed": 0.0,
+    "distance": 2.99999857,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.008333334,
+    "entrySpeed": 4.5,
+    "distance": 2.99999857,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.017,
+    "entrySpeed": 0.0,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.017,
+    "entrySpeed": 4.5,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.2,
+    "entrySpeed": 0.0,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  },
+  {
+    "dt": 0.2,
+    "entrySpeed": 4.5,
+    "distance": 3.0,
+    "monotonic": true,
+    "complete": true,
+    "passed": true
+  }
+]

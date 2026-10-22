@@ -1,0 +1,30 @@
+{
+  "sourcePreserved": true,
+  "sha256": "D5672253A8071810675DC18992049740A6F0227ACEE22A843093880D3AF033E4",
+  "before": 403,
+  "after": 408,
+  "modified": [
+    "Assets/Game/Scenes/MadScientistLab_Prototype.unity"
+  ],
+  "added": [
+    "Assets/Game/Materials/SteampunkNightSkybox.mat",
+    "Assets/Game/Materials/SteampunkNightSkybox.mat.meta",
+    "Assets/Game/Textures/Skybox.meta",
+    "Assets/Game/Textures/Skybox/SteampunkNightCity.png",
+    "Assets/Game/Textures/Skybox/SteampunkNightCity.png.meta"
+  ],
+  "removed": [],
+  "cameraClear": "Skybox",
+  "cameraPosition": "(0.00, 3.33, -11.17)",
+  "cameraRotation": "(20.00, 0.00, 0.00)",
+  "skybox": "SteampunkNightSkybox",
+  "skyboxRotation": 180.0,
+  "ambientMode": "Skybox",
+  "ambientIntensity": 1.0,
+  "reflectionIntensity": 1.0,
+  "sceneDirty": false,
+  "roots": 12,
+  "cameras": 1,
+  "editMode": true,
+  "timeScale": 1.0
+}
