@@ -105,3 +105,17 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity generated build directories
+**/[Bb]uild/
+**/[Bb]uilds/
+
+# Local secrets and signing credentials
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+*.keystore
+*.jks
